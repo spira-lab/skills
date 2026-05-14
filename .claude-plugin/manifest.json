@@ -1,0 +1,8 @@
+{
+  "name": "spira-skills",
+  "display_name": "Spira Skills",
+  "description": "Portable Spira business and developer skills published from a GitHub source repository.",
+  "version": "0.1.0",
+  "skills_index": "../skills/index.json",
+  "agents_index": "../AGENTS.md"
+}

@@ -1,0 +1,25 @@
+{
+  "skills": [
+    {
+      "slug": "brand-space-research",
+      "category": "business",
+      "path": "skills/business/brand-space-research",
+      "name": "brand-space-research",
+      "description": "Use when you need to inspect Brand Space metadata, files, search results, and resource content to support grounded brand research or content generation."
+    },
+    {
+      "slug": "content-plan-from-trends",
+      "category": "business",
+      "path": "skills/business/content-plan-from-trends",
+      "name": "content-plan-from-trends",
+      "description": "Use when you need to combine Brand Space, website intelligence, Trending Radar, and AI Chat into a content plan or multi-platform draft set."
+    },
+    {
+      "slug": "api-route-debugger",
+      "category": "dev",
+      "path": "skills/dev/api-route-debugger",
+      "name": "api-route-debugger",
+      "description": "Use when you need to inspect authenticated Spira API routes, validate request and response contracts, and document gaps without taking unsafe actions."
+    }
+  ]
+}

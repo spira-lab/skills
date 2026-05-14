@@ -1,187 +1,48 @@
 # Spira Skills
 
-This repository stores portable Spira skills for business workflows and developer workflows.
+This repository is a pure source repository for portable Spira skills.
 
-The design goal is:
+It is designed to be consumed from GitHub by external installers and agent ecosystems such as:
 
-- human-readable skills
-- HTTP-first operational guidance
-- compatible with mainstream agents
-- easy to mount into a real project
+- `npx skills add owner/repo`
+- `npx skills add owner/repo --skill <slug>`
+- Claude-style plugin or marketplace flows
 
-## What Is In This Repo
+This repo does not provide a local installer or a local maintainer CLI. Validation and release checks are handled by GitHub Actions.
 
-- `skills/`: the reusable skill library
-- `spira-skills.sh`: a lightweight shell CLI for listing, validating, printing env vars, and creating project symlinks
-- `.env.example`: shared environment variable baseline for HTTP-oriented skills
+## How This Repo Is Consumed
+
+- Source of truth: this repository
+- Distribution source: GitHub repository URL or `owner/repo`
+- Installation target: decided by the external CLI or agent runtime
+- Runtime configuration: `.env.example` documents optional HTTP execution context only
+
+Typical consumer flows:
+
+```bash
+npx skills add owner/repo
+npx skills add owner/repo --skill brand-space-research
+```
+
+The install destination is determined by the consuming tool, not by this repository.
 
 ## Repository Structure
 
 ```text
 .
 ├── README.md
+├── AGENTS.md
 ├── .env.example
-├── spira-skills.sh
-├── skills/
-│   ├── _templates/
-│   │   └── skill-starter/
-│   ├── business/
-│   │   ├── brand-space-research/
-│   │   └── content-plan-from-trends/
-│   └── dev/
-│       └── api-route-debugger/
-```
-
-## Quick Start
-
-List skills:
-
-```bash
-./spira-skills.sh list
-```
-
-Print the recommended environment variables:
-
-```bash
-./spira-skills.sh env --format dotenv
-```
-
-Validate the repository:
-
-```bash
-./spira-skills.sh validate
-```
-
-Link the whole `skills/` directory into a mainstream agent directory:
-
-```bash
-./spira-skills.sh link \
-  --project /path/to/your-project \
-  --dest .agent/skills
-```
-
-Link into a Claude-style skill directory:
-
-```bash
-./spira-skills.sh link \
-  --project /path/to/your-project \
-  --dest .claude/skills
-```
-
-## CLI Commands
-
-### `list`
-
-Show all available skills with their descriptions.
-
-```bash
-./spira-skills.sh list
-```
-
-### `show`
-
-Resolve a skill path or inspect metadata.
-
-```bash
-./spira-skills.sh show api-route-debugger
-./spira-skills.sh show dev/api-route-debugger --format json
-```
-
-### `env`
-
-Print the shared environment variable baseline.
-
-```bash
-./spira-skills.sh env --format dotenv
-./spira-skills.sh env --format shell
-```
-
-### `validate`
-
-Validate:
-
-- every skill has `SKILL.md`
-- frontmatter includes `name` and `description`
-- local markdown links are not broken
-
-```bash
-./spira-skills.sh validate
-```
-
-### `link`
-
-Create a symlink from this repository into a concrete project.
-
-```bash
-./spira-skills.sh link \
-  --project /path/to/project \
-  --dest .agent/skills
-```
-
-Useful flags:
-
-- `--source`: repo-relative path, defaults to `skills`
-- `--force`: replace an existing symlink, file, or empty directory
-
-## Project Symlink Strategy
-
-This repo is meant to stay as the source of truth. Consumer projects should usually mount it by symlink into the agent's skill-discovery directory rather than copying files.
-
-Recommended target locations inside a project:
-
-- `.agent/skills`
-- `.claude/skills`
-- `.cursor/skills`
-
-Recommended patterns:
-
-1. Link the full library when the project should access all shared skills.
-2. Link a single skill when the project only needs a narrow workflow.
-3. Keep project-specific overrides in the project itself, not back in the shared library unless they should be reused globally.
-
-## Environment Variables
-
-These skills are HTTP-oriented, so a small shared environment baseline helps a lot.
-
-Defined in [.env.example](.env.example):
-
-- `SPIRA_BASE_URL`: base URL of the Spira host or API
-- `SPIRA_AUTH_MODE`: `cookie` or `bearer`
-- `SPIRA_COOKIE_HEADER`: raw `Cookie` header value when cookie auth is used
-- `SPIRA_BEARER_TOKEN`: bearer token when token auth is used
-- `SPIRA_TIMEOUT_SECONDS`: default timeout for HTTP requests
-- `SPIRA_DEFAULT_PERSONA_ID`: optional default persona for trend-related workflows
-- `SPIRA_DEFAULT_PLATFORM`: optional default platform
-- `SPIRA_DEFAULT_WORKSPACE_ID`: optional workspace context
-- `SPIRA_DEFAULT_TIMEZONE`: optional timezone hint
-
-Suggested local setup:
-
-```bash
-cp .env.example .env
-source .env
-```
-
-Then fill in the values that match your environment.
-
-## Skill Conventions
-
-- Skill directory names use English `kebab-case`.
-- Every skill must contain a `SKILL.md` with YAML frontmatter.
-- Frontmatter must include `name` and `description`.
-- Keep `SKILL.md` concise and procedural.
-- Put detailed API notes, route inventories, payload examples, and long operating notes in `references/`.
-- Keep each skill self-contained and avoid cross-skill dependencies whenever possible.
-- Optional `examples/` or `assets/` folders are allowed when they add real value.
-
-## Recommended Skill Shape
-
-```text
-skill-name/
-├── SKILL.md
-├── references/
-├── examples/
-└── assets/
+├── .claude-plugin/
+└── skills/
+    ├── _templates/
+    │   └── skill-starter/
+    ├── business/
+    │   ├── brand-space-research/
+    │   └── content-plan-from-trends/
+    ├── dev/
+    │   └── api-route-debugger/
+    └── index.json
 ```
 
 ## Included Skills
@@ -190,23 +51,61 @@ skill-name/
 - `skills/business/content-plan-from-trends`
 - `skills/dev/api-route-debugger`
 
-## Starter Template
+## Static Entry Files
 
-Use [skills/\_templates/skill-starter/SKILL.md](skills/_templates/skill-starter/SKILL.md) as the base pattern for new skills.
+- `skills/index.json`
+  - canonical machine-readable index for this repository
+- `AGENTS.md`
+  - repo-level index and navigation entry for agent-facing consumers
+- `.claude-plugin/`
+  - Claude-style static metadata so the repository can participate in plugin-style discovery flows
 
-The template is designed for:
+## Environment Variables
 
-- concise metadata
-- HTTP-first instructions
-- environment-aware assumptions
-- references for route details and examples
+Defined in [.env.example](.env.example):
 
-## Authoring Guidance
+- `SPIRA_BASE_URL`
+- `SPIRA_AUTH_MODE`
+- `SPIRA_COOKIE_HEADER`
+- `SPIRA_BEARER_TOKEN`
+- `SPIRA_TIMEOUT_SECONDS`
+- `SPIRA_DEFAULT_PERSONA_ID`
+- `SPIRA_DEFAULT_PLATFORM`
+- `SPIRA_DEFAULT_WORKSPACE_ID`
+- `SPIRA_DEFAULT_TIMEZONE`
 
-When creating a new skill:
+These variables are optional runtime documentation for wrappers or tool layers that actually execute HTTP calls.
 
-1. Start from the template.
-2. Keep the description specific enough that a mainstream agent can recognize when to use it.
-3. Put the primary workflow in `SKILL.md`.
-4. Put route catalogs, payload examples, and large operational notes in `references/`.
-5. Call out required auth, base URL, and confirmation boundaries clearly.
+They do not become active merely because a skill is installed or copied by an external CLI.
+
+## Maintainer Workflow
+
+1. Edit or add skills under `skills/`
+2. Update `skills/index.json`
+3. Open a pull request
+4. Let GitHub Actions validate structure and content
+5. Merge and create a tag or release when you want a publishable checkpoint
+
+## GitHub Actions
+
+This repo uses GitHub Actions for:
+
+- frontmatter validation
+- no-absolute-path checks
+- local markdown link checks
+- duplicate skill slug detection
+- `skills/index.json` consistency checks
+- release summary artifact generation
+
+## Skill Conventions
+
+- every skill must contain `SKILL.md`
+- frontmatter must include `name` and `description`
+- no absolute paths
+- no vendor-specific installation assumptions inside the skill body
+- use `references/` for route lists and detailed operational notes
+- prefer symbolic configuration such as `SPIRA_BASE_URL` over fixed hosts or ports
+
+## Template
+
+Use [skills/_templates/skill-starter/SKILL.md](skills/_templates/skill-starter/SKILL.md) as the starting point for new skills.

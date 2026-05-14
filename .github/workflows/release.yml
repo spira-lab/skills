@@ -1,0 +1,33 @@
+name: Release Skills Metadata
+
+on:
+  release:
+    types:
+      - published
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate repository
+        run: node .github/scripts/validate-skills.mjs
+
+      - name: Generate release summary
+        run: node .github/scripts/release-summary.mjs
+
+      - name: Upload release summary
+        uses: actions/upload-artifact@v4
+        with:
+          name: spira-skills-release-summary
+          path: .github/out/release-summary.json
