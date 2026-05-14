@@ -17,12 +17,9 @@ This repository provides portable Spira skills for external agent installers and
   - Path: `skills/dev/api-route-debugger`
   - Purpose: inspect authenticated Spira API routes and debug request or response contract issues
 
-## Canonical Machine-Readable Index
-
-See `skills/index.json`.
-
 ## Notes
 
 - `skills/` is the canonical content layer.
+- Each installable skill is discovered from its `SKILL.md`.
 - This repo does not decide install destinations.
 - External installers such as `skills` CLI or Claude-style plugin tooling decide where downloaded skills are placed.
