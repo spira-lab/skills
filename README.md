@@ -29,7 +29,6 @@ The design goal is:
 │   │   ├── brand-space-research/
 │   │   └── content-plan-from-trends/
 │   └── dev/
-│       ├── capability-audit/
 │       └── api-route-debugger/
 ```
 
@@ -84,8 +83,8 @@ Show all available skills with their descriptions.
 Resolve a skill path or inspect metadata.
 
 ```bash
-./spira-skills.sh show capability-audit
-./spira-skills.sh show dev/capability-audit --format json
+./spira-skills.sh show api-route-debugger
+./spira-skills.sh show dev/api-route-debugger --format json
 ```
 
 ### `env`
@@ -189,12 +188,11 @@ skill-name/
 
 - `skills/business/brand-space-research`
 - `skills/business/content-plan-from-trends`
-- `skills/dev/capability-audit`
 - `skills/dev/api-route-debugger`
 
 ## Starter Template
 
-Use [skills/_templates/skill-starter/SKILL.md](skills/_templates/skill-starter/SKILL.md) as the base pattern for new skills.
+Use [skills/\_templates/skill-starter/SKILL.md](skills/_templates/skill-starter/SKILL.md) as the base pattern for new skills.
 
 The template is designed for:
 
