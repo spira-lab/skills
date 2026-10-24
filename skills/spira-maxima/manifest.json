@@ -1,0 +1,25 @@
+{
+  "name": "spira-maxima",
+  "version": "1.0.0",
+  "description": "Make a Spira Maxima 9:16 short video locally: generation through the spira CLI, stage, audit and render in local Chrome, all work in ./spira-maxima/.",
+  "entry": "SKILL.md",
+  "source": { "package": "content-maxima", "version": "1.19.9" },
+  "workspaceDir": "spira-maxima",
+  "requires": {
+    "cli": [
+      { "name": "spira", "check": "spira auth whoami", "install": "npm install -g @spira-lab/cli && spira auth login" },
+      { "name": "ffmpeg", "check": "ffmpeg -version && ffprobe -version", "note": "with libvpx" },
+      { "name": "python3", "check": "python3 --version" },
+      { "name": "openai-whisper", "check": "python3 -c \"import whisper\"", "install": "pip install openai-whisper" },
+      { "name": "node", "check": "node --version" },
+      { "name": "google-chrome", "check": "node <skill>/scripts/render/check-env.js", "note": "or CHROME_PATH to a Chromium/Edge executable" },
+      { "name": "yt-dlp", "check": "yt-dlp --version", "optional": true, "note": "only for a reference video URL" }
+    ],
+    "runtime": {
+      "manifest": "scripts/package.json",
+      "installTo": "<workspaceDir>/.maxima-runtime",
+      "check": "node <skill>/scripts/render/check-env.js"
+    }
+  },
+  "tags": ["video", "short-form", "reels", "tiktok", "spira", "maxima"]
+}

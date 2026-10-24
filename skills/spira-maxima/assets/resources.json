@@ -1,0 +1,768 @@
+{
+ "version": 1,
+ "description": "Audio for this package that is hosted, not committed. Fetch a file with scripts/fetch-resource.py.",
+ "files": {
+  "music/BT01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271184773-3403c1e6-066f-4196-9a92-d57315fc0e7b.mp3",
+   "sha256": "457e7cf373cb87b3aae60eb87d51f019ed93d3d38b845178fb65b84b64e8c756",
+   "bytes": 6250808,
+   "type": "audio/mpeg"
+  },
+  "music/BT02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271132790-b9b48eb1-9a53-4d40-8ee7-6fba4fae3f6a.mp3",
+   "sha256": "5b3fd437b6c27bf3ef7a6d1666fe8607bd8e3e1df2772f56fb976d7a67808194",
+   "bytes": 5203448,
+   "type": "audio/mpeg"
+  },
+  "music/BT03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279278379-805e6657-6a18-4d9e-a978-d10effa05ff6.mp3",
+   "sha256": "71355ce75ce5c8892fc807730b04adcd87416f1240e46137bd073e3203a18991",
+   "bytes": 7123448,
+   "type": "audio/mpeg"
+  },
+  "music/BT04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279286866-15a93da2-1451-464f-98ed-adf337d3d522.mp3",
+   "sha256": "783bf7bf5e90307a785cdaf26efcd0930ea74ff1c8d34a897e77e2c98acfa7ed",
+   "bytes": 4803128,
+   "type": "audio/mpeg"
+  },
+  "music/BT05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279293947-d09c6c41-ea84-40f4-90b3-9153358e0521.mp3",
+   "sha256": "b365b3d55792cdfafb31da128649ae3db9013ce234ca35ed74947e8258844680",
+   "bytes": 4689848,
+   "type": "audio/mpeg"
+  },
+  "music/BT06.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279301218-b6ccfd70-fa83-464e-a468-79d12c92db10.mp3",
+   "sha256": "5de9f3ed0aa953a5cf2bcb3915711fec6b344d0219533be8538c3b757dc2553a",
+   "bytes": 5475128,
+   "type": "audio/mpeg"
+  },
+  "music/BT07.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279312420-c6ba10c6-1403-47ca-b9eb-3d2ea7e0bc5f.mp3",
+   "sha256": "d5aad4ab6b4a1d5c3de76522868b40dce62ba7870310d4fa8f96e5d75b80dabd",
+   "bytes": 7711928,
+   "type": "audio/mpeg"
+  },
+  "music/BT08.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279321226-d69cb434-af26-4ef3-8353-68c66394fe09.mp3",
+   "sha256": "1d2596146d752c26f7d590e937735d17b655f037d06e6ca9bddc3c1bed5d6909",
+   "bytes": 5286008,
+   "type": "audio/mpeg"
+  },
+  "music/BT09.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271125764-2ab39a76-4d45-48f1-85eb-eab143c0e915.mp3",
+   "sha256": "552dbd1c4de868ac9591b04affd957bc8a77881695faa895f756dd6138426b56",
+   "bytes": 4423928,
+   "type": "audio/mpeg"
+  },
+  "music/CD01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271149004-48c7391c-ae5b-4d24-9f87-9165f2a62cb2.mp3",
+   "sha256": "5cc1229c5e01b198769910bdeeec36c16edc7f95201a4a881de01c19366770b2",
+   "bytes": 4756241,
+   "type": "audio/mpeg"
+  },
+  "music/CD02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271156538-02d00135-e02a-45c9-9e1e-fe7a97b68605.mp3",
+   "sha256": "bedba5a5fc908900705590b39d675c9b33fda37b61ab84841e4ee65a4980c5e1",
+   "bytes": 5145041,
+   "type": "audio/mpeg"
+  },
+  "music/CD03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271163769-cbb6f0c2-5827-450a-9394-d981a1d423a1.mp3",
+   "sha256": "7a4ee64bf4d397bd967c458049f0d7aa99a65d6cb1d2dd914b5fce2402064ca0",
+   "bytes": 5202641,
+   "type": "audio/mpeg"
+  },
+  "music/CD04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271170898-019e8100-e984-441f-9cc1-927ed1df6439.mp3",
+   "sha256": "e2a2644ca6e06b37f7eb8a44a17d5e06ad62eecd4c3a6c6cb5755603b6477311",
+   "bytes": 4802321,
+   "type": "audio/mpeg"
+  },
+  "music/CD05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271178124-e2699bac-5648-44d2-9f57-ccb7f6ff5001.mp3",
+   "sha256": "3b88c2d79f8d7846153b20ce50c44ffd73ef56e5fa5dcf288fd990ab579a8629",
+   "bytes": 4402961,
+   "type": "audio/mpeg"
+  },
+  "music/DD01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271201782-17b9b649-e6bd-4426-a92e-627a1ac62df6.mp3",
+   "sha256": "83c1f3cb2996b93ba3d2424c17a1b554cd719400694111a264c4dd706ea8ff0b",
+   "bytes": 6402632,
+   "type": "audio/mpeg"
+  },
+  "music/DD02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271212776-51121e28-694c-4c24-97af-049e08771225.mp3",
+   "sha256": "c82c07a335e53b7f60a9a655eb0b60591776d5407a6510f9c42ab7b4f3235a6b",
+   "bytes": 6802952,
+   "type": "audio/mpeg"
+  },
+  "music/DD03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271221835-160aeb24-1ec2-41d8-a86e-6584ae6bfe30.mp3",
+   "sha256": "f5183909d9853a3d51f41dd2f97f572ffb5371f212112a6b98e7754c5e282e71",
+   "bytes": 7202312,
+   "type": "audio/mpeg"
+  },
+  "music/DD04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271231894-35969e3c-01a1-4b95-9bf1-a2a0284a9cb9.mp3",
+   "sha256": "ed2cd2238a89290fba089bf8271cc87c50e55bda90c2445abe52bb68d75a1cb8",
+   "bytes": 7202312,
+   "type": "audio/mpeg"
+  },
+  "music/DD05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271240369-850c8452-9502-4e29-aefb-4554c3e3598c.mp3",
+   "sha256": "5036864077af9bf6ddbaa35f2ad62ee638f1e90af21ab8b4d3ab9d983ca7e6b1",
+   "bytes": 6355592,
+   "type": "audio/mpeg"
+  },
+  "music/DM01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271433734-9b9b6192-941e-4863-b627-dd88391d164d.mp3",
+   "sha256": "08e5d06e0175b733762dab37676e629568825ee1870b68900d68ef36217508d3",
+   "bytes": 8071928,
+   "type": "audio/mpeg"
+  },
+  "music/DM02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279328658-a01bd1cb-9938-4d92-9e0f-743398c233ed.mp3",
+   "sha256": "18c1a68b7f66f7eedea28c1eec7ed69b9090b92828c1792991a63e598f2abdd0",
+   "bytes": 6067448,
+   "type": "audio/mpeg"
+  },
+  "music/DM03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271302890-eef1de8d-f714-4f36-8192-2a6ea40d58f9.mp3",
+   "sha256": "43125c7f6c52e69bada6cd4062823440df564617e22b54a5bc26b7239c226bcf",
+   "bytes": 8969528,
+   "type": "audio/mpeg"
+  },
+  "music/DM04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279336383-fd530825-bd63-4c34-80d7-a37408cc3fc1.mp3",
+   "sha256": "a2d89e05b1a444e73a265629a1ef8f4eaaef4e9939e55be925f4213ca0479522",
+   "bytes": 6547448,
+   "type": "audio/mpeg"
+  },
+  "music/DM05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279344460-1cd6146c-fd17-41fb-bd29-bc6389cd8921.mp3",
+   "sha256": "ce9c6ac382a1fae23a2fc485cef3a1cea53f361b52def85c8bf18ee155d2617a",
+   "bytes": 8001848,
+   "type": "audio/mpeg"
+  },
+  "music/DM06.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279353504-a5b930ad-9c9e-4d16-bbc9-5393bcc5fb1c.mp3",
+   "sha256": "207adabd9c34932de27fe4bbf49c1bd90649edfdcb69f5c51dd4f3a685b2cb81",
+   "bytes": 6142328,
+   "type": "audio/mpeg"
+  },
+  "music/DM07.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271284566-223d1b5c-c32a-41f0-a102-82f64673ec03.mp3",
+   "sha256": "56d8112fdbb81caf026fee08b94c90f0fd13e9a856a574ef076d4531365bf434",
+   "bytes": 6164408,
+   "type": "audio/mpeg"
+  },
+  "music/DM08.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279361338-fc8487f3-af24-43b9-b40b-f13add488c2b.mp3",
+   "sha256": "98b8451f94f37e26937697e3e6700b6106a9aab2e1763ff405777ce1c8870ba6",
+   "bytes": 6721208,
+   "type": "audio/mpeg"
+  },
+  "music/DM09.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791279369639-15502f84-fd47-45a2-8830-889ae55513f2.mp3",
+   "sha256": "26e1d3f5597f6b09f89ee6600823e174a34a00aa7dd307919a64cb50958708f9",
+   "bytes": 6739448,
+   "type": "audio/mpeg"
+  },
+  "music/DT01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271249288-fc8c9e04-283a-45c7-be6e-6c07f4770cef.mp3",
+   "sha256": "32c08f148034775d25fe9958ca57b7beba7f1731f3bf240a71149f045c21e54c",
+   "bytes": 5602951,
+   "type": "audio/mpeg"
+  },
+  "music/DT02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271256633-ffaff544-4091-4d4c-991d-89fd09a987c3.mp3",
+   "sha256": "109b3a7fb6867b4e818dc3e37c3763ca7e87d3c6beefdee93b72e3238948e3f1",
+   "bytes": 5202631,
+   "type": "audio/mpeg"
+  },
+  "music/DT03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271263588-ab111651-328a-48f3-aed4-0684e254f0c7.mp3",
+   "sha256": "0849861f0a1a32fe759450200bc33caaa6251f42a6d641582fb11a2df105568b",
+   "bytes": 5183431,
+   "type": "audio/mpeg"
+  },
+  "music/DT04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271270465-7f77bbdf-6ad7-4386-8835-3a1876fcf674.mp3",
+   "sha256": "37fe74b0760ec0086048d1e92ada8e68ae37f2cc9e8db345603f1950bd82613a",
+   "bytes": 4721671,
+   "type": "audio/mpeg"
+  },
+  "music/DT05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271277393-25096a4a-29c8-4c19-90ba-9aefb5f3a063.mp3",
+   "sha256": "5a879651b3d8407ac37d9c458e9b3ad9dc0f2b0ab33abf99c942614fb3b9a8d6",
+   "bytes": 5202631,
+   "type": "audio/mpeg"
+  },
+  "music/LJ01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271321030-02f393cc-6182-41f3-8e96-d761b27b06ae.mp3",
+   "sha256": "6d1ebb360b070c490b3b1b0ff0738fe566dacaad0d89ea86f8f5a23c42f6505f",
+   "bytes": 4802315,
+   "type": "audio/mpeg"
+  },
+  "music/LJ02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271328595-507f5738-5989-4e8a-ab27-7eb28a9553ed.mp3",
+   "sha256": "326937241840ac3a0a366fcdccda5b9befdee653b05201c63ab0445d6f2711a4",
+   "bytes": 4802315,
+   "type": "audio/mpeg"
+  },
+  "music/LJ03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271335482-31d1aad2-2d35-4a57-9a49-baf6b52aa588.mp3",
+   "sha256": "2443802312011ff2108143f1b35b064f78937409aac5c5011b2e4a1c41e409f4",
+   "bytes": 5602955,
+   "type": "audio/mpeg"
+  },
+  "music/LJ04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271344205-ad12a945-12d3-475e-8387-1500489dae70.mp3",
+   "sha256": "54380faccca7187c7f0932cb450ab2013532372e395624d996d665bd4cbaaf2a",
+   "bytes": 5022155,
+   "type": "audio/mpeg"
+  },
+  "music/LJ05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271352034-aca13e6b-eb82-4549-87b9-9d07993e2b34.mp3",
+   "sha256": "ed4566784cdc51ed9440d9c2103b7691e846b5db7c32a9663037718db69d19cd",
+   "bytes": 4802315,
+   "type": "audio/mpeg"
+  },
+  "music/ND01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271375908-5159cc08-d6a4-435a-81c9-d57e33587a90.mp3",
+   "sha256": "8eeaafc110741312debdab907b019ef37dd2d5a431068861b1ea64f660f0c007",
+   "bytes": 6799113,
+   "type": "audio/mpeg"
+  },
+  "music/ND02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271384188-dcf6cb28-0713-4766-9c66-f2ffacbc57a5.mp3",
+   "sha256": "b9a81b3e806f52c2ee5ab655d0bf09abe3ee344780a01832970b402195fde934",
+   "bytes": 6790473,
+   "type": "audio/mpeg"
+  },
+  "music/ND03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271392237-7145dd1c-25db-41b8-bace-83b46386b314.mp3",
+   "sha256": "6bf1eda1266458f10915af011af7af32cfb5299859904619f386f31345a9a310",
+   "bytes": 6784713,
+   "type": "audio/mpeg"
+  },
+  "music/ND04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271400758-79732729-39be-4588-a1ff-19f20e12c29a.mp3",
+   "sha256": "3ffd1b001a3bff351741511b9f4e048ac83dd63148951acef0f25d73817019a9",
+   "bytes": 7202313,
+   "type": "audio/mpeg"
+  },
+  "music/ND05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271409220-b3d2c66f-008e-424d-a718-e860c1f49bea.mp3",
+   "sha256": "c106eb287d01f710db8d85164f7667875ba0a77cec9755aec40060a43f02f0ae",
+   "bytes": 6778953,
+   "type": "audio/mpeg"
+  },
+  "music/WC01.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271468655-c7982d47-d303-4fe0-b4dd-ce8c9e8c7a2c.mp3",
+   "sha256": "70d96416f2c0553d23630da855ae6223e9a9830bfa772c32433769e908080599",
+   "bytes": 4711116,
+   "type": "audio/mpeg"
+  },
+  "music/WC02.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271476026-6426f7a6-4d03-483f-8015-0ac201768f12.mp3",
+   "sha256": "7264d1fb0528210aae410f86677340974511d694bf4bffc744f6e2c89d71b2c2",
+   "bytes": 4264716,
+   "type": "audio/mpeg"
+  },
+  "music/WC03.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271483199-43572150-c4b2-4334-84ae-4bf6ed30a47a.mp3",
+   "sha256": "ad6d10c6e66117017e53563b3db001a4344fe1eb4e456697d5b0bcda9908c76f",
+   "bytes": 3284556,
+   "type": "audio/mpeg"
+  },
+  "music/WC04.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271489118-aead05e8-00cb-40d6-97ba-13d012762eb9.mp3",
+   "sha256": "cab025d0a490c89315deb647daa2d3667bd1ec1d3039fc190ad2c251760932c0",
+   "bytes": 3433356,
+   "type": "audio/mpeg"
+  },
+  "music/WC05.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/080037cd-9152-49cb-8944-ef35b12daef4/uploads/1791271495556-e33fa676-487c-4e2c-a0c2-6a45564590e2.mp3",
+   "sha256": "40371738aff27ae6d9f0138e615f87a0d20f8396fb4bef54e6391626670336fd",
+   "bytes": 3664716,
+   "type": "audio/mpeg"
+  },
+  "sfx/01_riser.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197968165-52b11115-a0b9-48c5-9174-e50ab7f64ca5.mp3",
+   "sha256": "30e8aca1690200d81e73c1ccce09bdc9129ee5232bcf09642b090aa311d23a32",
+   "bytes": 63404,
+   "type": "audio/mpeg"
+  },
+  "sfx/02_impact.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197976991-b6920b85-c4f4-4f47-a02f-d7faf6be0ca2.mp3",
+   "sha256": "c70174e062995e8414ebf7fe52176c245b529cc769d4f0b9425e962ede8b8748",
+   "bytes": 63404,
+   "type": "audio/mpeg"
+  },
+  "sfx/03_whoosh.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197980237-680f7a77-3d48-45c8-9305-d8cfc2b13252.mp3",
+   "sha256": "a75e860e3ccd19bcc19e27a178d34ff7f7a3266bcf145601c9e24dd6b69274ad",
+   "bytes": 61484,
+   "type": "audio/mpeg"
+  },
+  "sfx/04_camera_shutter.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197983370-bf4a4fd8-f899-4843-94b8-4cfa92458fe1.mp3",
+   "sha256": "6b5f84fe76f37c0859145616e2e01db96172a0a291e71be4a93311ee5d2b3600",
+   "bytes": 19244,
+   "type": "audio/mpeg"
+  },
+  "sfx/05_apple_keyboard_click.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197986610-6cecb12f-5f02-4992-8189-9f54c5e1cd41.mp3",
+   "sha256": "f15fc85a083114ca2f5d177eaad50514d7eb74f3e9a829593485fb435dbbdff2",
+   "bytes": 10604,
+   "type": "audio/mpeg"
+  },
+  "sfx/06_button_1.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197989750-9b4449af-f91c-411c-83ab-b4bf07e7c0c2.mp3",
+   "sha256": "54a479130d30bf0cfe7477103132b2a11ffbcac8d96d991f667c4dc7bc04431f",
+   "bytes": 13484,
+   "type": "audio/mpeg"
+  },
+  "sfx/07_button_2.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197992451-96876b0d-1c7f-40ed-80b2-bee89d38573f.mp3",
+   "sha256": "28ea8879f6743843be755cabe1f5cf4caedb1e2d064195a69e846feac62f06a7",
+   "bytes": 12524,
+   "type": "audio/mpeg"
+  },
+  "sfx/08_button_3.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197995420-7439ff44-42ad-47d0-b0c2-57d7adeb48c1.mp3",
+   "sha256": "3b9687f15088c87c2dd40a16d81a8497be3769a702f2a8a08c00e70275607ff3",
+   "bytes": 11564,
+   "type": "audio/mpeg"
+  },
+  "sfx/09_combo.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791197998575-79fbc8e2-9c02-42f5-9705-08703e1f13aa.mp3",
+   "sha256": "44737002adb7e777428ada3dcd95f4aa7e2dba5e76299288e540f40fa5a15433",
+   "bytes": 49004,
+   "type": "audio/mpeg"
+  },
+  "sfx/10_sparkle.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198006437-24c3b5b6-5e94-4244-94a4-8b0c2a97cb4e.mp3",
+   "sha256": "7c4c5e8107bb2a8549ae2f3527edb229ff15483e7ce6f48cab40be86a13efad6",
+   "bytes": 73004,
+   "type": "audio/mpeg"
+  },
+  "sfx/11_deep_whoosh.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198009762-0e7d954f-481e-4246-aa5d-9ecb3c95d1a2.mp3",
+   "sha256": "e27e3174132d3c88c14c0e3bab182391bb41d8fd1e72f6fc55e0406548f27ab9",
+   "bytes": 38444,
+   "type": "audio/mpeg"
+  },
+  "sfx/12_typing.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198013083-b03a3e25-a87a-4fd6-83bd-caa94b4ee4cd.mp3",
+   "sha256": "0c6ea641d840bf9420db48760c5b67f801327b3901bf0603f736787524ed467b",
+   "bytes": 7724,
+   "type": "audio/mpeg"
+  },
+  "sfx/13_stuttering.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198016181-f0274a3b-1295-415f-bd2b-f2970a66162c.mp3",
+   "sha256": "89453d92c6e888ccdc3175aee7e75a6e6e174516b4eeb384448b998d438eb1b2",
+   "bytes": 98924,
+   "type": "audio/mpeg"
+  },
+  "sfx/14_dark_impact.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198019329-ed63c82a-3206-4818-b3e4-d545f26ea762.mp3",
+   "sha256": "e23743593dbed006e29e03a58454cb4e97770a0f25458e8f79fc99dcfd349926",
+   "bytes": 49004,
+   "type": "audio/mpeg"
+  },
+  "sfx/15_focusing.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198022313-2da0d1bf-f5e3-4627-a660-649e4e7c54a5.mp3",
+   "sha256": "45dcee0976dfbdc4ce9f32b7d98631c36917d25616ef255eda798f39c39b90f7",
+   "bytes": 71084,
+   "type": "audio/mpeg"
+  },
+  "sfx/16_choppy.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198025382-a76f4c8c-4f49-48f6-a220-7a88f872182b.mp3",
+   "sha256": "d1a958178b885439363e0d7b84d3f237f9e2e6a6779b9a9adbed487e87fe6ace",
+   "bytes": 40364,
+   "type": "audio/mpeg"
+  },
+  "sfx/17_fast_air_swipe.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198028368-77bb6e08-af42-4db6-85fc-a7e17fbe46bd.mp3",
+   "sha256": "90032eecc4e0977f40d92296d8517646009de86085373048f561bf6d8f3afe71",
+   "bytes": 31724,
+   "type": "audio/mpeg"
+  },
+  "sfx/18_soft_cloth_whoosh.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198031408-5ebab488-e2ec-4094-bed6-6ff1770899d3.mp3",
+   "sha256": "6aee345d83ee0204458e796b280799ece00cffc83acb3a6c4ea956ce88ea732d",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/20_whip_pan.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198034554-2f565e9e-e90b-464c-9e36-a221affb896c.mp3",
+   "sha256": "c328bf91725c5b7abe62d821dad0c43d36ceb159b1a2ce4aed87b69eebc63274",
+   "bytes": 14444,
+   "type": "audio/mpeg"
+  },
+  "sfx/21_reverse_suck_in.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198038595-46f1d1f9-20ff-445c-99de-6d7c57e78a8d.mp3",
+   "sha256": "ab90f74f761483215c34cc55e4aeaebb9b19fe4d7a43346a3f350451878572a9",
+   "bytes": 42284,
+   "type": "audio/mpeg"
+  },
+  "sfx/24_zoom_in.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198041906-83414f19-3915-400e-b572-73df49ef3682.mp3",
+   "sha256": "9bb969b15b2d528456f3671a50b275dcd8a2dcf3be3f82ccdc422f11be64053e",
+   "bytes": 31724,
+   "type": "audio/mpeg"
+  },
+  "sfx/25_zoom_out.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198045320-e234a053-13fd-4da8-9b0d-ba9daff0d412.mp3",
+   "sha256": "b3f27ddf4b0ed8fbb8dc9639c006698ad2f4acc3a73313bd54b3446c40ceb674",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/26_short_noise_riser.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198048386-430632ef-aee4-47f1-bdff-115dbb8098d5.mp3",
+   "sha256": "f94169bc9f1763ec9bb8dd375dc22dc4e8e0a58656b0b32b299821064e972243",
+   "bytes": 61484,
+   "type": "audio/mpeg"
+  },
+  "sfx/28_downlifter.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198051907-98b91d5d-4e07-4065-bdf3-224c4cd4a9a4.mp3",
+   "sha256": "35a5f2395c938652309428c1e811c7cd8e293edeba6c74f3195d32e4b3e09bfc",
+   "bytes": 82604,
+   "type": "audio/mpeg"
+  },
+  "sfx/29_reverse_cymbal.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198055036-36408b56-f22e-4f12-a2af-847a57b1d782.mp3",
+   "sha256": "4332d7d5b5a1ad8e687bcb9b650eb1ff88adc67eb7993282097dea580b11ce3b",
+   "bytes": 66284,
+   "type": "audio/mpeg"
+  },
+  "sfx/31_vhs_rewind.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198058182-fab3f890-7a86-4b77-b5cc-d6725b541f8b.mp3",
+   "sha256": "5fdd128a7308282bb020976efade6876c1186f801dda490d049ec610bd3a91a6",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/32_digital_glitch.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198061299-0dfc0c43-f125-44e8-b5dd-b1fe5bef9fe8.mp3",
+   "sha256": "7466ebfcfcfd128309906398bcf845ba50be6775d95a494d5469d0d1a5f187cb",
+   "bytes": 29804,
+   "type": "audio/mpeg"
+  },
+  "sfx/33_cinematic_braam.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198064260-5459504e-b44d-4947-9a0d-f813b2447031.mp3",
+   "sha256": "83e52a27607a1988aa60a59d883ab9ba8c0fc7329131c1b8e627e31a1bc42296",
+   "bytes": 101804,
+   "type": "audio/mpeg"
+  },
+  "sfx/35_punchy_hit.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198067535-b0ef51b5-9038-43ba-b22a-3420a4c7dfa7.mp3",
+   "sha256": "a21a2274d65eddf1a75e01128178ea4b4709b2937d2652110e5d834117a1e018",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/36_soft_thud.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198070598-308f27ff-d0b3-44c3-a76c-1560ce59bb53.mp3",
+   "sha256": "c7a3dcc21c180c85c162046ea3eb39437f157379955e34253dd39a5864ab052e",
+   "bytes": 23084,
+   "type": "audio/mpeg"
+  },
+  "sfx/37_metal_clang.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198073587-dd4a7104-a354-4227-886e-2f3645a1300a.mp3",
+   "sha256": "1eabf64ae65cc50821cc6bba41da3b29b7850d774497ee703f929384bb2703b8",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/38_wood_knock.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198076684-70c048cb-f2e1-40e4-a6b7-665cae79e892.mp3",
+   "sha256": "f45e74979b05b926920af0912bd32b6eaa66e8ccc9c14171df899f8056f55419",
+   "bytes": 16364,
+   "type": "audio/mpeg"
+  },
+  "sfx/39_rubber_stamp.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198079640-37c36100-00fa-4daa-bf4b-2c778f946d9b.mp3",
+   "sha256": "ae0a6cfdbb4e5ac657599bb381ef7cc18b21f140e4b64f03a19d4b99cfe6d48c",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/41_glass_tap.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198083114-7eae6283-0778-4042-a22a-f3d8d0d4592f.mp3",
+   "sha256": "87b3860a7c182cb7240b64d0b2b2fcf963424e4036d22091415c905c88e9b640",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  },
+  "sfx/43_bubble_pop.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198086042-d473218a-0796-4e3a-96cb-e95fda93f4d1.mp3",
+   "sha256": "dfaa19826463a04e49814853bc0a3b0b2d862eb7f43c84afd97e8ef5f266f2bb",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/44_toggle_switch.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198089053-fb7cc156-851d-47be-b998-76acdbf75d75.mp3",
+   "sha256": "98caa8794593a134e2cbf4ca5bb990d269a2753a6934cf48d15e6fc92c52ffa9",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/45_notification_ding.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198092386-173dd679-ee27-45f7-ba18-036e71bde5b8.mp3",
+   "sha256": "7a798d70f9a969741bb69dbef6c245ff810c753e80f6cfbc6145c9c81fef1831",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/46_message_sent.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198095810-939d6a1b-5db2-48a6-a50c-09a3cae0ded5.mp3",
+   "sha256": "cd0799b8e374293bf5de2bc2e79f10fbdec341d5658f6c05697c1fd167235de1",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  },
+  "sfx/47_message_received.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198099207-56b17859-2beb-47f4-9d51-169e1101387c.mp3",
+   "sha256": "47cccf3bb12ec253cfe593e6273b77e4ace28c98c3a481459ad730f2ee2f35c7",
+   "bytes": 29804,
+   "type": "audio/mpeg"
+  },
+  "sfx/48_error_buzz.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198102574-a2d96bce-7223-46bd-8139-14dd0276e38c.mp3",
+   "sha256": "3b37a24a889ea14dd92fde107118b92c384b94dc1f9d31adcf5153aea5391606",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  },
+  "sfx/49_success_chime.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198105524-f9b5f21c-0fd6-46a9-91ee-de844cde72ae.mp3",
+   "sha256": "c19443e8da1804b5eae1f55023555d52283bc448ee449ecafc2632f4a9e0906f",
+   "bytes": 42285,
+   "type": "audio/mpeg"
+  },
+  "sfx/50_scroll_tick.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198108876-3f45df4d-0e33-4a6f-9db5-056fee2502ff.mp3",
+   "sha256": "1d101f9cf0e66e3cc022bf68d6c7c29d64c58f20635dc18bb9337dd2450d7ba7",
+   "bytes": 9644,
+   "type": "audio/mpeg"
+  },
+  "sfx/51_phone_vibrate.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198111596-52e5c4fb-0f35-4afa-852b-f39bf21634b6.mp3",
+   "sha256": "c18c19a159f6b48c2c6b303a5b3b717cdb688f4b06625c6f6fbdfd61a9124bc0",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/53_mouse_click.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198115092-a88f9c21-c5a4-454b-8ec1-ec97c0a61742.mp3",
+   "sha256": "b002262f7c5cf7b9a87dfc1e6d61c06e3345dcd70d069526d7f4604684130760",
+   "bytes": 10604,
+   "type": "audio/mpeg"
+  },
+  "sfx/54_data_blip.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198118208-d30bff37-0cc0-4427-8002-e102d18c4af4.mp3",
+   "sha256": "b7df6b100291f7238d07cefcb24c060cf473d43b259822a14d1abfc146fb12de",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/55_typewriter_key.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198122260-43c31b56-4a40-4402-8f11-61ebfb39fc05.mp3",
+   "sha256": "3bdf2027b9bd5d38a724dd930b0b5b9265f98b5bf6ed1376249d24da690f8ea4",
+   "bytes": 16364,
+   "type": "audio/mpeg"
+  },
+  "sfx/56_typewriter_bell.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198125543-c3abc338-0977-4276-8f88-a26cfd141922.mp3",
+   "sha256": "2ce5bcb5c5589ea12483fd90eb5449c1861bed5b54ba2f878046867c496c0741",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/58_pencil_check.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198128520-800986bb-54ae-4782-8ceb-f94aae2c433b.mp3",
+   "sha256": "d2375cd918e7d31f68c0a97b1567ebd1620d8b54bdf00c8486368f3db59b4447",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  },
+  "sfx/59_paper_rustle.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198131758-97c71675-1d05-40f8-8f9d-3e72aa02168d.mp3",
+   "sha256": "34c7e1d5b202f2f988ed7f00303258be44cdc7317af26fd02a062eae53c98b05",
+   "bytes": 32684,
+   "type": "audio/mpeg"
+  },
+  "sfx/60_wooden_pluck_pop.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198134890-bfd8372c-2f11-4dd7-8cf7-e94e83d5fa1c.mp3",
+   "sha256": "a726e3abf38fd09d903d28d3d3fa56606a03e4e30f93dccefa22cdb649194ea2",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/61_bright_ping.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198138293-ef31be57-d65c-43be-81ff-8f2164202604.mp3",
+   "sha256": "105b368feed1e9c0c91ea0f91960bde24144fb3ca40ebf1e9bf2e01dde805ade",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  },
+  "sfx/62_page_turn.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198141510-8bd20ef1-97b8-49cc-81ab-3ba019024011.mp3",
+   "sha256": "a658942ca66ee4cb0bb4fead2cd0b4de4ef812f49b5aaaead9b0ebac5f6e1249",
+   "bytes": 37484,
+   "type": "audio/mpeg"
+  },
+  "sfx/64_cash_register.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198144623-a29a51e7-0535-4d93-84e6-eb5274ab691e.mp3",
+   "sha256": "743016c952b4dd65567b0dc4b435e0654334d9b5ae3fd7b3998730ed369b9b4b",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/65_level_up.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198147718-9cdcac58-40c1-482f-88f4-b5c28b20a4fb.mp3",
+   "sha256": "0b453b008d5da4587f37e74c24e604f844292cdcfbd1293532d3c881f0cc0d01",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/66_magic_twinkle.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198151216-7be5c5fa-205c-4eab-9d32-b673c7a10b6b.mp3",
+   "sha256": "5cd90f909a4bf731a4e20554596435ef95c7e88b9d93d543f1cd00a1916d49a4",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/67_shine_glint.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198154271-51856905-2bf8-4b2e-8909-675c1a7a1011.mp3",
+   "sha256": "1b01825c5e57a8a867898a425fbe9dd5df6cbc38f0e322ff22ce10f6deeff61f",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/68_correct_answer.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198157260-66890848-2dc9-48d3-8068-d52736b33679.mp3",
+   "sha256": "5c52ffb7ae253d7df86188ffdf327c65fa0d622a70842ab2276efafb5f64775d",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/69_wrong_answer.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198160560-a5789deb-0346-40f8-8375-aec60cbecd3e.mp3",
+   "sha256": "0a66b249df9ae14d00af2e77e316a5af357b8d486d999b21ee0dbf1cd4b888e2",
+   "bytes": 37484,
+   "type": "audio/mpeg"
+  },
+  "sfx/70_achievement_unlock.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198163968-cd532591-4768-4a04-8562-f4d4fe76372f.mp3",
+   "sha256": "efd0bbe43d87d0d82a5c03d46e5223a4ec69f594a76889f004a56fbdeecf4640",
+   "bytes": 61484,
+   "type": "audio/mpeg"
+  },
+  "sfx/71_party_popper.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198167379-61e523b3-2f65-43fa-8679-fe17856f9fcc.mp3",
+   "sha256": "a1e9ee0b56ba32c862d80c4c28944a8a156919fe97ee1891680ad895e8884939",
+   "bytes": 42284,
+   "type": "audio/mpeg"
+  },
+  "sfx/72_record_scratch.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198810890-15830dc0-9a62-438c-8aca-b318451144a8.mp3",
+   "sha256": "e67f41e260e35831597bd81e3d8336bed6b262014736fb9c4f64123a04412861",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/73_cartoon_boing.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198814083-6f1cd92e-29c6-4359-89b4-41cd4134f436.mp3",
+   "sha256": "acfcd608ada3a9b3a49da436dbb656554e78917a28350ce1819c8a08cd0064d2",
+   "bytes": 34604,
+   "type": "audio/mpeg"
+  },
+  "sfx/74_slide_whistle_down.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198817183-7b876735-6859-43b2-a96f-edc90e4b126b.mp3",
+   "sha256": "e52ef2b02400781c62bb0a443fdffb623e5a1bb91cedba1de138cfe6dbfcf1bd",
+   "bytes": 42284,
+   "type": "audio/mpeg"
+  },
+  "sfx/75_cartoon_bonk.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198820383-1802de39-833c-46ab-8785-d86160e72061.mp3",
+   "sha256": "288987adc82f8132463ca3f938bb109db9ed761de321b3fb4cec8b774f776601",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/76_rimshot.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198823608-292c0a3b-3782-4c31-9b9c-25541092d4f7.mp3",
+   "sha256": "ca5b41a413fd4c6e0b39778f6b4c8b9924b7ed849e6f673e22c3f4213669d2ad",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/77_cork_pop.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198826792-67995387-1b4b-444e-a5ce-5b191443092d.mp3",
+   "sha256": "6164f6bb1068bfef86b7fb11c55bb252528cf28a4760e8bd0c8a5a0d241a296a",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  },
+  "sfx/81_pen_click.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198830120-d2f67321-4394-470a-90d4-5d67996bba05.mp3",
+   "sha256": "4035984c3a68c46dae83fc97876029e9e38131651bb3fdd83a062216d7904fc9",
+   "bytes": 11564,
+   "type": "audio/mpeg"
+  },
+  "sfx/82_light_switch.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198833296-03c1f835-b697-4342-b088-5b389680d024.mp3",
+   "sha256": "d4f7cf6369e4af74e7ef6869fa6f425641e731774c219610bf2d2c4db64ab0a6",
+   "bytes": 10604,
+   "type": "audio/mpeg"
+  },
+  "sfx/83_coffee_pour.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198836295-9a37e137-49f1-438d-a88c-71b936c1833e.mp3",
+   "sha256": "89bbb5d6f8f2b1eb3563d76062de2d52c9a21eaebef9f039f7dfd2e9e7bfd7f9",
+   "bytes": 82604,
+   "type": "audio/mpeg"
+  },
+  "sfx/84_zipper.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198839584-f2c3547e-fcbe-4644-9056-c31026459e04.mp3",
+   "sha256": "571fd3b74c228a81523182c42ef0e22a42e51fcf4a74048bf61ac54370a4f118",
+   "bytes": 36524,
+   "type": "audio/mpeg"
+  },
+  "sfx/85_door_creak.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198842653-67aa0c04-4571-44e1-93cb-52ae6ff60c86.mp3",
+   "sha256": "91d7bc53496c07daa6ba3730afe68a411374c2498f497a655bd028f68f84726a",
+   "bytes": 61484,
+   "type": "audio/mpeg"
+  },
+  "sfx/88_keys_jingle.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198845751-0f4e4349-52fb-4428-aca5-d26aa3f6ed88.mp3",
+   "sha256": "cde1f57e28fb99739d8eaa73a1694ae359f30eabd6446e0eb942f77af50bfa36",
+   "bytes": 37484,
+   "type": "audio/mpeg"
+  },
+  "sfx/89_padlock_click.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198848786-db959313-f017-43cf-a8ce-d4a1f5e03955.mp3",
+   "sha256": "622a8cd227459ade5410dcc8dcf8c005b534e269f9c6daaea91ca37e1116953a",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/90_heartbeat.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198851813-5e4ce788-0c50-447e-b3c4-5fcea2322cdf.mp3",
+   "sha256": "adae68ac71b6e1ba85c273eb52c5b4d5a42c41ff9567d246cf572d1acec4839a",
+   "bytes": 37484,
+   "type": "audio/mpeg"
+  },
+  "sfx/91_dark_drone_hit.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198854944-b4812a06-38d6-422c-84c2-596b8166de88.mp3",
+   "sha256": "e17a305ea35bee31b4fbb3b16846b5761685e55b27b30b543d687813621b0420",
+   "bytes": 121964,
+   "type": "audio/mpeg"
+  },
+  "sfx/93_power_down.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198858307-5023c07f-7574-4480-b970-9c5c7c7b5d65.mp3",
+   "sha256": "8ed368ab4a4db6d647dc0d8b016140886a09b1142afdc34f138dad72d92639ba",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/94_laser_scan.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198861824-3ad41e7d-03cd-4a91-8543-f8de14e5082b.mp3",
+   "sha256": "57cd36f1179364c494b1c6463cf10f5eeb2b35cd142200b15d68c1872daf862f",
+   "bytes": 49964,
+   "type": "audio/mpeg"
+  },
+  "sfx/95_alert_blip.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198865025-a5c126bc-74c1-4f68-9d22-006eaaf4ba76.mp3",
+   "sha256": "104dcfa938b84b86e00965128b6d3e61bbfeb48ec049feab5f31378527a74dda",
+   "bytes": 21164,
+   "type": "audio/mpeg"
+  },
+  "sfx/96_static_burst.mp3": {
+   "url": "https://static.viralwell.ai/assets/media/308864c5-67b4-47a3-9d2b-8aa8741308f1/uploads/1791198868211-cb60bf64-5190-442b-8187-f18343949cff.mp3",
+   "sha256": "55bead6373636ddc43c9b16c04030d588aa986c57ace1228b210b99375858bdf",
+   "bytes": 25964,
+   "type": "audio/mpeg"
+  }
+ }
+}

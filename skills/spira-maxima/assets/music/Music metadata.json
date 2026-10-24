@@ -1,0 +1,2828 @@
+[
+  {
+    "file": "BT01.mp3",
+    "path": "music/BT01.mp3",
+    "description": "Lo-Fi Hip Hop in E minor, 96 BPM, with a chill mood and driving energy. Drum kit, electric bass, electric guitar, electric piano and vocal samples. Wordless vocal chops, no lyrics; starts on the first beat. Best under tech product reviews, lifestyle vlogs, educational YouTube videos.",
+    "genre": "Chillhop",
+    "style": "Lo-Fi Hip Hop",
+    "family": "Chopped & Swung",
+    "mood": [
+      "chill",
+      "groovy",
+      "positive",
+      "uplifting"
+    ],
+    "energy_1to10": 6,
+    "tempo": "96 BPM",
+    "key": "E minor",
+    "chords": null,
+    "instruments": [
+      "drum kit",
+      "electric bass",
+      "electric guitar",
+      "electric piano",
+      "vocal samples"
+    ],
+    "structure": [
+      "Intro (0:00-0:09): Low-pass filtered beat and vocal chops, building anticipation.",
+      "Verse 1 (0:09-0:29): Filter opens, full drum beat drops in with bass, electric piano, and guitar licks.",
+      "Chorus 1 (0:29-0:48): Vocal chops become more prominent and energetic, guitar switches to more rhythmic strumming, overall energy increases slightly.",
+      "Verse 2 (0:48-1:08): Energy pulls back slightly, vocal chops are reduced, guitar plays new melodic fills.",
+      "Chorus 2 (1:08-1:27): Full energy returns with the main vocal chop hook and rhythmic guitar comping.",
+      "Bridge (1:27-1:47): Drums drop out/filter down, focus shifts to the electric piano chords and bass, creating a breather before the final drop.",
+      "Chorus 3 (1:47-2:06): Final full-energy section, all elements playing together.",
+      "Outro (2:06-2:38): Elements begin to drop out, a low-pass filter slowly sweeps down over the master bus, fading out to a final sustained chord."
+    ],
+    "best_for": [
+      "Tech product reviews",
+      "Lifestyle vlogs",
+      "Educational YouTube videos",
+      "Corporate culture/behind-the-scenes videos"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics.",
+    "vocals": "wordless vocal chops used as an instrument; no lyrics",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 5,
+    "lufs_i": -21.6,
+    "true_peak_dbfs": -9.8,
+    "gain_db": -4.4,
+    "mix_note": null,
+    "duration_s": 156.2,
+    "tags": [
+      "bright",
+      "chill",
+      "chillhop",
+      "chopped & swung",
+      "driving",
+      "groovy",
+      "suno",
+      "vocal chops"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -21.6 LUFS"
+  },
+  {
+    "file": "BT02.mp3",
+    "path": "music/BT02.mp3",
+    "description": "Pop EDM, 150 BPM, with an uplifting mood and driving energy. Vocal chops, synth plucks, synth pads, synth bass, drum machine and electric guitar. Wordless vocal chops, no lyrics; reaches full level after about 0.6 s. Best under tech product reviews, travel vlogs, startup promotional videos.",
+    "genre": "Future Bass",
+    "style": "Pop EDM",
+    "family": "Bouncy Guitar Riff",
+    "mood": [
+      "uplifting",
+      "energetic",
+      "optimistic",
+      "bright"
+    ],
+    "energy_1to10": 7,
+    "tempo": "150 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "vocal chops",
+      "synth plucks",
+      "synth pads",
+      "synth bass",
+      "drum machine",
+      "electric guitar"
+    ],
+    "structure": [
+      "Intro (0:00-0:13): Filtered synth plucks and vocal chops introduce the melody. Low-pass filter gradually opens up.",
+      "Verse 1 (0:13-0:27): The beat drops with a kick, clap, and bassline. The energy is moderate, establishing the groove.",
+      "Pre-Chorus / Build (0:27-0:41): Snare rolls and risers are introduced. The kick drum drops out to create tension. Filter sweeps upward.",
+      "Chorus / Drop (0:41-0:55): Maximum energy. Full sidechain pumping, prominent lead vocal chops, wide synth pads, and heavy bass.",
+      "Verse 2 (0:55-1:08): Energy drops back down. Similar to Verse 1 but with slight variations in the drum pattern and added clean guitar plucks.",
+      "Pre-Chorus / Build (1:08-1:22): Tension builds again with snare rolls, risers, and a high-pass filter sweeping out the lows.",
+      "Chorus / Drop 2 (1:22-1:36): Full energy returns with the main vocal chop hook and heavy sidechaining.",
+      "Bridge (1:36-1:50): Stripped back arrangement. The beat simplifies, focusing on the chords and filtered vocal chops, providing a breather.",
+      "Outro (1:50-2:10): The main progression plays one last time with fading energy, ending abruptly on a final chord hit with a short reverb tail."
+    ],
+    "best_for": [
+      "Tech product reviews",
+      "Travel vlogs",
+      "Startup promotional videos",
+      "Lifestyle YouTube content"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics. Busy enough to compete with speech: better for short, high-energy stretches than long explanations.",
+    "vocals": "wordless vocal chops used as an instrument; no lyrics",
+    "starts_immediately": false,
+    "longest_silence_s": 0.09,
+    "voice_masking_risk_1to10": 8,
+    "lufs_i": -21.3,
+    "true_peak_dbfs": -9.2,
+    "gain_db": -4.7,
+    "mix_note": null,
+    "duration_s": 130.0,
+    "tags": [
+      "bouncy guitar riff",
+      "bright",
+      "driving",
+      "energetic",
+      "future bass",
+      "suno",
+      "uplifting",
+      "vocal chops"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -21.3 LUFS"
+  },
+  {
+    "file": "BT03.mp3",
+    "path": "music/BT03.mp3",
+    "description": "Modern Disco in A minor, 118 BPM, with an upbeat mood and intense energy. Drum kit, electric bass, electric guitar, synthesizer and strings. Instrumental with no vocals; starts on the first beat. Best under upbeat tech product reviews, energetic corporate sizzle reels, fashion and beauty vlog intros.",
+    "genre": "Nu-Disco / Funk Pop",
+    "style": "Modern Disco",
+    "family": "Glossy Groove",
+    "mood": [
+      "upbeat",
+      "confident",
+      "energetic",
+      "glossy"
+    ],
+    "energy_1to10": 8,
+    "tempo": "118 BPM",
+    "key": "A minor",
+    "chords": null,
+    "instruments": [
+      "drum kit",
+      "electric bass",
+      "electric guitar",
+      "synthesizer",
+      "strings"
+    ],
+    "structure": [
+      "Intro (0:00-0:04): Drum fill leading into the main beat.",
+      "Verse 1 (0:04-0:19): Main groove established with bass, drums, and funk guitar.",
+      "Chorus 1 (0:19-0:35): Energy lifts; synth brass stabs and disco strings are introduced.",
+      "Verse 2 (0:35-0:51): Drops back to the core groove, slightly stripped back before building again.",
+      "Chorus 2 (0:51-1:07): Full instrumentation returns with maximum energy.",
+      "Bridge / Breakdown (1:07-1:23): Chords shift slightly, filter sweeps on synths, bass becomes slightly more soloistic.",
+      "Chorus 3 (1:23-1:39): Return to the main high-energy chorus.",
+      "Post-Chorus (1:39-1:54): Maintains energy but focuses on the groove and synth layers.",
+      "Breakdown (1:54-2:10): Significantly stripped back to just bass, drums, and light guitar; builds tension.",
+      "Chorus 4 (2:10-2:26): Final massive return of all elements.",
+      "Post-Chorus / Outro Groove (2:26-2:41): Riding the high energy groove towards the end.",
+      "Outro (2:41-2:58): Elements begin to drop out, culminating in a final syncopated hit at 2:54 that rings out."
+    ],
+    "best_for": [
+      "Upbeat tech product reviews",
+      "Energetic corporate sizzle reels",
+      "Fashion and beauty vlog intros",
+      "Lifestyle YouTube channel background music"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics. Busy enough to compete with speech: better for short, high-energy stretches than long explanations.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 8,
+    "lufs_i": -23.6,
+    "true_peak_dbfs": -11.8,
+    "gain_db": -2.4,
+    "mix_note": null,
+    "duration_s": 178.0,
+    "tags": [
+      "bright",
+      "confident",
+      "glossy groove",
+      "instrumental",
+      "intense",
+      "nu-disco / funk pop",
+      "suno",
+      "upbeat"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -23.6 LUFS"
+  },
+  {
+    "file": "BT04.mp3",
+    "path": "music/BT04.mp3",
+    "description": "Kawaii Bass, 160 BPM, with an energetic mood and intense energy. Drum machine, hi-hats, supersaw synths, synth plucks, sub bass and vocal chops. Wordless vocal chops, no lyrics; starts on the first beat. Best under tech and gadget reviews, gaming vlogs and Let's Plays, esports highlight reels.",
+    "genre": "Future Bass",
+    "style": "Kawaii Bass",
+    "family": "Stuttering Sparkles",
+    "mood": [
+      "energetic",
+      "cheerful",
+      "bouncy",
+      "playful"
+    ],
+    "energy_1to10": 8,
+    "tempo": "160 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "drum machine",
+      "hi-hats",
+      "supersaw synths",
+      "synth plucks",
+      "sub bass",
+      "vocal chops"
+    ],
+    "structure": [
+      "Intro (0:00-0:12): Synth plucks and vocal chops introduce the melody, building energy with rising percussion.",
+      "Drop 1 (0:12-0:36): Full instrumentation enters. Heavy sidechained supersaws, driving trap drums, deep sub-bass, and lead vocal chops.",
+      "Breakdown (0:36-0:48): Drums drop out entirely. Energy dips. Focus returns to the synth plucks and sustained chords.",
+      "Build-up (0:48-1:00): Snare rolls begin and accelerate. Pitch risers and sweep effects build massive tension.",
+      "Drop 2 (1:00-1:24): Maximum energy returns with the heavy pumping supersaws and drums, similar to Drop 1.",
+      "Bridge / Drop B-Section (1:24-1:48): The chord progression shifts slightly, offering melodic variation while maintaining the high-energy drum groove.",
+      "Outro (1:48-2:00): Heavy drums and supersaws drop out. Track strips back to the intro plucks and vocal chops, ending abruptly."
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Gaming vlogs and Let's Plays",
+      "Esports highlight reels",
+      "Fast-paced tutorial intros"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics. Busy enough to compete with speech: better for short, high-energy stretches than long explanations.",
+    "vocals": "wordless vocal chops used as an instrument; no lyrics",
+    "starts_immediately": true,
+    "longest_silence_s": 0.02,
+    "voice_masking_risk_1to10": 10,
+    "lufs_i": -22.7,
+    "true_peak_dbfs": -11.1,
+    "gain_db": -3.3,
+    "mix_note": null,
+    "duration_s": 120.0,
+    "tags": [
+      "bright",
+      "cheerful",
+      "energetic",
+      "future bass",
+      "intense",
+      "stuttering sparkles",
+      "suno",
+      "vocal chops"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -22.7 LUFS"
+  },
+  {
+    "file": "BT05.mp3",
+    "path": "music/BT05.mp3",
+    "description": "Electro House, 130 BPM, with an energetic mood and intense energy. Kick drum, synth bass, synth lead, vocal chops, drum machine percussion and synthesizer fx. Instrumental with no vocals; starts on the first beat. Best under fitness and workout tutorial intros, gaming channel commentary and montages, sports highlight reels.",
+    "genre": "Electronic Dance Music",
+    "style": "Electro House",
+    "family": "Samba Drop",
+    "mood": [
+      "energetic",
+      "hyped",
+      "driving",
+      "confident"
+    ],
+    "energy_1to10": 8,
+    "tempo": "130 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "kick drum",
+      "synth bass",
+      "synth lead",
+      "vocal chops",
+      "drum machine percussion",
+      "synthesizer fx"
+    ],
+    "structure": [
+      "Intro / Build-up (0:00-0:15): Starts with filtered drums and vocal chops. A riser and snare roll build tension, opening the filter leading into the drop.",
+      "Drop 1 (0:15-0:30): Full energy hits. Unfiltered kick, plucky donk bass, and staccato synth lead take over with heavy sidechain pumping.",
+      "Breakdown 1 (0:30-0:45): Energy drops. The main synth lead disappears, leaving the bass, kick, and vocal chops. Tension begins to rebuild slowly.",
+      "Build-up 2 (0:45-1:00): Kick drops out. Snare rolls accelerate, pitch risers and white noise sweeps increase in volume to create maximum tension.",
+      "Drop 2 (1:00-1:15): Full energy returns, similar to Drop 1, but with vocal chops layered over the plucky synth lead for maximum impact.",
+      "Breakdown 2 (1:15-1:30): Similar to the first breakdown. Elements are stripped back, and a low-pass filter is gradually applied to the master track.",
+      "Drop 3 (1:30-1:45): Final high-energy section. Filter opens up completely, bringing back the full beat, bass, and synth hooks.",
+      "Outro (1:45-1:57): Lead synths drop out, leaving just the beat and bass for a few bars before ending abruptly."
+    ],
+    "best_for": [
+      "Fitness and workout tutorial intros",
+      "Gaming channel commentary and montages",
+      "Sports highlight reels",
+      "High-energy tech or gadget reviews"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics. Busy enough to compete with speech: better for short, high-energy stretches than long explanations.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 9,
+    "lufs_i": -23.6,
+    "true_peak_dbfs": -12.7,
+    "gain_db": -2.4,
+    "mix_note": null,
+    "duration_s": 117.2,
+    "tags": [
+      "bright",
+      "electronic dance music",
+      "energetic",
+      "hyped",
+      "instrumental",
+      "intense",
+      "samba drop",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -23.6 LUFS"
+  },
+  {
+    "file": "BT06.mp3",
+    "path": "music/BT06.mp3",
+    "description": "Orchestral Hip-Hop in G minor, 142 BPM, with a dramatic mood and driving energy. Piano, string section (violins, violas, cellos), 808 bass and trap drum kit. Instrumental with no vocals; starts on the first beat. Best under luxury car commercials, high-end real estate or architecture video essays, sports documentaries highlighting a dramatic comeback.",
+    "genre": "Cinematic Trap",
+    "style": "Orchestral Hip-Hop",
+    "family": "Midnight Confessions",
+    "mood": [
+      "dramatic",
+      "tense",
+      "elegant",
+      "determined"
+    ],
+    "energy_1to10": 7,
+    "tempo": "142 BPM",
+    "key": "G minor",
+    "chords": null,
+    "instruments": [
+      "piano",
+      "string section (violins, violas, cellos)",
+      "808 bass",
+      "trap drum kit"
+    ],
+    "structure": [
+      "Intro / Build (0:00-0:26): Piano arpeggios establish the theme. Strings gradually enter, building tension with rising dynamics and faster bowing until a brief pause.",
+      "Chorus 1 (Drop) (0:27-0:53): The trap beat drops in with heavy 808s, kick, snare, and rapid hi-hats. The strings switch to a more aggressive, sweeping lead melody.",
+      "Breakdown (0:54-1:07): The drums and 808 bass drop out completely. The piano and strings return to a softer, more intimate dynamic, resetting the tension.",
+      "Chorus 2 (Drop) (1:08-1:34): The trap beat returns. The string melodies are more complex and virtuosic than the first chorus, featuring rapid runs.",
+      "Bridge / Build (1:35-1:47): The beat simplifies. Strings play aggressive, rhythmic staccato chords that rise in pitch and intensity, building to a climax.",
+      "Chorus 3 (Final Drop) (1:48-2:01): Maximum energy. Full orchestration with the heaviest drum hits and the most frantic, emotional string performances.",
+      "Outro (2:02-2:16): The beat stops abruptly. A final, sustained minor chord is played by the piano and strings, fading out naturally into silence."
+    ],
+    "best_for": [
+      "Luxury car commercials",
+      "High-end real estate or architecture video essays",
+      "Sports documentaries highlighting a dramatic comeback",
+      "Financial or tech analysis videos discussing high-stakes market moves"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics. Busy enough to compete with speech: better for short, high-energy stretches than long explanations.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 9,
+    "lufs_i": -22.8,
+    "true_peak_dbfs": -9.2,
+    "gain_db": -3.2,
+    "mix_note": null,
+    "duration_s": 136.8,
+    "tags": [
+      "bright",
+      "cinematic trap",
+      "dramatic",
+      "driving",
+      "instrumental",
+      "midnight confessions",
+      "suno",
+      "tense"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -22.8 LUFS"
+  },
+  {
+    "file": "BT07.mp3",
+    "path": "music/BT07.mp3",
+    "description": "Synthwave, 122 BPM, with an uplifting mood and driving energy. Kick drum, synth bass, synth plucks, synth pads and hi-hats and claps. Instrumental with no vocals; reaches full level after about 1.9 s. Best under tech product reviews, corporate innovation presentations, software tutorials.",
+    "genre": "Electronic",
+    "style": "Synthwave",
+    "family": "Kalimba Drive",
+    "mood": [
+      "uplifting",
+      "driving",
+      "optimistic",
+      "forward-thinking"
+    ],
+    "energy_1to10": 6,
+    "tempo": "122 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "kick drum",
+      "synth bass",
+      "synth plucks",
+      "synth pads",
+      "hi-hats and claps"
+    ],
+    "structure": [
+      "Intro (0:00-0:15): Track opens with isolated, filtered synth plucks and subtle pads.",
+      "Verse 1 (0:15-0:30): Four-on-the-floor kick drum and sidechained 16th-note synth bass enter.",
+      "Chorus 1 (0:30-0:45): Electronic claps on beats 2 and 4, plus 16th-note hi-hats enter. Synths open up.",
+      "Breakdown 1 (0:45-1:00): Kick and bass drop out. Pads swell and synth plucks are filtered down.",
+      "Verse 2 (1:00-1:15): Kick and bass return, similar to Verse 1 but with slightly more high-end energy.",
+      "Chorus 2 (1:15-1:30): Full drum groove returns with claps and hats. Maximum energy.",
+      "Breakdown 2 (1:30-1:45): Drums drop out again, focusing on the warm pads and arpeggios.",
+      "Chorus 3 (1:45-2:00): Full groove returns for a final energetic section.",
+      "Outro Part 1 (2:00-2:15): Drums drop out. Bass and synths begin to filter down.",
+      "Outro Part 2 / Fade (2:15-3:12): Only the intro synth plucks and ambient pads remain, gradually fading to silence."
+    ],
+    "best_for": [
+      "Tech product reviews",
+      "Corporate innovation presentations",
+      "Software tutorials",
+      "Vlog travel montages"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics.",
+    "vocals": "none",
+    "starts_immediately": false,
+    "longest_silence_s": 0.19,
+    "voice_masking_risk_1to10": 6,
+    "lufs_i": -19.7,
+    "true_peak_dbfs": -8.3,
+    "gain_db": -6.3,
+    "mix_note": null,
+    "duration_s": 192.7,
+    "tags": [
+      "bright",
+      "driving",
+      "electronic",
+      "instrumental",
+      "kalimba drive",
+      "suno",
+      "uplifting"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -19.7 LUFS"
+  },
+  {
+    "file": "BT08.mp3",
+    "path": "music/BT08.mp3",
+    "description": "Deep House in C minor, 132 BPM, with a chill mood and steady energy. Drum machine (kick), drum machine (snare/clap), drum machine (hi-hats/shakers), synth bass, electric piano / synth pad and synth pluck. Wordless vocal chops, no lyrics; starts on the first beat. Best under tech product reviews, lifestyle and travel vlogs, corporate mini-documentaries.",
+    "genre": "Lo-fi House",
+    "style": "Deep House",
+    "family": "Swing It On",
+    "mood": [
+      "chill",
+      "sophisticated",
+      "reflective",
+      "smooth"
+    ],
+    "energy_1to10": 4,
+    "tempo": "132 BPM",
+    "key": "C minor",
+    "chords": null,
+    "instruments": [
+      "drum machine (kick)",
+      "drum machine (snare/clap)",
+      "drum machine (hi-hats/shakers)",
+      "synth bass",
+      "electric piano / synth pad",
+      "synth pluck"
+    ],
+    "structure": [
+      "Intro (0:00-0:16): Beat, bass, and chords establish the groove with a slight filter opening.",
+      "Section A (0:16-0:49): The plucky synth melody is introduced and slowly develops with added rhythmic complexity.",
+      "Breakdown / Vamp (0:49-1:06): The pluck melody drops out, focusing entirely on the warm chords, bass, and drum groove.",
+      "Section A2 (1:06-1:39): The pluck melody returns alongside fuller percussion and more prominent vocal chop textures.",
+      "Outro (1:39-1:55): The beat begins to filter down, losing high-end energy as elements are slowly stripped away.",
+      "Tail (1:55-2:12): Drums disappear entirely, leaving only the sustained electric piano chords to fade into silence."
+    ],
+    "best_for": [
+      "Tech product reviews",
+      "Lifestyle and travel vlogs",
+      "Corporate mini-documentaries",
+      "Design and architecture tutorials"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics.",
+    "vocals": "wordless vocal chops used as an instrument; no lyrics",
+    "starts_immediately": true,
+    "longest_silence_s": 0.91,
+    "voice_masking_risk_1to10": 4,
+    "lufs_i": -22.3,
+    "true_peak_dbfs": -9.0,
+    "gain_db": -3.7,
+    "mix_note": null,
+    "duration_s": 132.1,
+    "tags": [
+      "bright",
+      "chill",
+      "lo-fi house",
+      "sophisticated",
+      "steady",
+      "suno",
+      "swing it on",
+      "vocal chops"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -22.3 LUFS"
+  },
+  {
+    "file": "BT09.mp3",
+    "path": "music/BT09.mp3",
+    "description": "Tropical Pop, 140 BPM, with an upbeat mood and driving energy. Drum machine, synth bass, vocal samples and synth plucks. Wordless vocal chops, no lyrics; starts on the first beat. Best under tech reviews, travel vlogs, lifestyle content.",
+    "genre": "Electronic Pop",
+    "style": "Tropical Pop",
+    "family": "Bedroom Bounce",
+    "mood": [
+      "upbeat",
+      "playful",
+      "energetic",
+      "trendy"
+    ],
+    "energy_1to10": 7,
+    "tempo": "140 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "drum machine",
+      "synth bass",
+      "vocal samples",
+      "synth plucks"
+    ],
+    "structure": [
+      "Intro (0:00-0:13): Vocal chops, bass, and a light, filtered beat establish the groove.",
+      "Chorus 1 (0:13-0:27): Full beat drops in with punchy kick and snare, sidechain pumping is prominent.",
+      "Verse (0:27-0:41): Kick drum drops out, leaving bass, sparse percussion, and a simplified vocal chop pattern.",
+      "Build (0:41-0:54): Snare rolls introduced, rising pitch FX, vocal chops accelerate to build tension.",
+      "Chorus 2 (0:54-1:08): Full energy returns with the main moombahton groove and vocal hook.",
+      "Bridge (1:08-1:21): Stripped back to bass and vocal chops, kick drum removed, lighter percussion.",
+      "Chorus 3 (1:21-1:35): Full beat returns, similar energy to previous choruses.",
+      "Outro (1:35-1:50): Beat strips back to just the kick and bass, elements fade out to an abrupt stop."
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Travel vlogs",
+      "Lifestyle content",
+      "Upbeat promotional ads"
+    ],
+    "avoid_for": "Calm, serious or sensitive topics.",
+    "vocals": "wordless vocal chops used as an instrument; no lyrics",
+    "starts_immediately": true,
+    "longest_silence_s": 0.14,
+    "voice_masking_risk_1to10": 7,
+    "lufs_i": -13.9,
+    "true_peak_dbfs": -2.8,
+    "gain_db": -12.1,
+    "mix_note": null,
+    "duration_s": 110.5,
+    "tags": [
+      "bedroom bounce",
+      "bright",
+      "driving",
+      "electronic pop",
+      "playful",
+      "suno",
+      "upbeat",
+      "vocal chops"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -13.9 LUFS"
+  },
+  {
+    "file": "CD01.mp3",
+    "path": "music/CD01.mp3",
+    "description": "Minimalist documentary underscore with no drums in F major, 104 BPM, with an investigative mood and moderate energy. Pizzicato strings ostinato, slow clarinet melody, sparse glockenspiel counter-melody and warm low bass. Instrumental with no vocals; starts on the first beat. Best under true crime or investigative journalism documentaries, corporate explainer videos detailing a complex process, science and technology educational content.",
+    "genre": "Cinematic underscore",
+    "style": "Minimalist documentary underscore with no drums",
+    "family": "Clockwork Discovery",
+    "mood": [
+      "investigative",
+      "curious",
+      "thoughtful"
+    ],
+    "energy_1to10": 5,
+    "tempo": "104 BPM",
+    "key": "F major",
+    "chords": "Dm - Bb - F - C",
+    "instruments": [
+      "pizzicato strings ostinato",
+      "slow clarinet melody",
+      "sparse glockenspiel counter-melody",
+      "warm low bass"
+    ],
+    "structure": [
+      "Intro: Solo pizzicato string ostinato establishing the rhythm and harmony.",
+      "Section A: Introduction of a slow legato string layer and sparse mallet counter-melody.",
+      "Section B: Additive arrangement introduces a subtle piano/harp layer reinforcing the harmony.",
+      "Section C: Slight dynamic lift with fuller legato strings while maintaining the core ostinato.",
+      "Outro: Final chord rings out and decays naturally."
+    ],
+    "best_for": [
+      "True crime or investigative journalism documentaries",
+      "Corporate explainer videos detailing a complex process",
+      "Science and technology educational content",
+      "Podcast intros or transition music"
+    ],
+    "avoid_for": "Hype, party or aggressive content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 1.02,
+    "voice_masking_risk_1to10": 1,
+    "lufs_i": -18.4,
+    "true_peak_dbfs": -3.9,
+    "gain_db": -7.6,
+    "mix_note": null,
+    "duration_s": 118.8,
+    "tags": [
+      "cinematic underscore",
+      "clockwork discovery",
+      "instrumental",
+      "investigative",
+      "major",
+      "moderate",
+      "pizzicato strings"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music5.mp3; integrated loudness measured 2026-10-12 (ebur128): -18.4 LUFS"
+  },
+  {
+    "file": "CD02.mp3",
+    "path": "music/CD02.mp3",
+    "description": "Minimalist documentary underscore with no drums in A minor, 96 BPM, with a focused process mood and steady energy. Staccato bassoon and clarinet ostinato, slow legato strings melody, sparse glockenspiel counter-melody and warm low bass. Instrumental with no vocals; starts on the first beat. Best under true crime or investigative journalism documentaries, corporate explainer videos detailing a complex process, science and technology educational content.",
+    "genre": "Cinematic underscore",
+    "style": "Minimalist documentary underscore with no drums",
+    "family": "Clockwork Discovery",
+    "mood": [
+      "focused process",
+      "focused",
+      "investigative",
+      "curious"
+    ],
+    "energy_1to10": 4,
+    "tempo": "96 BPM",
+    "key": "A minor",
+    "chords": "F - G - Am - Em",
+    "instruments": [
+      "staccato bassoon and clarinet ostinato",
+      "slow legato strings melody",
+      "sparse glockenspiel counter-melody",
+      "warm low bass"
+    ],
+    "structure": [
+      "Woodwind ostinato introduction",
+      "Addition of slow legato strings",
+      "Addition of sparse mallet counter-melody",
+      "Breakdown to woodwinds and strings",
+      "Return of mallet counter-melody",
+      "Final ringing chord"
+    ],
+    "best_for": [
+      "True crime or investigative journalism documentaries",
+      "Corporate explainer videos detailing a complex process",
+      "Science and technology educational content",
+      "Podcast intros or transition music"
+    ],
+    "avoid_for": "Hype, party or aggressive content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.07,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -22.4,
+    "true_peak_dbfs": -5.7,
+    "gain_db": -3.6,
+    "mix_note": null,
+    "duration_s": 128.6,
+    "tags": [
+      "cinematic underscore",
+      "clockwork discovery",
+      "focused process",
+      "instrumental",
+      "minor",
+      "staccato bassoon and clarinet",
+      "steady"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music5.mp3; integrated loudness measured 2026-10-12 (ebur128): -22.4 LUFS"
+  },
+  {
+    "file": "CD03.mp3",
+    "path": "music/CD03.mp3",
+    "description": "Minimalist documentary underscore with no drums in C minor, 112 BPM, with a hopeful discovery mood and calm energy. Felt piano ostinato, slow warm analog synth pad melody, sparse glockenspiel counter-melody and warm low bass. Instrumental with no vocals; starts on the first beat. Best under true crime or investigative journalism documentaries, corporate explainer videos detailing a complex process, science and technology educational content.",
+    "genre": "Cinematic underscore",
+    "style": "Minimalist documentary underscore with no drums",
+    "family": "Clockwork Discovery",
+    "mood": [
+      "hopeful discovery",
+      "hopeful",
+      "reflective",
+      "discovery"
+    ],
+    "energy_1to10": 3,
+    "tempo": "112 BPM",
+    "key": "C minor",
+    "chords": "Cm - Fm - Ab - G",
+    "instruments": [
+      "felt piano ostinato",
+      "slow warm analog synth pad melody",
+      "sparse glockenspiel counter-melody",
+      "warm low bass"
+    ],
+    "structure": [
+      "Intro: Solo felt piano ostinato establishes the harmony",
+      "Development: Introduction of sparse mallets and slow legato strings",
+      "Build: Strings become slightly more prominent, additive arrangement continues",
+      "Climax/Outro: Fullest part of the arrangement before resolving and fading out"
+    ],
+    "best_for": [
+      "True crime or investigative journalism documentaries",
+      "Corporate explainer videos detailing a complex process",
+      "Science and technology educational content",
+      "Podcast intros or transition music"
+    ],
+    "avoid_for": "Hype, party or aggressive content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 1,
+    "lufs_i": -20.4,
+    "true_peak_dbfs": -7.8,
+    "gain_db": -5.6,
+    "mix_note": null,
+    "duration_s": 130.0,
+    "tags": [
+      "calm",
+      "cinematic underscore",
+      "clockwork discovery",
+      "felt piano",
+      "hopeful discovery",
+      "instrumental",
+      "minor"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music5.mp3; integrated loudness measured 2026-10-12 (ebur128): -20.4 LUFS"
+  },
+  {
+    "file": "CD04.mp3",
+    "path": "music/CD04.mp3",
+    "description": "Minimalist documentary underscore with no drums in G minor, 92 BPM, with a wonder mood and calm energy. Marimba ostinato, slow solo cello melody, sparse glockenspiel counter-melody and warm low bass. Instrumental with no vocals; starts on the first beat. Best under true crime or investigative journalism documentaries, corporate explainer videos detailing a complex process, science and technology educational content.",
+    "genre": "Cinematic underscore",
+    "style": "Minimalist documentary underscore with no drums",
+    "family": "Clockwork Discovery",
+    "mood": [
+      "wonder",
+      "reflective",
+      "introspective"
+    ],
+    "energy_1to10": 3,
+    "tempo": "92 BPM",
+    "key": "G minor",
+    "chords": "Gm - Dm - Eb - Bb",
+    "instruments": [
+      "marimba ostinato",
+      "slow solo cello melody",
+      "sparse glockenspiel counter-melody",
+      "warm low bass"
+    ],
+    "structure": [
+      "Marimba ostinato and low string drone",
+      "Cello/viola legato melody enters",
+      "Subtle dynamic swell in the string arrangement",
+      "Resolution and final fade out"
+    ],
+    "best_for": [
+      "True crime or investigative journalism documentaries",
+      "Corporate explainer videos detailing a complex process",
+      "Science and technology educational content",
+      "Podcast intros or transition music"
+    ],
+    "avoid_for": "Hype, party or aggressive content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -17.9,
+    "true_peak_dbfs": -6.9,
+    "gain_db": -8.1,
+    "mix_note": null,
+    "duration_s": 120.0,
+    "tags": [
+      "calm",
+      "cinematic underscore",
+      "clockwork discovery",
+      "instrumental",
+      "marimba",
+      "minor",
+      "wonder"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music5.mp3; integrated loudness measured 2026-10-12 (ebur128): -17.9 LUFS"
+  },
+  {
+    "file": "CD05.mp3",
+    "path": "music/CD05.mp3",
+    "description": "Minimalist documentary underscore with no drums in D minor, 108 BPM, with a curious mood and moderate energy. Celesta ostinato, slow soft french horn melody, sparse glockenspiel counter-melody and warm low bass. Instrumental with no vocals; starts on the first beat. Best under true crime or investigative journalism documentaries, corporate explainer videos detailing a complex process, science and technology educational content.",
+    "genre": "Cinematic underscore",
+    "style": "Minimalist documentary underscore with no drums",
+    "family": "Clockwork Discovery",
+    "mood": [
+      "curious",
+      "investigative",
+      "thoughtful"
+    ],
+    "energy_1to10": 5,
+    "tempo": "108 BPM",
+    "key": "D minor",
+    "chords": "Dm - Bb - F - C",
+    "instruments": [
+      "celesta ostinato",
+      "slow soft french horn melody",
+      "sparse glockenspiel counter-melody",
+      "warm low bass"
+    ],
+    "structure": [
+      "Intro with solo 8th-note ostinato",
+      "Slow legato string layer enters",
+      "Celesta counter-melody introduced",
+      "Additional plucked layers and rhythmic density increase",
+      "Outro resolution and final chord fade"
+    ],
+    "best_for": [
+      "True crime or investigative journalism documentaries",
+      "Corporate explainer videos detailing a complex process",
+      "Science and technology educational content",
+      "Podcast intros or transition music"
+    ],
+    "avoid_for": "Hype, party or aggressive content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 1,
+    "lufs_i": -17.9,
+    "true_peak_dbfs": -5.9,
+    "gain_db": -8.1,
+    "mix_note": null,
+    "duration_s": 110.0,
+    "tags": [
+      "celesta",
+      "cinematic underscore",
+      "clockwork discovery",
+      "curious",
+      "instrumental",
+      "minor",
+      "moderate"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music5.mp3; integrated loudness measured 2026-10-12 (ebur128): -17.9 LUFS"
+  },
+  {
+    "file": "DD01.mp3",
+    "path": "music/DD01.mp3",
+    "description": "Dark driving synthwave (darksynth) in A minor, 114 BPM, with a cold futuristic suspense mood and moderate energy. 16th-note analog saw bassline, 80s drum machine with gated snare, wide analog pads and gated tom fills. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, cybersecurity documentaries, esports commentary and highlights.",
+    "genre": "Synthwave",
+    "style": "Dark driving synthwave (darksynth)",
+    "family": "Dark Drive",
+    "mood": [
+      "cold futuristic suspense",
+      "dark",
+      "driving",
+      "futuristic"
+    ],
+    "energy_1to10": 5,
+    "tempo": "114 BPM",
+    "key": "A minor",
+    "chords": "Am - F - C - G",
+    "instruments": [
+      "16th-note analog saw bassline",
+      "80s drum machine with gated snare",
+      "wide analog pads",
+      "gated tom fills"
+    ],
+    "structure": [
+      "Intro (bassline only)",
+      "Drums enter (kick and snare)",
+      "Filter opens up on synths",
+      "Drumless breakdown",
+      "Full return with gated tom fills",
+      "Outro"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Cybersecurity documentaries",
+      "Esports commentary and highlights",
+      "Coding or hacking tutorials",
+      "Futuristic product reveals"
+    ],
+    "avoid_for": "Calm, emotional, wellness or family-friendly topics.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -18.9,
+    "true_peak_dbfs": -6.7,
+    "gain_db": -7.1,
+    "mix_note": null,
+    "duration_s": 160.0,
+    "tags": [
+      "cold futuristic suspense",
+      "dark drive",
+      "gated tom fills",
+      "instrumental",
+      "minor",
+      "moderate",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music1.mp3; integrated loudness measured 2026-10-12 (ebur128): -18.9 LUFS"
+  },
+  {
+    "file": "DD02.mp3",
+    "path": "music/DD02.mp3",
+    "description": "Dark driving synthwave (darksynth) in E minor, 112 BPM, with a focused determination mood and steady energy. 16th-note analog saw bassline, 80s drum machine with gated snare, wide analog pads and metallic FM bell arpeggio. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, cybersecurity documentaries, esports commentary and highlights.",
+    "genre": "Synthwave",
+    "style": "Dark driving synthwave (darksynth)",
+    "family": "Dark Drive",
+    "mood": [
+      "focused determination",
+      "dark",
+      "driving",
+      "determined"
+    ],
+    "energy_1to10": 4,
+    "tempo": "112 BPM",
+    "key": "E minor",
+    "chords": "Em - Am - C - B",
+    "instruments": [
+      "16th-note analog saw bassline",
+      "80s drum machine with gated snare",
+      "wide analog pads",
+      "metallic FM bell arpeggio"
+    ],
+    "structure": [
+      "Intro with driving bass and kick",
+      "Introduction of the signature metallic FM bell arpeggio",
+      "Filter automation and slight build",
+      "Drumless breakdown focusing on synths and atmosphere",
+      "Full return with heavy sidechain pump and all elements",
+      "Outro with elements stripping away"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Cybersecurity documentaries",
+      "Esports commentary and highlights",
+      "Coding or hacking tutorials",
+      "Futuristic product reveals"
+    ],
+    "avoid_for": "Calm, emotional, wellness or family-friendly topics.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -23.4,
+    "true_peak_dbfs": -12.7,
+    "gain_db": -2.6,
+    "mix_note": null,
+    "duration_s": 170.0,
+    "tags": [
+      "dark drive",
+      "focused determination",
+      "instrumental",
+      "metallic FM bell arpeggio",
+      "minor",
+      "steady",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music1.mp3; integrated loudness measured 2026-10-12 (ebur128): -23.4 LUFS"
+  },
+  {
+    "file": "DD03.mp3",
+    "path": "music/DD03.mp3",
+    "description": "Dark driving synthwave (darksynth) in C minor, 120 BPM, with a night-city urgency mood and intense energy. 16th-note analog saw bassline, 80s drum machine with gated snare, wide analog pads and glassy digital pluck sequence. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, cybersecurity documentaries, esports commentary and highlights.",
+    "genre": "Synthwave",
+    "style": "Dark driving synthwave (darksynth)",
+    "family": "Dark Drive",
+    "mood": [
+      "night-city urgency",
+      "dark",
+      "driving",
+      "urgent"
+    ],
+    "energy_1to10": 7,
+    "tempo": "120 BPM",
+    "key": "C minor",
+    "chords": "Cm - Ab - Fm - G",
+    "instruments": [
+      "16th-note analog saw bassline",
+      "80s drum machine with gated snare",
+      "wide analog pads",
+      "glassy digital pluck sequence"
+    ],
+    "structure": [
+      "Intro",
+      "Main Groove",
+      "Breakdown",
+      "Build",
+      "Full Return",
+      "Outro"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Cybersecurity documentaries",
+      "Esports commentary and highlights",
+      "Coding or hacking tutorials",
+      "Futuristic product reveals"
+    ],
+    "avoid_for": "Calm, emotional, wellness or family-friendly topics.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -22.9,
+    "true_peak_dbfs": -10.7,
+    "gain_db": -3.1,
+    "mix_note": null,
+    "duration_s": 180.0,
+    "tags": [
+      "dark drive",
+      "glassy digital pluck sequence",
+      "instrumental",
+      "intense",
+      "minor",
+      "night-city urgency",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music1.mp3; integrated loudness measured 2026-10-12 (ebur128): -22.9 LUFS"
+  },
+  {
+    "file": "DD04.mp3",
+    "path": "music/DD04.mp3",
+    "description": "Dark driving synthwave (darksynth) in D minor, 110 BPM, with a tense investigation mood and driving energy. 16th-note analog saw bassline, 80s drum machine with gated snare, wide analog pads and 3-against-4 cross-rhythm sequencer. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, cybersecurity documentaries, esports commentary and highlights.",
+    "genre": "Synthwave",
+    "style": "Dark driving synthwave (darksynth)",
+    "family": "Dark Drive",
+    "mood": [
+      "tense investigation",
+      "dark",
+      "driving",
+      "tense"
+    ],
+    "energy_1to10": 6,
+    "tempo": "110 BPM",
+    "key": "D minor",
+    "chords": "Dm - F - C - Gm",
+    "instruments": [
+      "16th-note analog saw bassline",
+      "80s drum machine with gated snare",
+      "wide analog pads",
+      "3-against-4 cross-rhythm sequencer"
+    ],
+    "structure": [
+      "Intro with relentless bassline and drums",
+      "Introduction of the 3-against-4 cross-rhythm arpeggiator",
+      "Addition of high synth pads",
+      "Drumless breakdown with filter automation on the bass",
+      "Build-up section",
+      "Full return/drop with all elements playing",
+      "Outro fading out"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Cybersecurity documentaries",
+      "Esports commentary and highlights",
+      "Coding or hacking tutorials",
+      "Futuristic product reveals"
+    ],
+    "avoid_for": "Calm, emotional, wellness or family-friendly topics.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -21.4,
+    "true_peak_dbfs": -9.9,
+    "gain_db": -4.6,
+    "mix_note": null,
+    "duration_s": 180.0,
+    "tags": [
+      "3-against-4 cross-rhythm sequencer",
+      "dark drive",
+      "driving",
+      "instrumental",
+      "minor",
+      "synthwave",
+      "tense investigation"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music1.mp3; integrated loudness measured 2026-10-12 (ebur128): -21.4 LUFS"
+  },
+  {
+    "file": "DD05.mp3",
+    "path": "music/DD05.mp3",
+    "description": "Dark driving synthwave (darksynth) in G minor, 122 BPM, with a cyber-thriller focus mood and driving energy. 16th-note analog saw bassline, 80s drum machine with gated snare, wide analog pads and pulsing poly-synth chords. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, cybersecurity documentaries, esports commentary and highlights.",
+    "genre": "Synthwave",
+    "style": "Dark driving synthwave (darksynth)",
+    "family": "Dark Drive",
+    "mood": [
+      "cyber-thriller focus",
+      "driving",
+      "dark",
+      "tense"
+    ],
+    "energy_1to10": 6,
+    "tempo": "122 BPM",
+    "key": "G minor",
+    "chords": "Eb - F - Gm - Gm",
+    "instruments": [
+      "16th-note analog saw bassline",
+      "80s drum machine with gated snare",
+      "wide analog pads",
+      "pulsing poly-synth chords"
+    ],
+    "structure": [
+      "Intro: Stripped back 16th-note bassline and kick drum",
+      "A Section: Pulsing poly-synth chords enter (Eb - F - Gm - Gm)",
+      "B Section: Additional high-end synth layers and hi-hats join to build energy",
+      "Breakdown: Kick drum drops out, filter automation sweeps the bass and chords",
+      "Full Return: Kick drum returns, all layers play at maximum energy",
+      "Outro: Elements strip away to a final decay"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Cybersecurity documentaries",
+      "Esports commentary and highlights",
+      "Coding or hacking tutorials",
+      "Futuristic product reveals"
+    ],
+    "avoid_for": "Calm, emotional, wellness or family-friendly topics.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -19.4,
+    "true_peak_dbfs": -7.1,
+    "gain_db": -6.6,
+    "mix_note": null,
+    "duration_s": 158.8,
+    "tags": [
+      "cyber-thriller focus",
+      "dark drive",
+      "driving",
+      "instrumental",
+      "minor",
+      "pulsing poly-synth chords",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music1.mp3; integrated loudness measured 2026-10-12 (ebur128): -19.4 LUFS"
+  },
+  {
+    "file": "DM01.mp3",
+    "path": "music/DM01.mp3",
+    "description": "Modern Classical in D minor, 117 BPM, with a melancholic mood and calm energy. Felt piano, analog synth, electronic percussion, strings (cello/violin) and synth pads. Instrumental with no vocals; starts on the first beat. Best under true crime documentaries, scientific explanations (space, deep sea, technology), emotional human-interest stories.",
+    "genre": "Cinematic",
+    "style": "Modern Classical",
+    "family": "Submerged Arpeggio",
+    "mood": [
+      "melancholic",
+      "reflective",
+      "mysterious",
+      "contemplative"
+    ],
+    "energy_1to10": 3,
+    "tempo": "117 BPM",
+    "key": "D minor",
+    "chords": null,
+    "instruments": [
+      "felt piano",
+      "analog synth",
+      "electronic percussion",
+      "strings (cello/violin)",
+      "synth pads"
+    ],
+    "structure": [
+      "Intro (0:00-0:30): Track opens with pulsing bass drone and sparse piano. At 0:15, a subtle ticking electronic percussion element enters.",
+      "A Section (0:30-1:04): A soft electronic kick drum enters, establishing a clearer rhythm. Sweeping strings and synth pads gradually swell into the background.",
+      "Breakdown (1:04-1:21): The percussion drops out completely. The strings and piano are left exposed, creating a moment of breath and slight tension.",
+      "B Section (Climax) (1:21-2:09): The beat returns slightly fuller. The strings play a more pronounced, soaring melody. The arrangement reaches its thickest point, though still restrained.",
+      "Outro (2:09-3:22): The beat and strings drop out. The track strips back to just the repeating piano motif and the underlying drone, slowly fading into silence over a long period."
+    ],
+    "best_for": [
+      "True crime documentaries",
+      "Scientific explanations (space, deep sea, technology)",
+      "Emotional human-interest stories",
+      "Serious corporate case studies or historical retrospectives"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.02,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -12.2,
+    "true_peak_dbfs": -2.0,
+    "gain_db": -13.8,
+    "mix_note": null,
+    "duration_s": 201.7,
+    "tags": [
+      "calm",
+      "cinematic",
+      "dark minimal",
+      "instrumental",
+      "melancholic",
+      "reflective",
+      "submerged arpeggio",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -12.2 LUFS"
+  },
+  {
+    "file": "DM02.mp3",
+    "path": "music/DM02.mp3",
+    "description": "Chillhop in A minor, 90 BPM, with a chill mood and calm energy. Drum machine/sampler, synth bass, electric piano / synth pad, plucked synth and vinyl fx. Instrumental with no vocals; starts on the first beat. Best under tech and coding tutorials, lifestyle vlogs, study or productivity content.",
+    "genre": "Lo-fi Hip Hop",
+    "style": "Chillhop",
+    "family": "Tense Quiet (A minor)",
+    "mood": [
+      "chill",
+      "relaxing",
+      "introspective",
+      "focused"
+    ],
+    "energy_1to10": 3,
+    "tempo": "90 BPM",
+    "key": "A minor",
+    "chords": null,
+    "instruments": [
+      "drum machine/sampler",
+      "synth bass",
+      "electric piano / synth pad",
+      "plucked synth",
+      "vinyl fx"
+    ],
+    "structure": [
+      "Verse 1 (0:00-0:21): Track starts with the core groove: drums, bass, wobbly keys, and a sparse plucked melody.",
+      "Chorus 1 (0:21-0:43): Ethereal vocal chops enter, adding a new melodic and textural layer. The groove remains steady.",
+      "Verse 2 (0:43-1:04): Vocal chops drop out. The arrangement strips back slightly to focus on the keys and beat.",
+      "Chorus 2 (1:04-1:26): Vocal chops return, identical to the first chorus.",
+      "Bridge / Breakdown (1:26-1:47): The drum beat drops out completely. The track floats on sustained synth pads, bass, and vinyl crackle, creating a moment of ambient tension.",
+      "Chorus 3 (1:47-2:08): The drum beat returns along with the vocal chops for a final full-arrangement section.",
+      "Outro (2:08-2:31): Drums and bass drop out. The wobbly keys and vinyl crackle slowly fade to silence."
+    ],
+    "best_for": [
+      "Tech and coding tutorials",
+      "Lifestyle vlogs",
+      "Study or productivity content",
+      "Podcast intros and background beds"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.05,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -18.9,
+    "true_peak_dbfs": -5.8,
+    "gain_db": -7.1,
+    "mix_note": null,
+    "duration_s": 151.6,
+    "tags": [
+      "calm",
+      "chill",
+      "dark minimal",
+      "instrumental",
+      "lo-fi hip hop",
+      "relaxing",
+      "suno",
+      "tense quiet (a minor)"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -18.9 LUFS"
+  },
+  {
+    "file": "DM03.mp3",
+    "path": "music/DM03.mp3",
+    "description": "Retrowave in E minor, 115 BPM, with a driving mood and driving energy. Drum machine, hi-hats, synth bass, synth pads, pluck synth and arpeggiator synth. Instrumental with no vocals; starts on the first beat. Best under tech product reviews, esports or gaming documentaries, startup explainer videos.",
+    "genre": "Synthwave",
+    "style": "Retrowave",
+    "family": "Hypnotic Understated Loop",
+    "mood": [
+      "driving",
+      "optimistic",
+      "focused",
+      "nostalgic"
+    ],
+    "energy_1to10": 7,
+    "tempo": "115 BPM",
+    "key": "E minor",
+    "chords": null,
+    "instruments": [
+      "drum machine",
+      "hi-hats",
+      "synth bass",
+      "synth pads",
+      "pluck synth",
+      "arpeggiator synth"
+    ],
+    "structure": [
+      "Intro (0:00-0:15): Establishes the core groove with bass, drums, and rhythmic synth chords.",
+      "Verse 1 (0:16-0:31): Introduces a high-register, sparkling 16th-note synth arpeggio to add movement.",
+      "Chorus 1 (0:32-1:03): The main plucky synth melody enters, playing the primary hook over the established groove.",
+      "Breakdown (1:04-1:11): Drums drop out entirely. Only the bass, pads, and a subtle arpeggio remain, lowering the energy.",
+      "Verse 2 (1:12-1:27): Drums return, rebuilding the momentum without the main melody.",
+      "Chorus 2 (1:28-1:59): Main plucky melody returns, full arrangement is back in play.",
+      "Bridge (2:00-2:31): Melody drops out. Focus shifts to the chord progression and arpeggios, building tension steadily.",
+      "Final Chorus (2:32-3:03): Maximum energy. All elements, including the main melody and arpeggios, play together.",
+      "Outro (3:04-3:44): Subtractive arrangement. Elements gradually drop out, ending on a final sustained synth chord that fades to silence."
+    ],
+    "best_for": [
+      "Tech product reviews",
+      "Esports or gaming documentaries",
+      "Startup explainer videos",
+      "Coding and programming tutorials"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.09,
+    "voice_masking_risk_1to10": 6,
+    "lufs_i": -19.6,
+    "true_peak_dbfs": -8.0,
+    "gain_db": -6.4,
+    "mix_note": null,
+    "duration_s": 224.2,
+    "tags": [
+      "dark minimal",
+      "driving",
+      "hypnotic understated loop",
+      "instrumental",
+      "optimistic",
+      "suno",
+      "synthwave"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -19.6 LUFS"
+  },
+  {
+    "file": "DM04.mp3",
+    "path": "music/DM04.mp3",
+    "description": "Modern Classical in C minor, 117 BPM, with a reflective mood and calm energy. Felt piano, string section (cello and violins) and synth pad. Instrumental with no vocals; starts on the first beat. Best under documentary interviews about personal struggles or triumphs, charity appeal videos, reflective corporate brand stories.",
+    "genre": "Cinematic",
+    "style": "Modern Classical",
+    "family": "C Minor Reflection",
+    "mood": [
+      "reflective",
+      "poignant",
+      "melancholic",
+      "hopeful"
+    ],
+    "energy_1to10": 3,
+    "tempo": "117 BPM",
+    "key": "C minor",
+    "chords": null,
+    "instruments": [
+      "felt piano",
+      "string section (cello and violins)",
+      "synth pad"
+    ],
+    "structure": [
+      "Intro / A Section (0:00-0:32): Solo felt piano playing a sparse, slow, and reflective chordal motif.",
+      "B Section (0:32-1:04): Mid-register strings (cello/viola) enter with long, sustained swells, adding warmth and emotional depth beneath the piano.",
+      "C Section (Climax) (1:04-1:41): Higher strings (violins) join, expanding the frequency range. The piano playing becomes slightly more dense with gentle arpeggios. The emotional peak of the track.",
+      "A' Section (Breakdown) (1:41-2:15): The arrangement thins out. High strings drop away, leaving the piano and a solo cello line, returning to the sparse intimacy of the beginning.",
+      "Outro (2:15-2:43): Tempo slows down (ritardando). Instruments gradually fade. The final piano chord is struck at 2:30 and rings out with a long reverb tail."
+    ],
+    "best_for": [
+      "Documentary interviews about personal struggles or triumphs",
+      "Charity appeal videos",
+      "Reflective corporate brand stories",
+      "Emotional YouTube video essays or vlogs"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.09,
+    "voice_masking_risk_1to10": 1,
+    "lufs_i": -19.5,
+    "true_peak_dbfs": -6.3,
+    "gain_db": -6.5,
+    "mix_note": null,
+    "duration_s": 163.6,
+    "tags": [
+      "c minor reflection",
+      "calm",
+      "cinematic",
+      "dark minimal",
+      "instrumental",
+      "poignant",
+      "reflective",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -19.5 LUFS"
+  },
+  {
+    "file": "DM05.mp3",
+    "path": "music/DM05.mp3",
+    "description": "Chillhop in B minor, 112 BPM, with a reflective mood and calm energy. Acoustic guitar, electric guitar, synth bass, drum machine and synth pad. Instrumental with no vocals; starts on the first beat. Best under tech product reviews, vlogs and lifestyle content, documentary voiceovers.",
+    "genre": "Lo-Fi / Ambient",
+    "style": "Chillhop",
+    "family": "Low-Mid Loop",
+    "mood": [
+      "reflective",
+      "calm",
+      "introspective",
+      "peaceful"
+    ],
+    "energy_1to10": 3,
+    "tempo": "112 BPM",
+    "key": "B minor",
+    "chords": null,
+    "instruments": [
+      "acoustic guitar",
+      "electric guitar",
+      "synth bass",
+      "drum machine",
+      "synth pad"
+    ],
+    "structure": [
+      "Intro (0:00-0:15): Acoustic guitar arpeggios establish the progression over vinyl crackle and soft pads.",
+      "Groove A (0:15-0:47): Lo-fi drum beat and deep sub bass enter, establishing the main groove.",
+      "Groove B (0:47-1:18): Ambient electric guitar swells are introduced, adding a dreamy, melodic layer.",
+      "Groove A2 (1:18-1:50): Electric guitar pulls back, returning focus to the acoustic guitar and rhythm section.",
+      "Groove B2 (1:50-2:21): Electric guitar swells return, creating a subtle emotional peak for the track.",
+      "Outro (2:21-2:53): Drums and bass drop out. Acoustic guitar and pads continue the progression.",
+      "Tail (2:53-3:20): Final chord is struck and left to ring out, slowly fading to silence alongside the vinyl crackle."
+    ],
+    "best_for": [
+      "Tech product reviews",
+      "Vlogs and lifestyle content",
+      "Documentary voiceovers",
+      "Mental health and wellness videos"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.12,
+    "voice_masking_risk_1to10": 1,
+    "lufs_i": -20.9,
+    "true_peak_dbfs": -8.2,
+    "gain_db": -5.1,
+    "mix_note": null,
+    "duration_s": 200.0,
+    "tags": [
+      "calm",
+      "dark minimal",
+      "instrumental",
+      "lo-fi / ambient",
+      "low-mid loop",
+      "reflective",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -20.9 LUFS"
+  },
+  {
+    "file": "DM06.mp3",
+    "path": "music/DM06.mp3",
+    "description": "Cinematic in A major, 152 BPM, with an inspiring mood and driving energy. Piano, legato strings, spiccato strings and low strings/synth bass. Instrumental with no vocals; starts on the first beat. Best under corporate brand anthems, documentary emotional turning points, charity or fundraising appeals.",
+    "genre": "Modern Classical",
+    "style": "Cinematic",
+    "family": "A Major swell",
+    "mood": [
+      "inspiring",
+      "hopeful",
+      "reflective",
+      "building"
+    ],
+    "energy_1to10": 6,
+    "tempo": "152 BPM",
+    "key": "A major",
+    "chords": null,
+    "instruments": [
+      "piano",
+      "legato strings",
+      "spiccato strings",
+      "low strings/synth bass"
+    ],
+    "structure": [
+      "Intro / A (0:00-0:25): Solo piano establishes the 3/4 arpeggio pattern and harmonic progression.",
+      "B (0:25-0:50): Warm legato strings (cellos/violas) enter, adding sustained harmony and emotional depth.",
+      "C (0:50-1:16): Spiccato strings enter, adding a rhythmic, driving ostinato that increases the energy and momentum.",
+      "D (Climax 1) (1:16-1:41): Full arrangement. The strings become thicker and more sweeping, reaching the first dynamic peak of the track.",
+      "E (Breakdown) (1:41-2:01): Spiccato strings drop out. The track relies on high legato strings and the piano, maintaining tension but lowering the rhythmic energy.",
+      "F (Climax 2) (2:01-2:16): Spiccato strings return for a final, brief energetic push before the ending.",
+      "Outro (2:16-2:32): All strings drop out. Stripped back to solo piano, which slows down (ritardando) and fades out on a final sustained chord."
+    ],
+    "best_for": [
+      "Corporate brand anthems",
+      "Documentary emotional turning points",
+      "Charity or fundraising appeals",
+      "Tech product reveals or manifestos"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.02,
+    "voice_masking_risk_1to10": 6,
+    "lufs_i": -17.9,
+    "true_peak_dbfs": -6.1,
+    "gain_db": -8.1,
+    "mix_note": null,
+    "duration_s": 153.5,
+    "tags": [
+      "a major swell",
+      "dark minimal",
+      "driving",
+      "hopeful",
+      "inspiring",
+      "instrumental",
+      "modern classical",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -17.9 LUFS"
+  },
+  {
+    "file": "DM07.mp3",
+    "path": "music/DM07.mp3",
+    "description": "Chillhop, 86 BPM, with a relaxed mood and calm energy. Electric piano (rhodes), drum machine, sub bass, vinyl foley and vocal chops. Instrumental with no vocals; reaches full level after about 0.8 s. Best under tech reviews, vlogs, educational video essays.",
+    "genre": "Lo-fi Hip Hop",
+    "style": "Chillhop",
+    "family": "G# Minor",
+    "mood": [
+      "relaxed",
+      "contemplative",
+      "mellow",
+      "nostalgic"
+    ],
+    "energy_1to10": 3,
+    "tempo": "86 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "electric piano (rhodes)",
+      "drum machine",
+      "sub bass",
+      "vinyl foley",
+      "vocal chops"
+    ],
+    "structure": [
+      "Intro (0:00-0:11): Establishes the main chord progression on the Rhodes with vinyl crackle and a subtle bassline.",
+      "Main Groove A (0:11-0:44): The lo-fi drum beat enters, establishing the core groove. Distant vocal chops are introduced.",
+      "Main Groove B (0:44-1:05): Subtle variations in the drum pattern and background textures; the groove continues steadily.",
+      "Breakdown (1:05-1:27): The drum beat drops out completely. The track strips back to just the wobbly Rhodes chords, bass, and vinyl crackle, creating a moment of pause.",
+      "Main Groove A (1:27-1:49): The drum beat returns, bringing the energy back to the baseline level.",
+      "Main Groove B (1:49-2:11): Continued groove with slight textural shifts, preparing for the outro.",
+      "Outro (2:11-2:35): Drums drop out again. The chords play through their progression one last time and slowly fade out, leaving only the vinyl crackle."
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Educational video essays",
+      "Coding tutorials"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": false,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -9.7,
+    "true_peak_dbfs": -2.0,
+    "gain_db": -16.3,
+    "mix_note": null,
+    "duration_s": 154.1,
+    "tags": [
+      "calm",
+      "contemplative",
+      "dark minimal",
+      "g# minor",
+      "instrumental",
+      "lo-fi hip hop",
+      "relaxed",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -9.7 LUFS"
+  },
+  {
+    "file": "DM08.mp3",
+    "path": "music/DM08.mp3",
+    "description": "Modern Classical, 117 BPM, with a reflective mood and calm energy. Felt piano, string section and synth bass. Instrumental with no vocals; starts on the first beat. Best under documentaries, charity appeals, reflective corporate storytelling.",
+    "genre": "Cinematic Ambient",
+    "style": "Modern Classical",
+    "family": "D# Minor Loop",
+    "mood": [
+      "reflective",
+      "melancholic",
+      "introspective",
+      "hopeful"
+    ],
+    "energy_1to10": 3,
+    "tempo": "117 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "felt piano",
+      "string section",
+      "synth bass"
+    ],
+    "structure": [
+      "Intro (0:00-0:32): Sparse felt piano chords introduce the harmonic progression.",
+      "Build 1 (0:32-1:04): Lush string swells enter, providing a sustained bed beneath the piano.",
+      "Climax (1:04-1:38): Strings become fuller and more prominent; piano plays slightly more active broken chords.",
+      "Breakdown (1:38-2:10): Strings fade out, returning to the sparse, intimate piano from the intro.",
+      "Build 2 (2:10-2:40): Strings re-enter with emotional swells, building to a final emotional peak.",
+      "Outro (2:40-2:48): Final chord sustains and naturally decays into silence."
+    ],
+    "best_for": [
+      "Documentaries",
+      "Charity appeals",
+      "Reflective corporate storytelling",
+      "Memorial or tribute videos"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.02,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -17.7,
+    "true_peak_dbfs": -5.9,
+    "gain_db": -8.3,
+    "mix_note": null,
+    "duration_s": 168.0,
+    "tags": [
+      "calm",
+      "cinematic ambient",
+      "d# minor loop",
+      "dark minimal",
+      "instrumental",
+      "melancholic",
+      "reflective",
+      "suno"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -17.7 LUFS"
+  },
+  {
+    "file": "DM09.mp3",
+    "path": "music/DM09.mp3",
+    "description": "Chillhop, 92 BPM, with a reflective mood and calm energy. Electric piano, drum kit, synth bass, plucked synth and vinyl crackle. Wordless vocal chops, no lyrics; starts on the first beat. Best under tech reviews, vlogs, educational video essays.",
+    "genre": "Lo-fi Hip Hop",
+    "style": "Chillhop",
+    "family": "Tense Quiet (F# minor)",
+    "mood": [
+      "reflective",
+      "relaxed",
+      "introspective",
+      "melancholic"
+    ],
+    "energy_1to10": 3,
+    "tempo": "92 BPM",
+    "key": null,
+    "chords": null,
+    "instruments": [
+      "electric piano",
+      "drum kit",
+      "synth bass",
+      "plucked synth",
+      "vinyl crackle"
+    ],
+    "structure": [
+      "Intro (0:00-0:16): Keys and vinyl crackle establish the harmony and atmosphere.",
+      "A Section (0:16-0:41): Lo-fi drum beat and sub bass enter, establishing the main groove.",
+      "B Section (0:41-1:05): Subtle melodic plucks and background vocal hums are introduced to add slight variation.",
+      "Breakdown (1:05-1:24): Drums drop out, leaving the keys, bass, and textures to float.",
+      "A Section (Return) (1:24-1:46): The full drum groove returns with the main chord progression.",
+      "Outro (1:46-2:48): Beat drops out again. The track slowly fades out over a long period, leaving just the ambient keys and vinyl crackle."
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Educational video essays",
+      "Coding tutorials"
+    ],
+    "avoid_for": "Upbeat, celebratory or comedic content.",
+    "vocals": "wordless vocal chops used as an instrument; no lyrics",
+    "starts_immediately": true,
+    "longest_silence_s": 0.09,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -17.2,
+    "true_peak_dbfs": -3.2,
+    "gain_db": -8.8,
+    "mix_note": null,
+    "duration_s": 168.4,
+    "tags": [
+      "calm",
+      "dark minimal",
+      "lo-fi hip hop",
+      "reflective",
+      "relaxed",
+      "suno",
+      "tense quiet (f# minor)",
+      "vocal chops"
+    ],
+    "source": "Suno v6 (Advanced mode, style prompt only), picked by Ken; integrated loudness measured 2026-10-12 (ebur128): -17.2 LUFS"
+  },
+  {
+    "file": "DT01.mp3",
+    "path": "music/DT01.mp3",
+    "description": "Dark half-time trap instrumental in E minor, 130 BPM, with a cold and calculating mood and moderate energy. Orchestral harp arpeggio hook, gliding 808 bass, rolling triplet trap hi-hats and snare and clap backbeat. Instrumental with no vocals; starts on the first beat. Best under true crime YouTube videos, urban documentary segments, edgy streetwear brand promos.",
+    "genre": "Hip-hop / Trap",
+    "style": "Dark half-time trap instrumental",
+    "family": "Dark Trap",
+    "mood": [
+      "cold and calculating",
+      "dark",
+      "eerie",
+      "cold"
+    ],
+    "energy_1to10": 5,
+    "tempo": "130 BPM",
+    "key": "E minor",
+    "chords": "Em - F#dim - Em - C",
+    "instruments": [
+      "orchestral harp arpeggio hook",
+      "gliding 808 bass",
+      "rolling triplet trap hi-hats",
+      "snare and clap backbeat"
+    ],
+    "structure": [
+      "Main beat introduction with harp and full 808s",
+      "Breakdown with 808 drop-out for contrast",
+      "Main beat returns with gliding 808s",
+      "Second breakdown/drop-out section",
+      "Main beat returns",
+      "Outro with elements stripping away",
+      "Final resolving chord"
+    ],
+    "best_for": [
+      "True crime YouTube videos",
+      "Urban documentary segments",
+      "Edgy streetwear brand promos",
+      "Esports player profiles"
+    ],
+    "avoid_for": "Corporate, uplifting or family-friendly messages.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -22.9,
+    "true_peak_dbfs": -8.4,
+    "gain_db": -3.1,
+    "mix_note": null,
+    "duration_s": 140.0,
+    "tags": [
+      "cold and calculating",
+      "dark trap",
+      "hip-hop / trap",
+      "instrumental",
+      "minor",
+      "moderate",
+      "orchestral harp arpeggio"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music2.mp3; integrated loudness measured 2026-10-12 (ebur128): -22.9 LUFS"
+  },
+  {
+    "file": "DT02.mp3",
+    "path": "music/DT02.mp3",
+    "description": "Dark half-time trap instrumental in A minor, 146 BPM, with a gritty and street-level mood and driving energy. Pizzicato string ostinato hook, gliding 808 bass, rolling triplet trap hi-hats and snare and clap backbeat. Instrumental with no vocals; starts on the first beat. Best under true crime YouTube videos, urban documentary segments, edgy streetwear brand promos.",
+    "genre": "Hip-hop / Trap",
+    "style": "Dark half-time trap instrumental",
+    "family": "Dark Trap",
+    "mood": [
+      "gritty and street-level",
+      "dark",
+      "gritty",
+      "driving"
+    ],
+    "energy_1to10": 6,
+    "tempo": "146 BPM",
+    "key": "A minor",
+    "chords": "Am - Dm - Am - F",
+    "instruments": [
+      "pizzicato string ostinato hook",
+      "gliding 808 bass",
+      "rolling triplet trap hi-hats",
+      "snare and clap backbeat"
+    ],
+    "structure": [
+      "Main beat and pizzicato ostinato",
+      "Drum dropout/breakdown",
+      "Main beat returns",
+      "Second drum dropout",
+      "Main beat returns",
+      "Track ends"
+    ],
+    "best_for": [
+      "True crime YouTube videos",
+      "Urban documentary segments",
+      "Edgy streetwear brand promos",
+      "Esports player profiles"
+    ],
+    "avoid_for": "Corporate, uplifting or family-friendly messages.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.07,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -21.9,
+    "true_peak_dbfs": -8.7,
+    "gain_db": -4.1,
+    "mix_note": null,
+    "duration_s": 130.0,
+    "tags": [
+      "dark trap",
+      "driving",
+      "gritty and street-level",
+      "hip-hop / trap",
+      "instrumental",
+      "minor",
+      "pizzicato string ostinato"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music2.mp3; integrated loudness measured 2026-10-12 (ebur128): -21.9 LUFS"
+  },
+  {
+    "file": "DT03.mp3",
+    "path": "music/DT03.mp3",
+    "description": "Dark half-time trap instrumental in G minor, 140 BPM, with a noir tension mood and steady energy. Eerie music-box bell hook, gliding 808 bass, rolling triplet trap hi-hats and snare and clap backbeat. Instrumental with no vocals; starts on the first beat. Best under true crime YouTube videos, urban documentary segments, edgy streetwear brand promos.",
+    "genre": "Hip-hop / Trap",
+    "style": "Dark half-time trap instrumental",
+    "family": "Dark Trap",
+    "mood": [
+      "noir tension",
+      "dark",
+      "eerie",
+      "tense"
+    ],
+    "energy_1to10": 4,
+    "tempo": "140 BPM",
+    "key": "G minor",
+    "chords": "Gm - Eb - F - Gm",
+    "instruments": [
+      "eerie music-box bell hook",
+      "gliding 808 bass",
+      "rolling triplet trap hi-hats",
+      "snare and clap backbeat"
+    ],
+    "structure": [
+      "Intro/Hook",
+      "Full Beat with 808s",
+      "Breakdown (808 drop-out)",
+      "Beat Returns",
+      "Outro"
+    ],
+    "best_for": [
+      "True crime YouTube videos",
+      "Urban documentary segments",
+      "Edgy streetwear brand promos",
+      "Esports player profiles"
+    ],
+    "avoid_for": "Corporate, uplifting or family-friendly messages.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -21.4,
+    "true_peak_dbfs": -8.6,
+    "gain_db": -4.6,
+    "mix_note": null,
+    "duration_s": 129.5,
+    "tags": [
+      "dark trap",
+      "eerie music-box bell",
+      "hip-hop / trap",
+      "instrumental",
+      "minor",
+      "noir tension",
+      "steady"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music2.mp3; integrated loudness measured 2026-10-12 (ebur128): -21.4 LUFS"
+  },
+  {
+    "file": "DT04.mp3",
+    "path": "music/DT04.mp3",
+    "description": "Dark half-time trap instrumental in D minor, 142 BPM, with a suspenseful mood and intense energy. Glass marimba hook, gliding 808 bass, rolling triplet trap hi-hats and snare and clap backbeat. Instrumental with no vocals; starts on the first beat. Best under true crime YouTube videos, urban documentary segments, edgy streetwear brand promos.",
+    "genre": "Hip-hop / Trap",
+    "style": "Dark half-time trap instrumental",
+    "family": "Dark Trap",
+    "mood": [
+      "suspenseful",
+      "dark",
+      "eerie"
+    ],
+    "energy_1to10": 7,
+    "tempo": "142 BPM",
+    "key": "D minor",
+    "chords": "Dm - Am - Bb - Gm",
+    "instruments": [
+      "glass marimba hook",
+      "gliding 808 bass",
+      "rolling triplet trap hi-hats",
+      "snare and clap backbeat"
+    ],
+    "structure": [
+      "Intro and main glass marimba hook",
+      "Heavy section with brass/synth stabs",
+      "Breakdown with 808 drop-outs and simplified percussion",
+      "Return of the heavy brass stab section",
+      "Outro sequence"
+    ],
+    "best_for": [
+      "True crime YouTube videos",
+      "Urban documentary segments",
+      "Edgy streetwear brand promos",
+      "Esports player profiles"
+    ],
+    "avoid_for": "Corporate, uplifting or family-friendly messages.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -21.9,
+    "true_peak_dbfs": -8.4,
+    "gain_db": -4.1,
+    "mix_note": null,
+    "duration_s": 118.0,
+    "tags": [
+      "dark trap",
+      "glass marimba",
+      "hip-hop / trap",
+      "instrumental",
+      "intense",
+      "minor",
+      "suspenseful"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music2.mp3; integrated loudness measured 2026-10-12 (ebur128): -21.9 LUFS"
+  },
+  {
+    "file": "DT05.mp3",
+    "path": "music/DT05.mp3",
+    "description": "Dark half-time trap instrumental in C# minor, 150 BPM, with a mysterious mood and moderate energy. Detuned celesta hook, gliding 808 bass, rolling triplet trap hi-hats and snare and clap backbeat. Instrumental with no vocals; starts on the first beat. Best under true crime YouTube videos, urban documentary segments, edgy streetwear brand promos.",
+    "genre": "Hip-hop / Trap",
+    "style": "Dark half-time trap instrumental",
+    "family": "Dark Trap",
+    "mood": [
+      "mysterious",
+      "eerie",
+      "suspenseful",
+      "dark"
+    ],
+    "energy_1to10": 5,
+    "tempo": "150 BPM",
+    "key": "C# minor",
+    "chords": "C#m - A - C#m - A",
+    "instruments": [
+      "detuned celesta hook",
+      "gliding 808 bass",
+      "rolling triplet trap hi-hats",
+      "snare and clap backbeat"
+    ],
+    "structure": [
+      "Main beat with celesta and 808s",
+      "Breakdown with 808 drop-out",
+      "Main beat returns",
+      "Second breakdown",
+      "Final chorus/beat section",
+      "Outro"
+    ],
+    "best_for": [
+      "True crime YouTube videos",
+      "Urban documentary segments",
+      "Edgy streetwear brand promos",
+      "Esports player profiles"
+    ],
+    "avoid_for": "Corporate, uplifting or family-friendly messages.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -20.9,
+    "true_peak_dbfs": -8.3,
+    "gain_db": -5.1,
+    "mix_note": null,
+    "duration_s": 130.0,
+    "tags": [
+      "dark trap",
+      "detuned celesta",
+      "hip-hop / trap",
+      "instrumental",
+      "minor",
+      "moderate",
+      "mysterious"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music2.mp3; integrated loudness measured 2026-10-12 (ebur128): -20.9 LUFS"
+  },
+  {
+    "file": "LJ01.mp3",
+    "path": "music/LJ01.mp3",
+    "description": "Lo-fi jazzhop / chillhop in C minor, 82 BPM, with a hopeful study-session mood and calm energy. Warm Rhodes electric piano (jazzy 7th and 9th chords), swung dusty drums, deep sine sub bass, vinyl crackle and muted trumpet. Instrumental with no vocals; starts on the first beat. Best under tech reviews, vlogs, reflective video essays.",
+    "genre": "Lo-fi hip-hop",
+    "style": "Lo-fi jazzhop / chillhop",
+    "family": "Lo-Fi Jazzhop",
+    "mood": [
+      "hopeful study-session",
+      "hopeful",
+      "nostalgic",
+      "relaxed"
+    ],
+    "energy_1to10": 3,
+    "tempo": "82 BPM",
+    "key": "C minor",
+    "chords": "Cm9 - Bb6 - Abmaj7 - G7sus4",
+    "instruments": [
+      "warm Rhodes electric piano (jazzy 7th and 9th chords)",
+      "swung dusty drums",
+      "deep sine sub bass",
+      "vinyl crackle",
+      "muted trumpet"
+    ],
+    "structure": [
+      "Intro groove",
+      "Muted trumpet theme",
+      "Breakdown without drums",
+      "Main groove returns with trumpet",
+      "Outro"
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Reflective video essays",
+      "Lifestyle content",
+      "Podcast intros/outros"
+    ],
+    "avoid_for": "High-energy hype, urgent news or intense drama.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -20.4,
+    "true_peak_dbfs": -6.4,
+    "gain_db": -5.6,
+    "mix_note": null,
+    "duration_s": 120.0,
+    "tags": [
+      "calm",
+      "hopeful study-session",
+      "instrumental",
+      "lo-fi hip-hop",
+      "lo-fi jazzhop",
+      "minor",
+      "muted trumpet"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music3.mp3; integrated loudness measured 2026-10-12 (ebur128): -20.4 LUFS"
+  },
+  {
+    "file": "LJ02.mp3",
+    "path": "music/LJ02.mp3",
+    "description": "Lo-fi jazzhop / chillhop in F minor, 78 BPM, with a rainy-day mellow mood and steady energy. Warm Rhodes electric piano (jazzy 7th and 9th chords), swung dusty drums, deep sine sub bass, vinyl crackle and vibraphone. Instrumental with no vocals; starts on the first beat. Best under tech reviews, vlogs, reflective video essays.",
+    "genre": "Lo-fi hip-hop",
+    "style": "Lo-fi jazzhop / chillhop",
+    "family": "Lo-Fi Jazzhop",
+    "mood": [
+      "rainy-day mellow",
+      "mellow",
+      "nostalgic",
+      "relaxed"
+    ],
+    "energy_1to10": 4,
+    "tempo": "78 BPM",
+    "key": "F minor",
+    "chords": "Dbmaj7 - Cm7 - Bbm7 - Fm9",
+    "instruments": [
+      "warm Rhodes electric piano (jazzy 7th and 9th chords)",
+      "swung dusty drums",
+      "deep sine sub bass",
+      "vinyl crackle",
+      "vibraphone"
+    ],
+    "structure": [
+      "Main groove introduction with Rhodes and drums",
+      "Vibraphone melody enters",
+      "Breakdown section (drums drop out)",
+      "Main groove returns",
+      "Outro fade"
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Reflective video essays",
+      "Lifestyle content",
+      "Podcast intros/outros"
+    ],
+    "avoid_for": "High-energy hype, urgent news or intense drama.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -17.9,
+    "true_peak_dbfs": -3.8,
+    "gain_db": -8.1,
+    "mix_note": null,
+    "duration_s": 120.0,
+    "tags": [
+      "instrumental",
+      "lo-fi hip-hop",
+      "lo-fi jazzhop",
+      "minor",
+      "rainy-day mellow",
+      "steady",
+      "vibraphone"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music3.mp3; integrated loudness measured 2026-10-12 (ebur128): -17.9 LUFS"
+  },
+  {
+    "file": "LJ03.mp3",
+    "path": "music/LJ03.mp3",
+    "description": "Lo-fi jazzhop / chillhop in A minor, 88 BPM, with a bittersweet mood and steady energy. Warm Rhodes electric piano (jazzy 7th and 9th chords), swung dusty drums, deep sine sub bass, vinyl crackle and nylon-string guitar. Instrumental with no vocals; starts on the first beat. Best under tech reviews, vlogs, reflective video essays.",
+    "genre": "Lo-fi hip-hop",
+    "style": "Lo-fi jazzhop / chillhop",
+    "family": "Lo-Fi Jazzhop",
+    "mood": [
+      "bittersweet",
+      "nostalgic",
+      "reflective",
+      "relaxed"
+    ],
+    "energy_1to10": 4,
+    "tempo": "88 BPM",
+    "key": "A minor",
+    "chords": "Am7 - Fmaj7 - Bm7b5 - E7",
+    "instruments": [
+      "warm Rhodes electric piano (jazzy 7th and 9th chords)",
+      "swung dusty drums",
+      "deep sine sub bass",
+      "vinyl crackle",
+      "nylon-string guitar"
+    ],
+    "structure": [
+      "Intro / Main Groove Establishment",
+      "Nylon Guitar Melody A",
+      "Nylon Guitar Melody B (Slight Variation)",
+      "Main Groove Return",
+      "Outro / Fade with lingering vinyl crackle"
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Reflective video essays",
+      "Lifestyle content",
+      "Podcast intros/outros"
+    ],
+    "avoid_for": "High-energy hype, urgent news or intense drama.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -19.4,
+    "true_peak_dbfs": -7.7,
+    "gain_db": -6.6,
+    "mix_note": null,
+    "duration_s": 140.0,
+    "tags": [
+      "bittersweet",
+      "instrumental",
+      "lo-fi hip-hop",
+      "lo-fi jazzhop",
+      "minor",
+      "nylon-string guitar",
+      "steady"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music3.mp3; integrated loudness measured 2026-10-12 (ebur128): -19.4 LUFS"
+  },
+  {
+    "file": "LJ04.mp3",
+    "path": "music/LJ04.mp3",
+    "description": "Lo-fi jazzhop / chillhop in Eb minor, 70 BPM, with a nostalgic mood and moderate energy. Warm Rhodes electric piano (jazzy 7th and 9th chords), swung dusty drums, deep sine sub bass, vinyl crackle and kalimba. Instrumental with no vocals; starts on the first beat. Best under tech reviews, vlogs, reflective video essays.",
+    "genre": "Lo-fi hip-hop",
+    "style": "Lo-fi jazzhop / chillhop",
+    "family": "Lo-Fi Jazzhop",
+    "mood": [
+      "nostalgic",
+      "relaxed",
+      "warm",
+      "chill"
+    ],
+    "energy_1to10": 5,
+    "tempo": "70 BPM",
+    "key": "Eb minor",
+    "chords": "Abm9 - Bb7 - Ebm9 - Bmaj7",
+    "instruments": [
+      "warm Rhodes electric piano (jazzy 7th and 9th chords)",
+      "swung dusty drums",
+      "deep sine sub bass",
+      "vinyl crackle",
+      "kalimba"
+    ],
+    "structure": [
+      "Main groove established with Rhodes and drums",
+      "Signature kalimba melody enters",
+      "Drum dropout/breakdown section",
+      "Full groove returns with kalimba"
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Reflective video essays",
+      "Lifestyle content",
+      "Podcast intros/outros"
+    ],
+    "avoid_for": "High-energy hype, urgent news or intense drama.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -18.4,
+    "true_peak_dbfs": -3.0,
+    "gain_db": -7.6,
+    "mix_note": null,
+    "duration_s": 125.5,
+    "tags": [
+      "instrumental",
+      "kalimba",
+      "lo-fi hip-hop",
+      "lo-fi jazzhop",
+      "minor",
+      "moderate",
+      "nostalgic"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music3.mp3; integrated loudness measured 2026-10-12 (ebur128): -18.4 LUFS"
+  },
+  {
+    "file": "LJ05.mp3",
+    "path": "music/LJ05.mp3",
+    "description": "Lo-fi jazzhop / chillhop in Bb major, 72 BPM, with a cozy late-night mood and calm energy. Warm Rhodes electric piano (jazzy 7th and 9th chords), swung dusty drums, deep sine sub bass, vinyl crackle and warm analog synth lead. Instrumental with no vocals; starts on the first beat. Best under tech reviews, vlogs, reflective video essays.",
+    "genre": "Lo-fi hip-hop",
+    "style": "Lo-fi jazzhop / chillhop",
+    "family": "Lo-Fi Jazzhop",
+    "mood": [
+      "cozy late-night",
+      "cozy",
+      "nostalgic",
+      "relaxing"
+    ],
+    "energy_1to10": 3,
+    "tempo": "72 BPM",
+    "key": "Bb major",
+    "chords": "Cm9 - F13 - Bbmaj9 - Gm9",
+    "instruments": [
+      "warm Rhodes electric piano (jazzy 7th and 9th chords)",
+      "swung dusty drums",
+      "deep sine sub bass",
+      "vinyl crackle",
+      "warm analog synth lead"
+    ],
+    "structure": [
+      "Intro and main beat establishment",
+      "Warm analog synth lead enters",
+      "Breakdown section with stripped-back drums",
+      "Return of the synth lead and full beat",
+      "Outro fading out with vinyl crackle"
+    ],
+    "best_for": [
+      "Tech reviews",
+      "Vlogs",
+      "Reflective video essays",
+      "Lifestyle content",
+      "Podcast intros/outros"
+    ],
+    "avoid_for": "High-energy hype, urgent news or intense drama.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -17.9,
+    "true_peak_dbfs": -4.9,
+    "gain_db": -8.1,
+    "mix_note": null,
+    "duration_s": 120.0,
+    "tags": [
+      "calm",
+      "cozy late-night",
+      "instrumental",
+      "lo-fi hip-hop",
+      "lo-fi jazzhop",
+      "major",
+      "warm analog synth lead"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music3.mp3; integrated loudness measured 2026-10-12 (ebur128): -17.9 LUFS"
+  },
+  {
+    "file": "ND01.mp3",
+    "path": "music/ND01.mp3",
+    "description": "Nostalgic mid-tempo synthwave / chillwave in A minor, 90 BPM, with a hopeful mood and moderate energy. Pulsing 8th-note analog bass, 16th-note synth arpeggio, lush chorused pads, 80s drum machine and soft gliding saw lead. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, retro gaming documentaries, cyberpunk or Sci-fi video essays.",
+    "genre": "Synthwave",
+    "style": "Nostalgic mid-tempo synthwave / chillwave",
+    "family": "Night Drive",
+    "mood": [
+      "hopeful",
+      "nostalgic",
+      "driving",
+      "atmospheric"
+    ],
+    "energy_1to10": 5,
+    "tempo": "90 BPM",
+    "key": "A minor",
+    "chords": "Am - G - F - G",
+    "instruments": [
+      "pulsing 8th-note analog bass",
+      "16th-note synth arpeggio",
+      "lush chorused pads",
+      "80s drum machine",
+      "soft gliding saw lead"
+    ],
+    "structure": [
+      "Intro with bass, arpeggio, and drum machine",
+      "Main section introduction with the soft gliding saw lead",
+      "Drumless breakdown with low-pass filter closing and slowly opening",
+      "Climax where drums return and filter is fully open",
+      "Outro fading out to a final sustained chord"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Retro gaming documentaries",
+      "Cyberpunk or Sci-fi video essays",
+      "Coding and programming tutorials",
+      "Nighttime driving vlogs"
+    ],
+    "avoid_for": "Urgent, aggressive or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -14.9,
+    "true_peak_dbfs": -3.0,
+    "gain_db": -11.1,
+    "mix_note": null,
+    "duration_s": 169.9,
+    "tags": [
+      "hopeful",
+      "instrumental",
+      "minor",
+      "moderate",
+      "night drive",
+      "soft gliding saw lead",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music7.mp3; integrated loudness measured 2026-10-12 (ebur128): -14.9 LUFS"
+  },
+  {
+    "file": "ND02.mp3",
+    "path": "music/ND02.mp3",
+    "description": "Nostalgic mid-tempo synthwave / chillwave in D major, 100 BPM, with a bittersweet mood and steady energy. Pulsing 8th-note analog bass, 16th-note synth arpeggio, lush chorused pads, 80s drum machine and warm analog brass lead. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, retro gaming documentaries, cyberpunk or Sci-fi video essays.",
+    "genre": "Synthwave",
+    "style": "Nostalgic mid-tempo synthwave / chillwave",
+    "family": "Night Drive",
+    "mood": [
+      "bittersweet",
+      "nostalgic",
+      "driving",
+      "atmospheric"
+    ],
+    "energy_1to10": 4,
+    "tempo": "100 BPM",
+    "key": "D major",
+    "chords": "Bm - G - D - A",
+    "instruments": [
+      "pulsing 8th-note analog bass",
+      "16th-note synth arpeggio",
+      "lush chorused pads",
+      "80s drum machine",
+      "warm analog brass lead"
+    ],
+    "structure": [
+      "Intro and main groove establishment",
+      "Warm analog brass lead melody enters",
+      "Drumless breakdown with lush pads",
+      "Climax with returning drums, opening filters, and brass lead",
+      "Outro with elements stripping back",
+      "Final chord decay"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Retro gaming documentaries",
+      "Cyberpunk or Sci-fi video essays",
+      "Coding and programming tutorials",
+      "Nighttime driving vlogs"
+    ],
+    "avoid_for": "Urgent, aggressive or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -16.4,
+    "true_peak_dbfs": -3.9,
+    "gain_db": -9.6,
+    "mix_note": null,
+    "duration_s": 169.7,
+    "tags": [
+      "bittersweet",
+      "instrumental",
+      "major",
+      "night drive",
+      "steady",
+      "synthwave",
+      "warm analog brass lead"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music7.mp3; integrated loudness measured 2026-10-12 (ebur128): -16.4 LUFS"
+  },
+  {
+    "file": "ND03.mp3",
+    "path": "music/ND03.mp3",
+    "description": "Nostalgic mid-tempo synthwave / chillwave in Bb major, 94 BPM, with a sunset optimism mood and moderate energy. Pulsing 8th-note analog bass, 16th-note synth arpeggio, lush chorused pads, 80s drum machine and hollow square-wave lead. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, retro gaming documentaries, cyberpunk or Sci-fi video essays.",
+    "genre": "Synthwave",
+    "style": "Nostalgic mid-tempo synthwave / chillwave",
+    "family": "Night Drive",
+    "mood": [
+      "sunset optimism",
+      "nostalgic",
+      "optimistic",
+      "spacious"
+    ],
+    "energy_1to10": 5,
+    "tempo": "94 BPM",
+    "key": "Bb major",
+    "chords": "Bb - Dm - Gm - Eb",
+    "instruments": [
+      "pulsing 8th-note analog bass",
+      "16th-note synth arpeggio",
+      "lush chorused pads",
+      "80s drum machine",
+      "hollow square-wave lead"
+    ],
+    "structure": [
+      "Intro (Bass and arpeggio only)",
+      "Lead melody enters (Hollow square-wave)",
+      "Full groove (80s drum machine enters)",
+      "Drumless breakdown (Pads and arpeggio focus)",
+      "Climax (Drums return, filters open, full arrangement)",
+      "Outro (Elements strip away to a final sustained chord)"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Retro gaming documentaries",
+      "Cyberpunk or Sci-fi video essays",
+      "Coding and programming tutorials",
+      "Nighttime driving vlogs"
+    ],
+    "avoid_for": "Urgent, aggressive or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -15.4,
+    "true_peak_dbfs": -2.9,
+    "gain_db": -10.6,
+    "mix_note": null,
+    "duration_s": 169.5,
+    "tags": [
+      "hollow square-wave lead",
+      "instrumental",
+      "major",
+      "moderate",
+      "night drive",
+      "sunset optimism",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music7.mp3; integrated loudness measured 2026-10-12 (ebur128): -15.4 LUFS"
+  },
+  {
+    "file": "ND04.mp3",
+    "path": "music/ND04.mp3",
+    "description": "Nostalgic mid-tempo synthwave / chillwave in G# minor, 84 BPM, with a calm night-drive mood and driving energy. Pulsing 8th-note analog bass, 16th-note synth arpeggio, lush chorused pads, 80s drum machine and clean chorused electric guitar. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, retro gaming documentaries, cyberpunk or Sci-fi video essays.",
+    "genre": "Synthwave",
+    "style": "Nostalgic mid-tempo synthwave / chillwave",
+    "family": "Night Drive",
+    "mood": [
+      "calm night-drive",
+      "nostalgic",
+      "driving",
+      "atmospheric"
+    ],
+    "energy_1to10": 6,
+    "tempo": "84 BPM",
+    "key": "G# minor",
+    "chords": "G#m - E - F# - G#m",
+    "instruments": [
+      "pulsing 8th-note analog bass",
+      "16th-note synth arpeggio",
+      "lush chorused pads",
+      "80s drum machine",
+      "clean chorused electric guitar"
+    ],
+    "structure": [
+      "Intro (bass, drums, and pads)",
+      "Main Theme (clean chorused electric guitar enters)",
+      "Drumless Breakdown (pads and arpeggios only)",
+      "Climax (drums return, fuller frequency spectrum with filter opening)",
+      "Outro (elements fading out)"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Retro gaming documentaries",
+      "Cyberpunk or Sci-fi video essays",
+      "Coding and programming tutorials",
+      "Nighttime driving vlogs"
+    ],
+    "avoid_for": "Urgent, aggressive or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 2,
+    "lufs_i": -16.9,
+    "true_peak_dbfs": -4.6,
+    "gain_db": -9.1,
+    "mix_note": null,
+    "duration_s": 180.0,
+    "tags": [
+      "calm night-drive",
+      "clean chorused electric guitar",
+      "driving",
+      "instrumental",
+      "minor",
+      "night drive",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music7.mp3; integrated loudness measured 2026-10-12 (ebur128): -16.9 LUFS"
+  },
+  {
+    "file": "ND05.mp3",
+    "path": "music/ND05.mp3",
+    "description": "Nostalgic mid-tempo synthwave / chillwave in C minor, 86 BPM, with a nostalgic mood and calm energy. Pulsing 8th-note analog bass, 16th-note synth arpeggio, lush chorused pads, 80s drum machine and fretless-style synth bass lead. Instrumental with no vocals; starts on the first beat. Best under tech and gadget reviews, retro gaming documentaries, cyberpunk or Sci-fi video essays.",
+    "genre": "Synthwave",
+    "style": "Nostalgic mid-tempo synthwave / chillwave",
+    "family": "Night Drive",
+    "mood": [
+      "nostalgic",
+      "atmospheric",
+      "reflective"
+    ],
+    "energy_1to10": 3,
+    "tempo": "86 BPM",
+    "key": "C minor",
+    "chords": "Cm - Ab - Eb - Bb",
+    "instruments": [
+      "pulsing 8th-note analog bass",
+      "16th-note synth arpeggio",
+      "lush chorused pads",
+      "80s drum machine",
+      "fretless-style synth bass lead"
+    ],
+    "structure": [
+      "Intro (Arp and Bass)",
+      "Beat Enters",
+      "Fretless Bass Lead Enters",
+      "Drumless Breakdown",
+      "Build-up",
+      "Climax (Filter Open)",
+      "Outro"
+    ],
+    "best_for": [
+      "Tech and gadget reviews",
+      "Retro gaming documentaries",
+      "Cyberpunk or Sci-fi video essays",
+      "Coding and programming tutorials",
+      "Nighttime driving vlogs"
+    ],
+    "avoid_for": "Urgent, aggressive or comedic content.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 0.0,
+    "voice_masking_risk_1to10": 3,
+    "lufs_i": -14.4,
+    "true_peak_dbfs": -3.2,
+    "gain_db": -11.6,
+    "mix_note": null,
+    "duration_s": 169.4,
+    "tags": [
+      "calm",
+      "fretless-style synth bass lead",
+      "instrumental",
+      "minor",
+      "night drive",
+      "nostalgic",
+      "synthwave"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music7.mp3; integrated loudness measured 2026-10-12 (ebur128): -14.4 LUFS"
+  },
+  {
+    "file": "WC01.mp3",
+    "path": "music/WC01.mp3",
+    "description": "Unaccompanied solo woodwind caper (rubato, virtuosic) in G minor, free rubato, with a racing thoughts mood and moderate energy. Solo clarinet in A. Instrumental with no vocals; starts on the first beat. Best under comedic panic or chaos, mad scientist/genius explanations, quirky documentary montages.",
+    "genre": "Contemporary classical",
+    "style": "Unaccompanied solo woodwind caper (rubato, virtuosic)",
+    "family": "Woodwind Caper",
+    "mood": [
+      "racing thoughts",
+      "anxious",
+      "quirky",
+      "tense"
+    ],
+    "energy_1to10": 5,
+    "tempo": "free rubato",
+    "key": "G minor",
+    "chords": null,
+    "instruments": [
+      "solo clarinet in A"
+    ],
+    "structure": [
+      "Sustained tense pause",
+      "Breathless chromatic runs",
+      "Sustained tense pause",
+      "Frantic virtuosic leaps and runs",
+      "Sustained tense pause",
+      "Final frantic section with abrupt ending"
+    ],
+    "best_for": [
+      "Comedic panic or chaos",
+      "Mad scientist/genius explanations",
+      "Quirky documentary montages",
+      "Baking/cooking show disasters"
+    ],
+    "avoid_for": "Serious, sad or calm topics, and long uninterrupted explanations: it is busy and sits close to the voice.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 1.23,
+    "voice_masking_risk_1to10": 7,
+    "lufs_i": -24.3,
+    "true_peak_dbfs": -12.1,
+    "gain_db": -1.7,
+    "mix_note": "Busy solo style: best for short comedic or chaotic beats. Its lower level is already set in the file; play it as it is.",
+    "duration_s": 117.7,
+    "tags": [
+      "clarinet in A",
+      "contemporary classical",
+      "instrumental",
+      "minor",
+      "moderate",
+      "racing thoughts",
+      "woodwind caper"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music4.mp3; integrated loudness measured 2026-10-12 (ebur128): -24.3 LUFS"
+  },
+  {
+    "file": "WC02.mp3",
+    "path": "music/WC02.mp3",
+    "description": "Unaccompanied solo woodwind caper (rubato, virtuosic) in C minor, free rubato, with a sneaky caper mood and moderate energy. Solo bassoon. Instrumental with no vocals; starts on the first beat. Best under comedic panic or chaos, mad scientist/genius explanations, quirky documentary montages.",
+    "genre": "Contemporary classical",
+    "style": "Unaccompanied solo woodwind caper (rubato, virtuosic)",
+    "family": "Woodwind Caper",
+    "mood": [
+      "sneaky caper",
+      "quirky",
+      "anxious",
+      "sneaky"
+    ],
+    "energy_1to10": 5,
+    "tempo": "free rubato",
+    "key": "C minor",
+    "chords": null,
+    "instruments": [
+      "solo bassoon"
+    ],
+    "structure": [
+      "Sneaky low sustained notes alternating with quick chromatic runs",
+      "Higher register leaps, trills, and anxious phrasing",
+      "Return to the lower register with sudden, tense pauses",
+      "Frantic, breathless chromatic runs leading to an abrupt staccato ending"
+    ],
+    "best_for": [
+      "Comedic panic or chaos",
+      "Mad scientist/genius explanations",
+      "Quirky documentary montages",
+      "Baking/cooking show disasters"
+    ],
+    "avoid_for": "Serious, sad or calm topics, and long uninterrupted explanations: it is busy and sits close to the voice.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 1.0,
+    "voice_masking_risk_1to10": 6,
+    "lufs_i": -21.4,
+    "true_peak_dbfs": -9.8,
+    "gain_db": -4.6,
+    "mix_note": null,
+    "duration_s": 106.5,
+    "tags": [
+      "bassoon",
+      "contemporary classical",
+      "instrumental",
+      "minor",
+      "moderate",
+      "sneaky caper",
+      "woodwind caper"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music4.mp3; integrated loudness measured 2026-10-12 (ebur128): -21.4 LUFS"
+  },
+  {
+    "file": "WC03.mp3",
+    "path": "music/WC03.mp3",
+    "description": "Unaccompanied solo woodwind caper (rubato, virtuosic) in E minor, free rubato, with a nervous suspense mood and intense energy. Solo bass clarinet. Instrumental with no vocals; starts on the first beat. Best under comedic panic or chaos, mad scientist/genius explanations, quirky documentary montages.",
+    "genre": "Contemporary classical",
+    "style": "Unaccompanied solo woodwind caper (rubato, virtuosic)",
+    "family": "Woodwind Caper",
+    "mood": [
+      "nervous suspense",
+      "anxious",
+      "tense",
+      "suspenseful"
+    ],
+    "energy_1to10": 7,
+    "tempo": "free rubato",
+    "key": "E minor",
+    "chords": null,
+    "instruments": [
+      "solo bass clarinet"
+    ],
+    "structure": [
+      "Sustained low notes and pauses",
+      "Higher register leaps and trills",
+      "Return to low register",
+      "Frantic chromatic runs and trills"
+    ],
+    "best_for": [
+      "Comedic panic or chaos",
+      "Mad scientist/genius explanations",
+      "Quirky documentary montages",
+      "Baking/cooking show disasters"
+    ],
+    "avoid_for": "Serious, sad or calm topics, and long uninterrupted explanations: it is busy and sits close to the voice.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 1.28,
+    "voice_masking_risk_1to10": 4,
+    "lufs_i": -30.4,
+    "true_peak_dbfs": -15.9,
+    "gain_db": 4.4,
+    "mix_note": null,
+    "duration_s": 82.0,
+    "tags": [
+      "bass clarinet",
+      "contemporary classical",
+      "instrumental",
+      "intense",
+      "minor",
+      "nervous suspense",
+      "woodwind caper"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music4.mp3; integrated loudness measured 2026-10-12 (ebur128): -30.4 LUFS"
+  },
+  {
+    "file": "WC04.mp3",
+    "path": "music/WC04.mp3",
+    "description": "Unaccompanied solo woodwind caper (rubato, virtuosic) in F# minor, free rubato, with a playful mischief mood and driving energy. Solo Bb clarinet. Instrumental with no vocals; starts on the first beat. Best under comedic panic or chaos, mad scientist/genius explanations, quirky documentary montages.",
+    "genre": "Contemporary classical",
+    "style": "Unaccompanied solo woodwind caper (rubato, virtuosic)",
+    "family": "Woodwind Caper",
+    "mood": [
+      "playful mischief",
+      "quirky",
+      "anxious",
+      "comedic-panic"
+    ],
+    "energy_1to10": 6,
+    "tempo": "free rubato",
+    "key": "F# minor",
+    "chords": null,
+    "instruments": [
+      "solo Bb clarinet"
+    ],
+    "structure": [
+      "Slower, rubato phrasing with sustained tense notes and wide leaps",
+      "Sudden burst of fast, chromatic runs",
+      "Return to the initial slower, hesitant rubato style",
+      "Frantic, breathless virtuosic runs with comedic panic energy",
+      "Abrupt, punctuated ending"
+    ],
+    "best_for": [
+      "Comedic panic or chaos",
+      "Mad scientist/genius explanations",
+      "Quirky documentary montages",
+      "Baking/cooking show disasters"
+    ],
+    "avoid_for": "Serious, sad or calm topics, and long uninterrupted explanations: it is busy and sits close to the voice.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 1.02,
+    "voice_masking_risk_1to10": 7,
+    "lufs_i": -30.4,
+    "true_peak_dbfs": -20.1,
+    "gain_db": 0.0,
+    "mix_note": "Busy solo style: best for short comedic or chaotic beats. Its lower level is already set in the file; play it as it is.",
+    "duration_s": 85.8,
+    "tags": [
+      "Bb clarinet",
+      "contemporary classical",
+      "driving",
+      "instrumental",
+      "minor",
+      "playful mischief",
+      "woodwind caper"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music4.mp3; integrated loudness measured 2026-10-12 (ebur128): -30.4 LUFS"
+  },
+  {
+    "file": "WC05.mp3",
+    "path": "music/WC05.mp3",
+    "description": "Unaccompanied solo woodwind caper (rubato, virtuosic) in D minor, free rubato, with a mad-scientist frenzy mood and steady energy. Solo English horn. Instrumental with no vocals; starts on the first beat. Best under comedic panic or chaos, mad scientist/genius explanations, quirky documentary montages.",
+    "genre": "Contemporary classical",
+    "style": "Unaccompanied solo woodwind caper (rubato, virtuosic)",
+    "family": "Woodwind Caper",
+    "mood": [
+      "mad-scientist frenzy",
+      "anxious",
+      "quirky",
+      "frantic"
+    ],
+    "energy_1to10": 4,
+    "tempo": "free rubato",
+    "key": "D minor",
+    "chords": null,
+    "instruments": [
+      "solo English horn"
+    ],
+    "structure": [
+      "Slow, rubato, sustained opening phrases",
+      "Sudden, frantic chromatic runs and leaps",
+      "Return to slow, sustained notes with a very subtle low drone introduced",
+      "Extremely fast, virtuosic, breathless runs leading to an abrupt stop"
+    ],
+    "best_for": [
+      "Comedic panic or chaos",
+      "Mad scientist/genius explanations",
+      "Quirky documentary montages",
+      "Baking/cooking show disasters"
+    ],
+    "avoid_for": "Serious, sad or calm topics, and long uninterrupted explanations: it is busy and sits close to the voice.",
+    "vocals": "none",
+    "starts_immediately": true,
+    "longest_silence_s": 1.09,
+    "voice_masking_risk_1to10": 7,
+    "lufs_i": -24.4,
+    "true_peak_dbfs": -9.3,
+    "gain_db": -1.6,
+    "mix_note": "Busy solo style: best for short comedic or chaotic beats. Its lower level is already set in the file; play it as it is.",
+    "duration_s": 91.5,
+    "tags": [
+      "English horn",
+      "contemporary classical",
+      "instrumental",
+      "mad-scientist frenzy",
+      "minor",
+      "steady",
+      "woodwind caper"
+    ],
+    "source": "ElevenLabs Music v2.5, generated for Spira 2026-10-01; modelled on the original library track Music4.mp3; integrated loudness measured 2026-10-12 (ebur128): -24.4 LUFS"
+  }
+]

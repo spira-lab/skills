@@ -1,0 +1,1326 @@
+[
+  {
+    "file": "01_riser.mp3",
+    "path": "sfx/01_riser.mp3",
+    "description": "Tension transition only, not for every cut. Bright, noisy riser that builds fast and lands on a hit. Place it so the peak sits on a dramatic cut or reveal. Pair with 02_impact.wav or 14_dark_impact.wav as the payoff.",
+    "category": "Transitions & risers",
+    "tags": [
+      "riser",
+      "build",
+      "tension",
+      "noise",
+      "reveal"
+    ],
+    "intensity": "strong",
+    "duration_s": 1.53,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "02_impact.mp3",
+    "path": "sfx/02_impact.mp3",
+    "description": "Tension transition only, not for every cut. The big boom that hits right on the cut as the payoff after a riser. Use it for dramatic, high-energy changes, not routine edits.",
+    "category": "Impacts",
+    "tags": [
+      "impact",
+      "boom",
+      "hit",
+      "payoff",
+      "drama"
+    ],
+    "intensity": "strong",
+    "duration_s": 1.53,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "03_whoosh.mp3",
+    "path": "sfx/03_whoosh.mp3",
+    "description": "Any time something is moving on screen (camera move, object motion, text or graphic flying in, speed ramp), drop in a whoosh to bring the scene to life.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "whoosh",
+      "motion",
+      "fly-in",
+      "speed ramp"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.48,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "04_camera_shutter.mp3",
+    "path": "sfx/04_camera_shutter.mp3",
+    "description": "Adds a bit of depth to a transition. Also fits photo pop-ins and freeze frames.",
+    "category": "Foley",
+    "tags": [
+      "camera",
+      "shutter",
+      "photo",
+      "freeze frame",
+      "pop-in"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.41,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "05_apple_keyboard_click.mp3",
+    "path": "sfx/05_apple_keyboard_click.mp3",
+    "description": "Sync with text appearing on screen (kinetic typography, captions, titles). One click per word.",
+    "category": "Text & typography",
+    "tags": [
+      "keyboard",
+      "click",
+      "typing",
+      "captions",
+      "kinetic text"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.2,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "06_button_1.mp3",
+    "path": "sfx/06_button_1.mp3",
+    "description": "UI button click, bright and snappy. Use when a button, toggle, or menu item is pressed on screen, or to punctuate a small pop-in of a graphic or icon.",
+    "category": "UI & tech",
+    "tags": [
+      "button",
+      "click",
+      "tap",
+      "ui",
+      "pop-in",
+      "bright"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.28,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "07_button_2.mp3",
+    "path": "sfx/07_button_2.mp3",
+    "description": "UI button click, crisp and airy with more high-end than Button 1. Use for lighter taps: selecting an option, ticking a checkbox, hovering or highlighting an element.",
+    "category": "UI & tech",
+    "tags": [
+      "button",
+      "click",
+      "tap",
+      "select",
+      "airy"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.24,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "08_button_3.mp3",
+    "path": "sfx/08_button_3.mp3",
+    "description": "UI button click, softer and lower-pitched than Buttons 1 and 2. Use for confirm or 'done' actions, closing a panel, or a subtle tap where the brighter clicks would feel too sharp.",
+    "category": "UI & tech",
+    "tags": [
+      "button",
+      "click",
+      "confirm",
+      "soft",
+      "low"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.24,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "09_combo.mp3",
+    "path": "sfx/09_combo.mp3",
+    "description": "Bass-heavy multi-hit combo: several rapid low punches in a row. Use for quick multi-step reveals or counters, stacked pop-ins, or a rapid sequence of items appearing one after another.",
+    "category": "Impacts",
+    "tags": [
+      "bass",
+      "multi-hit",
+      "combo",
+      "counter",
+      "sequence"
+    ],
+    "intensity": "strong",
+    "duration_s": 1.16,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "10_sparkle.mp3",
+    "path": "sfx/10_sparkle.mp3",
+    "description": "High, glittery shimmer that swells then fades. Use for magic or highlight moments: a glow, a shine sweep across text or a logo, an achievement or 'premium' reveal.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "sparkle",
+      "shimmer",
+      "shine",
+      "magic",
+      "premium"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.75,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "11_deep_whoosh.mp3",
+    "path": "sfx/11_deep_whoosh.mp3",
+    "description": "Sub-heavy deep whoosh, almost no high end. Use for big, slow on-screen movement: a large element sliding in, a heavy camera push or pull, or a zoom into a subject.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "whoosh",
+      "sub",
+      "deep",
+      "slow",
+      "push",
+      "zoom"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.91,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "12_typing.mp3",
+    "path": "sfx/12_typing.mp3",
+    "description": "Single keystroke click. Use for text appearing on screen, one click per character or per word depending on the pace of the type-on.",
+    "category": "Text & typography",
+    "tags": [
+      "keystroke",
+      "typing",
+      "text",
+      "type-on"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.14,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "13_stuttering.mp3",
+    "path": "sfx/13_stuttering.mp3",
+    "description": "Low swell that turns into rapid rhythmic stutter pulses. Use for stutter or glitch edits, frame-repeat effects, or as a build-up right before a drop or a big reveal.",
+    "category": "Transitions & risers",
+    "tags": [
+      "stutter",
+      "glitch",
+      "build-up",
+      "frame repeat"
+    ],
+    "intensity": "medium",
+    "duration_s": 2.42,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "14_dark_impact.mp3",
+    "path": "sfx/14_dark_impact.mp3",
+    "description": "Tension transition only, not for every cut. Deep sub-bass boom with a short pre-hit and almost no high end. Use for ominous or dramatic moments: a dark reveal, a hard cut to something serious, or the payoff after 13_stuttering.wav or a riser.",
+    "category": "Impacts",
+    "tags": [
+      "dark",
+      "sub",
+      "boom",
+      "ominous",
+      "serious"
+    ],
+    "intensity": "strong",
+    "duration_s": 1.17,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "15_focusing.mp3",
+    "path": "sfx/15_focusing.mp3",
+    "description": "Set of rising pitched sweeps that glide upward together. Use for focus pulls, zooming or pushing in on a detail, or a 'locking on' or 'zeroing in' moment.",
+    "category": "Transitions & risers",
+    "tags": [
+      "sweep",
+      "rising",
+      "focus",
+      "zoom in",
+      "lock on"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.72,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "16_choppy.mp3",
+    "path": "sfx/16_choppy.mp3",
+    "description": "Short, low, punchy burst with a quick decay, lighter than a full impact. Use for choppy jump cuts, fast glitch cuts, or speed-ramp hits where a full impact would be too heavy.",
+    "category": "Impacts",
+    "tags": [
+      "punch",
+      "jump cut",
+      "glitch cut",
+      "short hit"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.94,
+    "source": "Content Maxima original set"
+  },
+  {
+    "file": "17_fast_air_swipe.mp3",
+    "path": "sfx/17_fast_air_swipe.mp3",
+    "description": "A fast, airy whoosh swiping past from left to right. Quick text, sticker or graphic sliding in or out. Lighter and quicker than 03_whoosh; use it for small, fast elements.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "fast",
+      "air",
+      "swipe",
+      "airy",
+      "whoosh",
+      "swiping",
+      "past"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.72,
+    "heard_as": "A fast, airy whoosh sound",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "18_soft_cloth_whoosh.mp3",
+    "path": "sfx/18_soft_cloth_whoosh.mp3",
+    "description": "A soft, gentle cloth-like whoosh at low intensity. Subtle movement in calm or emotional moments where a bright whoosh would feel loud: a slow slide, a soft card change.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "soft",
+      "cloth",
+      "whoosh",
+      "gentle",
+      "like",
+      "low",
+      "intensity"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.81,
+    "heard_as": "A soft, quick, low-frequency whoosh resembling cloth moving through the air.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "20_whip_pan.mp3",
+    "path": "sfx/20_whip_pan.mp3",
+    "description": "A very fast whip-pan whoosh with a slight air flutter. Whip-pan transitions and hard swipes between two shots or scenes.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "whip",
+      "pan",
+      "very",
+      "fast",
+      "whoosh",
+      "slight",
+      "air"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.3,
+    "heard_as": "A fast, sharp whip-pan whoosh with a slight fluttery air displacement",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "21_reverse_suck_in.mp3",
+    "path": "sfx/21_reverse_suck_in.mp3",
+    "description": "A reverse whoosh that swells up and is sucked in, stopping abruptly. Right before a cut or reveal; the sound ends exactly where the next shot begins.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "reverse",
+      "suck",
+      "whoosh",
+      "swells",
+      "sucked",
+      "stopping",
+      "abruptly"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.0,
+    "heard_as": "A quick reverse whoosh that builds in volume and frequency, ending with a sudden, abrupt stop.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "24_zoom_in.mp3",
+    "path": "sfx/24_zoom_in.mp3",
+    "description": "A whoosh that rises in pitch as it rushes toward the listener. Punch-in zooms on the speaker or a detail; the rise lands as the zoom completes.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "zoom",
+      "whoosh",
+      "rises",
+      "pitch",
+      "rushes",
+      "toward",
+      "listener"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.74,
+    "heard_as": "A short, synthetic whoosh sound that rises in pitch and intensity.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "25_zoom_out.mp3",
+    "path": "sfx/25_zoom_out.mp3",
+    "description": "A whoosh that falls in pitch as it rushes away. Pull-outs, a graphic shrinking away, returning to a wide shot.",
+    "category": "Whoosh & motion",
+    "tags": [
+      "zoom",
+      "out",
+      "whoosh",
+      "falls",
+      "pitch",
+      "rushes",
+      "away"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.81,
+    "heard_as": "A quick, clean synthesized whoosh with a descending pitch",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "26_short_noise_riser.mp3",
+    "path": "sfx/26_short_noise_riser.mp3",
+    "description": "A short, bright white-noise riser that builds quickly and cuts off cleanly. Into a cut or reveal when 01_riser is too long; the cut-off sits on the cut.",
+    "category": "Transitions & risers",
+    "tags": [
+      "noise",
+      "riser",
+      "bright",
+      "white",
+      "builds",
+      "quickly",
+      "cuts"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.48,
+    "heard_as": "A short, bright white-noise riser that builds quickly and cuts off cleanly",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "28_downlifter.mp3",
+    "path": "sfx/28_downlifter.mp3",
+    "description": "A falling noise sweep that drops in pitch and fades away. Right after a big moment to release energy: the exhale after an impact.",
+    "category": "Transitions & risers",
+    "tags": [
+      "downlifter",
+      "falling",
+      "noise",
+      "sweep",
+      "drops",
+      "pitch",
+      "fades"
+    ],
+    "intensity": "medium",
+    "duration_s": 2.0,
+    "heard_as": "A synthesized falling pitch sweep that drops in pitch and fades out.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "29_reverse_cymbal.mp3",
+    "path": "sfx/29_reverse_cymbal.mp3",
+    "description": "A reverse cymbal swell that builds and stops sharply. A classic pre-transition swell; end it on the cut.",
+    "category": "Transitions & risers",
+    "tags": [
+      "reverse",
+      "cymbal",
+      "swell",
+      "builds",
+      "stops",
+      "sharply"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.6,
+    "heard_as": "A reverse cymbal swell building up in volume and stopping abruptly",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "31_vhs_rewind.mp3",
+    "path": "sfx/31_vhs_rewind.mp3",
+    "description": "A VHS tape rewinding with a high squeal and mechanical whir. Flashbacks and 'let's go back' moments.",
+    "category": "Transitions & risers",
+    "tags": [
+      "vhs",
+      "rewind",
+      "tape",
+      "rewinding",
+      "high",
+      "squeal",
+      "mechanical"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.18,
+    "heard_as": "High-pitched mechanical squeal and whir characteristic of a VHS tape rewinding",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "32_digital_glitch.mp3",
+    "path": "sfx/32_digital_glitch.mp3",
+    "description": "A short digital glitch burst with crunchy distortion. Glitch transitions, tech errors, a screen breaking up; a single glitch hit rather than a stutter.",
+    "category": "Transitions & risers",
+    "tags": [
+      "digital",
+      "glitch",
+      "burst",
+      "crunchy",
+      "distortion"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.68,
+    "heard_as": "A short, sharp digital glitch burst with heavy crunchy distortion.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "33_cinematic_braam.mp3",
+    "path": "sfx/33_cinematic_braam.mp3",
+    "description": "A deep cinematic brass braam, one long blast. Heavy, serious statements and title cards; one per video at most.",
+    "category": "Transitions & risers",
+    "tags": [
+      "cinematic",
+      "braam",
+      "deep",
+      "brass",
+      "long",
+      "blast"
+    ],
+    "intensity": "strong",
+    "duration_s": 2.48,
+    "heard_as": "A single deep cinematic brass braam sound effect.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "35_punchy_hit.mp3",
+    "path": "sfx/35_punchy_hit.mp3",
+    "description": "A tight, punchy cinematic hit with a short tail. Emphasis on a key word, a number landing or a hard cut where 02_impact is too big.",
+    "category": "Impacts",
+    "tags": [
+      "punchy",
+      "hit",
+      "tight",
+      "cinematic",
+      "tail"
+    ],
+    "intensity": "strong",
+    "duration_s": 0.8,
+    "heard_as": "A single, tight, punchy cinematic impact with a short tail.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "36_soft_thud.mp3",
+    "path": "sfx/36_soft_thud.mp3",
+    "description": "A soft, muffled thud of a heavy book set down on a table. Gentle emphasis in calm or serious content: a card landing, a point being set down.",
+    "category": "Impacts",
+    "tags": [
+      "soft",
+      "thud",
+      "muffled",
+      "heavy",
+      "book",
+      "set",
+      "down"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.53,
+    "heard_as": "A single, soft, muffled thud of a heavy object being placed on a solid surface",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "37_metal_clang.mp3",
+    "path": "sfx/37_metal_clang.mp3",
+    "description": "A single metallic clang of a steel pipe being struck. Mistakes, hard truths, 'that's wrong' moments; a harsh accent.",
+    "category": "Impacts",
+    "tags": [
+      "metal",
+      "clang",
+      "metallic",
+      "steel",
+      "pipe",
+      "struck"
+    ],
+    "intensity": "strong",
+    "duration_s": 1.2,
+    "heard_as": "A single, clear metallic clang or ding, like a steel pipe or small bell being struck, with a natural resonant decay.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "38_wood_knock.mp3",
+    "path": "sfx/38_wood_knock.mp3",
+    "description": "A single knock on a wooden door. An idea arriving, an opportunity, a text bubble landing. One knock only.",
+    "category": "Impacts",
+    "tags": [
+      "wood",
+      "knock",
+      "wooden",
+      "door"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.36,
+    "heard_as": "A single, sharp knock on a wooden door with natural decay",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "39_rubber_stamp.mp3",
+    "path": "sfx/39_rubber_stamp.mp3",
+    "description": "A rubber stamp pressed firmly onto paper. 'Approved', 'done' or 'verified' stamps and labels slamming onto the screen.",
+    "category": "Impacts",
+    "tags": [
+      "rubber",
+      "stamp",
+      "pressed",
+      "firmly",
+      "paper"
+    ],
+    "intensity": "strong",
+    "duration_s": 0.48,
+    "heard_as": "A single, firm thud of a rubber stamp hitting paper",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "41_glass_tap.mp3",
+    "path": "sfx/41_glass_tap.mp3",
+    "description": "A single light tap on a drinking glass. Delicate accents: a small icon, a subtle highlight, a price tag appearing.",
+    "category": "Impacts",
+    "tags": [
+      "glass",
+      "tap",
+      "light",
+      "drinking"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.6,
+    "heard_as": "A single, clear, resonant tap on a glass",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "43_bubble_pop.mp3",
+    "path": "sfx/43_bubble_pop.mp3",
+    "description": "A small, soft bubble pop. Icons, emojis and stickers popping in; lighter than a button click.",
+    "category": "UI & tech",
+    "tags": [
+      "bubble",
+      "pop",
+      "small",
+      "soft"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.48,
+    "heard_as": "A single, short, soft, high-pitched bubble pop sound",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "44_toggle_switch.mp3",
+    "path": "sfx/44_toggle_switch.mp3",
+    "description": "A crisp UI toggle switch flicking on. Settings, toggles and on/off visuals; switching a feature on screen.",
+    "category": "UI & tech",
+    "tags": [
+      "toggle",
+      "switch",
+      "crisp",
+      "flicking"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.48,
+    "heard_as": "A single, crisp, high-pitched mechanical click or UI toggle switch sound",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "45_notification_ding.mp3",
+    "path": "sfx/45_notification_ding.mp3",
+    "description": "A clean smartphone notification ding. A notification banner or message popping in; social-proof pop-ups.",
+    "category": "UI & tech",
+    "tags": [
+      "notification",
+      "ding",
+      "clean",
+      "smartphone"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.8,
+    "heard_as": "A clean, synthetic smartphone notification ding or chime",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "46_message_sent.mp3",
+    "path": "sfx/46_message_sent.mp3",
+    "description": "A short upward swoosh of a chat message being sent. Sending a message, a DM or an email on screen.",
+    "category": "UI & tech",
+    "tags": [
+      "message",
+      "sent",
+      "upward",
+      "swoosh",
+      "chat"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.6,
+    "heard_as": "A quick, clean upward swoosh or whoosh sound, typical of a UI chat message being sent.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "47_message_received.mp3",
+    "path": "sfx/47_message_received.mp3",
+    "description": "A bright two-tone incoming chat message chime. A message or comment arriving; a reply bubble appearing.",
+    "category": "UI & tech",
+    "tags": [
+      "message",
+      "received",
+      "bright",
+      "two",
+      "tone",
+      "incoming",
+      "chat"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.68,
+    "heard_as": "A bright, high-pitched two-note synthetic chime",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "48_error_buzz.mp3",
+    "path": "sfx/48_error_buzz.mp3",
+    "description": "A short, low digital error buzz. Wrong inputs, failed attempts, 'don't do this' points on screen.",
+    "category": "UI & tech",
+    "tags": [
+      "error",
+      "buzz",
+      "low",
+      "digital"
+    ],
+    "intensity": "strong",
+    "duration_s": 0.6,
+    "heard_as": "A short, low-pitched digital error buzz or wrong answer buzzer",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "49_success_chime.mp3",
+    "path": "sfx/49_success_chime.mp3",
+    "description": "A bright, rising two-note success chime. A task completing, a checkmark, a goal reached.",
+    "category": "UI & tech",
+    "tags": [
+      "success",
+      "chime",
+      "bright",
+      "rising",
+      "two",
+      "note"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.0,
+    "heard_as": "A bright, synthesized two-note ascending chime",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "50_scroll_tick.mp3",
+    "path": "sfx/50_scroll_tick.mp3",
+    "description": "A single soft scroll-wheel tick. Feed scrolling or list items moving one step; one tick per step.",
+    "category": "UI & tech",
+    "tags": [
+      "scroll",
+      "tick",
+      "soft",
+      "wheel"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.19,
+    "heard_as": "A single, soft, short click or tick sound, like a mouse scroll wheel or UI element.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "51_phone_vibrate.mp3",
+    "path": "sfx/51_phone_vibrate.mp3",
+    "description": "A smartphone vibrating once on a wooden table, one short buzz. A phone notification shown on screen; an incoming call or alert.",
+    "category": "UI & tech",
+    "tags": [
+      "phone",
+      "vibrate",
+      "smartphone",
+      "vibrating",
+      "once",
+      "wooden",
+      "table"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.8,
+    "heard_as": "A single short buzz of a phone vibrating on a hard surface",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "53_mouse_click.mp3",
+    "path": "sfx/53_mouse_click.mp3",
+    "description": "A single computer mouse click. Clicking on a desktop UI or cursor animations.",
+    "category": "UI & tech",
+    "tags": [
+      "mouse",
+      "click",
+      "computer"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.2,
+    "heard_as": "A single, sharp computer mouse click",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "54_data_blip.mp3",
+    "path": "sfx/54_data_blip.mp3",
+    "description": "A short sci-fi data blip. Data points, chart dots or stats appearing; tech overlays.",
+    "category": "UI & tech",
+    "tags": [
+      "data",
+      "blip",
+      "sci"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.48,
+    "heard_as": "A short, high-pitched synthetic sci-fi UI blip or chirp",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "55_typewriter_key.mp3",
+    "path": "sfx/55_typewriter_key.mp3",
+    "description": "A single typewriter key strike. Typewriter-style text, one strike per character or word; heavier than 12_typing.",
+    "category": "Text & typography",
+    "tags": [
+      "typewriter",
+      "key",
+      "strike"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.34,
+    "heard_as": "A single, sharp mechanical click of a typewriter key striking",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "56_typewriter_bell.mp3",
+    "path": "sfx/56_typewriter_bell.mp3",
+    "description": "A typewriter carriage-return bell ding. The end of a typed line or a finished sentence on screen.",
+    "category": "Text & typography",
+    "tags": [
+      "typewriter",
+      "bell",
+      "carriage",
+      "return",
+      "ding"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.8,
+    "heard_as": "A mechanical slide and clack followed immediately by a metallic bell ding",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "58_pencil_check.mp3",
+    "path": "sfx/58_pencil_check.mp3",
+    "description": "A pencil quickly scribbling a checkmark on paper. Checklist items being ticked off.",
+    "category": "Text & typography",
+    "tags": [
+      "pencil",
+      "check",
+      "quickly",
+      "scribbling",
+      "checkmark",
+      "paper"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.6,
+    "heard_as": "A quick, two-stroke pencil scratch on paper, resembling drawing a checkmark.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "59_paper_rustle.mp3",
+    "path": "sfx/59_paper_rustle.mp3",
+    "description": "A quick rustle of a sheet of paper being picked up. Documents, notes and paper graphics appearing.",
+    "category": "Text & typography",
+    "tags": [
+      "paper",
+      "rustle",
+      "sheet",
+      "picked"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.77,
+    "heard_as": "A quick, crisp rustle of a single sheet of paper being picked up or moved",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "60_wooden_pluck_pop.mp3",
+    "path": "sfx/60_wooden_pluck_pop.mp3",
+    "description": "A soft, round wooden pluck pop. Keywords popping in during kinetic captions; a warm alternative to clicks.",
+    "category": "Text & typography",
+    "tags": [
+      "wooden",
+      "pluck",
+      "pop",
+      "soft",
+      "round"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.48,
+    "heard_as": "A single, soft, rounded wooden pop or pluck sound.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "61_bright_ping.mp3",
+    "path": "sfx/61_bright_ping.mp3",
+    "description": "A tiny, bright, glassy ping. Highlighting one word or number; a sparkle on a single detail.",
+    "category": "Text & typography",
+    "tags": [
+      "bright",
+      "ping",
+      "tiny",
+      "glassy"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.6,
+    "heard_as": "A single, bright, high-pitched glassy ping",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "62_page_turn.mp3",
+    "path": "sfx/62_page_turn.mp3",
+    "description": "A single book page being turned. Changing chapters, flipping to the next point or slide.",
+    "category": "Text & typography",
+    "tags": [
+      "page",
+      "turn",
+      "book",
+      "turned"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.88,
+    "heard_as": "A crisp, quick rustle of a single paper page being turned",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "64_cash_register.mp3",
+    "path": "sfx/64_cash_register.mp3",
+    "description": "A cash register drawer opening with a ka-ching bell. Sales, revenue, profit and price reveals.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "cash",
+      "register",
+      "drawer",
+      "opening",
+      "ching",
+      "bell"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.2,
+    "heard_as": "A mechanical cash register drawer opening with a bell ring",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "65_level_up.mp3",
+    "path": "sfx/65_level_up.mp3",
+    "description": "A short ascending arcade level-up arpeggio. Progress, upgrades and 'next level' moments; playful and gamey.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "level",
+      "ascending",
+      "arcade",
+      "arpeggio"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.2,
+    "heard_as": "A fast, ascending 8-bit arcade arpeggio synth sound",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "66_magic_twinkle.mp3",
+    "path": "sfx/66_magic_twinkle.mp3",
+    "description": "A magic wand twinkle with shimmering chimes. Transformations, before/after reveals, 'like magic' moments; quicker and brighter than 10_sparkle.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "magic",
+      "twinkle",
+      "wand",
+      "shimmering",
+      "chimes"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.2,
+    "heard_as": "A bright, shimmering chime glissando resembling a magic wand twinkle",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "67_shine_glint.mp3",
+    "path": "sfx/67_shine_glint.mp3",
+    "description": "A glossy shine glint, a quick bright swipe of light. A shine sweeping across a logo, product or text.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "shine",
+      "glint",
+      "glossy",
+      "bright",
+      "swipe",
+      "light"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.8,
+    "heard_as": "A quick, high-pitched, bright metallic chime or glint sound",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "68_correct_answer.mp3",
+    "path": "sfx/68_correct_answer.mp3",
+    "description": "A quiz-show correct-answer ding. Right answers, 'fact' in myth-vs-fact, the correct option.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "correct",
+      "answer",
+      "quiz",
+      "show",
+      "ding"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.8,
+    "heard_as": "A bright, two-tone chime or ding, typical of a correct answer in a game show.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "69_wrong_answer.mp3",
+    "path": "sfx/69_wrong_answer.mp3",
+    "description": "A quiz-show wrong-answer buzzer. Wrong answers, myths, 'false' and common mistakes.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "wrong",
+      "answer",
+      "quiz",
+      "show",
+      "buzzer"
+    ],
+    "intensity": "strong",
+    "duration_s": 0.88,
+    "heard_as": "A harsh, synthetic buzzer sound typical of a game show wrong answer.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "70_achievement_unlock.mp3",
+    "path": "sfx/70_achievement_unlock.mp3",
+    "description": "A short, bright achievement-unlocked fanfare sting. Milestones, records, badges and big wins.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "achievement",
+      "unlock",
+      "bright",
+      "unlocked",
+      "fanfare",
+      "sting"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.48,
+    "heard_as": "A short, bright, synthesized musical sting resembling a video game achievement or level-up sound.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "71_party_popper.mp3",
+    "path": "sfx/71_party_popper.mp3",
+    "description": "A party popper bursting with confetti. Celebrations, launches and announcements.",
+    "category": "Rewards & highlights",
+    "tags": [
+      "party",
+      "popper",
+      "bursting",
+      "confetti"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.0,
+    "heard_as": "A sharp pop followed by the rustling sound of confetti scattering and falling.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "72_record_scratch.mp3",
+    "path": "sfx/72_record_scratch.mp3",
+    "description": "A single vinyl record scratch. 'Wait, what?' moments, plot twists and abrupt stops before an explanation.",
+    "category": "Comedy & reactions",
+    "tags": [
+      "record",
+      "scratch",
+      "vinyl"
+    ],
+    "intensity": "strong",
+    "duration_s": 0.8,
+    "heard_as": "A quick vinyl record scratch sound effect",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "73_cartoon_boing.mp3",
+    "path": "sfx/73_cartoon_boing.mp3",
+    "description": "A cartoon spring boing. Bouncy, silly or playful pop-ins; comic surprise.",
+    "category": "Comedy & reactions",
+    "tags": [
+      "cartoon",
+      "boing",
+      "spring"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.8,
+    "heard_as": "A classic cartoon spring boing sound effect",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "74_slide_whistle_down.mp3",
+    "path": "sfx/74_slide_whistle_down.mp3",
+    "description": "A cartoon slide whistle falling in pitch. Something dropping or failing, a fall, a joke flopping.",
+    "category": "Comedy & reactions",
+    "tags": [
+      "slide",
+      "whistle",
+      "down",
+      "cartoon",
+      "falling",
+      "pitch"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.0,
+    "heard_as": "A cartoon slide whistle falling in pitch",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "75_cartoon_bonk.mp3",
+    "path": "sfx/75_cartoon_bonk.mp3",
+    "description": "A cartoon bonk on the head. Facepalm moments, obvious mistakes, a light comic hit.",
+    "category": "Comedy & reactions",
+    "tags": [
+      "cartoon",
+      "bonk",
+      "head"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.48,
+    "heard_as": "A single, resonant cartoon bonk or boing sound effect",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "76_rimshot.mp3",
+    "path": "sfx/76_rimshot.mp3",
+    "description": "A drum rimshot sting, ba-dum-tss. After a pun or a joke; use sparingly.",
+    "category": "Comedy & reactions",
+    "tags": [
+      "rimshot",
+      "drum",
+      "sting",
+      "dum",
+      "tss"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.2,
+    "heard_as": "A classic ba-dum-tss drum sting",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "77_cork_pop.mp3",
+    "path": "sfx/77_cork_pop.mp3",
+    "description": "A champagne cork popping. Celebration, success, opening something new.",
+    "category": "Comedy & reactions",
+    "tags": [
+      "cork",
+      "pop",
+      "champagne",
+      "popping"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.6,
+    "heard_as": "A single, clean cork popping sound",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "81_pen_click.mp3",
+    "path": "sfx/81_pen_click.mp3",
+    "description": "A single retractable pen click. Getting to work, signing, writing tips; a small office accent.",
+    "category": "Foley",
+    "tags": [
+      "pen",
+      "click",
+      "retractable"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.22,
+    "heard_as": "A single, sharp click of a retractable pen",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "82_light_switch.mp3",
+    "path": "sfx/82_light_switch.mp3",
+    "description": "A single light switch being flipped. 'Lightbulb' ideas and on/off moments; a scene switching from dark to light.",
+    "category": "Foley",
+    "tags": [
+      "light",
+      "switch",
+      "flipped"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.21,
+    "heard_as": "A single mechanical click of a light switch being flipped",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "83_coffee_pour.mp3",
+    "path": "sfx/83_coffee_pour.mp3",
+    "description": "Coffee being poured into a ceramic mug. Morning routines, productivity, cafe and work-from-home b-roll.",
+    "category": "Foley",
+    "tags": [
+      "coffee",
+      "pour",
+      "poured",
+      "ceramic",
+      "mug"
+    ],
+    "intensity": "medium",
+    "duration_s": 2.0,
+    "heard_as": "Liquid being poured into a ceramic mug",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "84_zipper.mp3",
+    "path": "sfx/84_zipper.mp3",
+    "description": "A single fast zipper pull. Packing, closing a topic, 'zip it' moments.",
+    "category": "Foley",
+    "tags": [
+      "zipper",
+      "fast",
+      "pull"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.86,
+    "heard_as": "A single fast zipper pull",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "85_door_creak.mp3",
+    "path": "sfx/85_door_creak.mp3",
+    "description": "A wooden door creaking open. Opening a new topic, a reveal behind a door, curiosity.",
+    "category": "Foley",
+    "tags": [
+      "door",
+      "creak",
+      "wooden",
+      "creaking",
+      "open"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.48,
+    "heard_as": "A single continuous wooden creak, like a door slowly opening",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "88_keys_jingle.mp3",
+    "path": "sfx/88_keys_jingle.mp3",
+    "description": "A bunch of keys jingling briefly. Cars, homes, rentals, access and 'the key to' metaphors.",
+    "category": "Foley",
+    "tags": [
+      "keys",
+      "jingle",
+      "bunch",
+      "jingling",
+      "briefly"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.88,
+    "heard_as": "A brief metallic jingling sound, like a bunch of keys being dropped or shaken.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "89_padlock_click.mp3",
+    "path": "sfx/89_padlock_click.mp3",
+    "description": "A metal padlock snapping shut. Security, privacy, locked-in deals and protection.",
+    "category": "Foley",
+    "tags": [
+      "padlock",
+      "click",
+      "metal",
+      "snapping",
+      "shut"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.48,
+    "heard_as": "A single, sharp metallic click or snap, characteristic of a padlock shackle being pushed shut.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "90_heartbeat.mp3",
+    "path": "sfx/90_heartbeat.mp3",
+    "description": "A single deep heartbeat, lub-dub. Tension, health topics, a nervous pause before a reveal.",
+    "category": "Foley",
+    "tags": [
+      "heartbeat",
+      "deep",
+      "lub",
+      "dub"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.88,
+    "heard_as": "A single, deep, low-frequency heartbeat (lub-dub).",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "91_dark_drone_hit.mp3",
+    "path": "sfx/91_dark_drone_hit.mp3",
+    "description": "A dark tonal hit that rings out into a low drone. Ominous facts, warnings and serious turns; longer and quieter than 14_dark_impact.",
+    "category": "Tension & sci-fi",
+    "tags": [
+      "dark",
+      "drone",
+      "hit",
+      "tonal",
+      "rings",
+      "out",
+      "low"
+    ],
+    "intensity": "strong",
+    "duration_s": 3.0,
+    "heard_as": "A deep, dark impact that decays into a low, resonant drone",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "93_power_down.mp3",
+    "path": "sfx/93_power_down.mp3",
+    "description": "An electronic device powering down, pitch falling. Shutting something off, a battery dying, 'game over' tech moments.",
+    "category": "Tension & sci-fi",
+    "tags": [
+      "power",
+      "down",
+      "electronic",
+      "device",
+      "powering",
+      "pitch",
+      "falling"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.2,
+    "heard_as": "A synthesized retro electronic pitch drop, resembling a sci-fi power down or laser sweep.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "94_laser_scan.mp3",
+    "path": "sfx/94_laser_scan.mp3",
+    "description": "A laser scanner sweeping once. Scanning, analysis, AI detection and verification overlays.",
+    "category": "Tension & sci-fi",
+    "tags": [
+      "laser",
+      "scan",
+      "scanner",
+      "sweeping",
+      "once"
+    ],
+    "intensity": "medium",
+    "duration_s": 1.2,
+    "heard_as": "A quick, synthetic sci-fi laser scanner sweep",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "95_alert_blip.mp3",
+    "path": "sfx/95_alert_blip.mp3",
+    "description": "A single short alert blip. Warnings, attention markers and red-flag call-outs; one blip, not an alarm.",
+    "category": "Tension & sci-fi",
+    "tags": [
+      "alert",
+      "blip"
+    ],
+    "intensity": "subtle",
+    "duration_s": 0.48,
+    "heard_as": "A single short electronic alert blip",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  },
+  {
+    "file": "96_static_burst.mp3",
+    "path": "sfx/96_static_burst.mp3",
+    "description": "A short burst of TV static. Signal loss, channel changes, glitchy cuts between scenes.",
+    "category": "Tension & sci-fi",
+    "tags": [
+      "static",
+      "burst"
+    ],
+    "intensity": "medium",
+    "duration_s": 0.6,
+    "heard_as": "A short burst of white noise resembling TV static.",
+    "source": "ElevenLabs sound effects (eleven_text_to_sound_v2), generated for Spira 2026-10-01"
+  }
+]

@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>9:16 Stage</title>
+<style>
+  /* ---------- Harness (never part of the video) ---------- */
+  html, body {
+    margin: 0; height: 100%;
+    background: #000;            /* black sides outside the canvas */
+    overflow: hidden;
+    font-family: -apple-system, system-ui, sans-serif;
+  }
+
+  /* The canvas: fixed logical resolution, scaled to fit the window */
+  :root { --chrome-top: 60px; }             /* strip reserved for the controls */
+
+  #stage {
+    position: absolute;
+    left: 50%; top: calc(var(--chrome-top) + (100vh - var(--chrome-top)) / 2);
+    width: 1080px; height: 1920px;          /* 9:16 */
+    transform: translate(-50%, -50%) scale(var(--scale, 1));
+    transform-origin: center center;
+    background: #fff;                       /* canvas default; override per video */
+    overflow: hidden;
+  }
+
+  /* Playback state, applied to everything inside the stage */
+  #stage.is-paused * { animation-play-state: paused !important; }
+  #stage.is-reset  * { animation: none !important; }
+
+  /* Controls: top-left, outside the canvas */
+  #controls {
+    position: fixed; top: 16px; left: 16px; z-index: 10;
+    display: flex; align-items: center; gap: 8px;
+  }
+  #controls button {
+    background: #1a1a1a; color: #fff; border: 1px solid #444;
+    border-radius: 6px; padding: 8px 14px; font-size: 13px; cursor: pointer;
+  }
+  #controls button:hover { background: #2a2a2a; }
+  #controls #time {
+    color: #888; font-size: 12px; font-variant-numeric: tabular-nums; margin-left: 6px;
+  }
+  #controls #word { color: #9fd4ff; font-size: 12px; margin-left: 8px; min-width: 90px; }
+  #controls .sep { width: 1px; height: 22px; background: #333; margin: 0 8px; }
+  #controls button.on { background: #2f5d3a; border-color: #4a9a5f; }
+
+  /* ---------- Guide layers (preview only, never rendered) ---------- */
+  .guide { position:absolute; inset:0; z-index:1000; pointer-events:none;
+           font-family:-apple-system, "SF Pro Text", system-ui, sans-serif; color:#fff; }
+  .guide[hidden] { display:none; }
+  .guide * { text-shadow:0 1px 3px rgba(0,0,0,.6); }
+  .guide svg { filter:drop-shadow(0 1px 3px rgba(0,0,0,.6)); }
+  .guide .abs { position:absolute; }
+  .guide .crop { top:0; width:56px; height:1920px;
+    background:repeating-linear-gradient(45deg, rgba(255,0,0,.35) 0 6px, rgba(0,0,0,.35) 6px 12px); }
+  .guide .crop.l { left:0 } .guide .crop.r { right:0 }
+  .guide .island { left:540px; top:22px; width:272px; height:62px; border-radius:31px; background:#000; transform:translateX(-50%); }
+  .guide .status { top:52px; font-size:32px; font-weight:600; }
+  /* Safe zone, identical on both UIs: key elements stay inside it. x 70..1005, y 230..1255,
+     then x 70..890 down to y 1615 where the like/comment/share column sits. */
+  .guide .safe-zone { position:absolute; left:0; top:0; width:1080px; height:1920px; overflow:visible; }
+  .guide .safe-zone polygon { fill:none; stroke:rgba(0,255,180,.7); stroke-width:2; stroke-dasharray:10 8; }
+  .guide .safe-zone text { font-size:22px; fill:rgba(0,255,180,.9); }
+
+  /* TikTok feed. Mapped from a 19.5:9 iPhone: the app fills the feed area
+     with the 9:16 video and crops ~56 px off each side. */
+  .tt-tab { top:164px; font-size:34px; font-weight:600; opacity:.85; transform:translateX(-50%); white-space:nowrap; }
+  .tt-tab.on { opacity:1; font-weight:700; }
+  .tt-line { top:220px; width:60px; height:4px; background:#fff; border-radius:2px; transform:translateX(-50%); }
+  .tt-icon { left:956px; transform:translateX(-50%); width:66px; height:66px; }
+  .tt-label { left:956px; transform:translateX(-50%); font-size:23px; font-weight:700; white-space:nowrap; }
+  .tt-avatar { left:956px; top:1080px; width:84px; height:84px; border-radius:50%; background:#c9c9c9; border:3px solid #fff; transform:translate(-50%,-50%); }
+  .tt-plus { left:956px; top:1138px; width:36px; height:36px; border-radius:50%; background:#fe2c55; transform:translate(-50%,-50%); }
+  .tt-plus::before, .tt-plus::after { content:""; position:absolute; left:50%; top:50%; background:#fff; transform:translate(-50%,-50%); }
+  .tt-plus::before { width:18px; height:3px; } .tt-plus::after { width:3px; height:18px; }
+  .tt-disc { left:956px; top:1844px; width:88px; height:88px; border-radius:50%; background:radial-gradient(circle,#777 0 18px,#111 19px); transform:translate(-50%,-50%); }
+  .tt-user { left:78px; top:1796px; font-size:38px; font-weight:700; }
+  .tt-cap  { left:78px; top:1746px; font-size:32px; }
+  .tt-sound{ left:118px; top:1856px; font-size:31px; }
+
+  /* Instagram Reels. Draft from Meta margins (top 14%, bottom 35%, sides 6%). */
+  .ig-title { left:78px; top:150px; font-size:44px; font-weight:700; }
+  .ig-icon { left:956px; transform:translateX(-50%); width:64px; height:64px; }
+  .ig-label { left:956px; transform:translateX(-50%); font-size:24px; font-weight:600; white-space:nowrap; }
+  .ig-audio { left:956px; top:1860px; width:64px; height:64px; border-radius:12px; background:#888; border:3px solid #fff; transform:translate(-50%,-50%); }
+  .ig-avatar { left:78px; top:1666px; width:68px; height:68px; border-radius:50%; background:#c9c9c9; border:2px solid #fff; transform:translateY(-50%); }
+  .ig-user { left:164px; top:1648px; font-size:32px; font-weight:700; }
+  .ig-follow { left:400px; top:1642px; padding:6px 22px; border:2px solid #fff; border-radius:10px; font-size:28px; font-weight:600; }
+  .ig-cap { left:78px; top:1720px; font-size:30px; max-width:800px; }
+  .ig-audioline { left:118px; top:1784px; font-size:29px; }
+  .ig-grad { left:0; right:0; bottom:0; height:520px; background:linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0)); }
+
+  /* Centre guide: X / Y axes through the centre with 5% rulers */
+  .centre .axis { background:rgba(0,200,255,.9); }
+  .centre .axis.v { left:539px; top:0; width:2px; height:100%; }
+  .centre .axis.h { top:959px; left:0; height:2px; width:100%; }
+  .centre .dot { left:540px; top:960px; width:16px; height:16px; border:2px solid rgba(0,200,255,.9); border-radius:50%; transform:translate(-50%,-50%); }
+  .centre .axis-lbl { font-size:30px; font-weight:700; color:rgba(0,200,255,1); }
+  .centre .tick { background:rgba(0,200,255,.9); }
+  .centre .tick-lbl { font-size:18px; color:rgba(0,200,255,1); font-variant-numeric:tabular-nums; }
+
+  /* Thirds guide: 3 x 3 division */
+  .thirds .third { background:rgba(255,255,255,.45); }
+  .thirds .third.v { top:0; width:2px; height:100%; }
+  .thirds .third.h { left:0; height:2px; width:100%; }
+
+  /* Render mode (?render): no chrome, stage at 1:1 in the top-left */
+  body.render #controls, body.render .guide { display: none; }
+  body.render #stage { left: 0; top: 0; transform: none; }
+
+  /* ---------- Video content styles go below ---------- */
+
+</style>
+</head>
+<body>
+
+<div id="controls">
+  <button id="btn-toggle"  type="button">Play</button>
+  <button id="btn-restart" type="button">Play from start</button>
+  <span id="time">0.00s</span>
+  <span id="word"></span>
+  <span class="sep"></span>
+  <button type="button" data-guide="guide-tiktok">TikTok UI</button>
+  <button type="button" data-guide="guide-reels">Reels UI</button>
+  <button type="button" data-guide="guide-centre">Centre</button>
+  <button type="button" data-guide="guide-thirds">Thirds</button>
+</div>
+
+<div id="stage" class="is-paused" data-duration="0"> <!-- ms; last spoken word end + 1000, see setup skill -->
+  <!-- Voice-over: keep the file next to this html. Remove the tag if there is no VO. -->
+  <audio id="vo" src="materials/EDITABLE-NAME/vo.mp3" preload="auto"></audio>
+  <!-- Background music: loops, previewed at data-volume (0..1) times its data-gain-db, which a library
+       track takes from its gain_db (the renderer applies the same gain), so the preview is as loud as
+       the render; never edit data-volume by hand. Remove the tag if
+       there is none. -->
+  <audio id="bgm" src="materials/EDITABLE-NAME/bgm.mp3" preload="auto" loop data-volume="0.14"></audio>
+  <!-- Sound effects: one tag per cue, data-at = stage ms it starts; the renderer mixes them.
+       <audio class="sfx" src="materials/EDITABLE-NAME/sfx/03_whoosh.mp3" data-at="1600"></audio> -->
+  <!-- ---------- Video content goes here ---------- -->
+
+  <!-- ---------- Guide layers: toggled from the controls, hidden in ?render ---------- -->
+  <div id="guide-tiktok" class="guide" hidden>
+    <div class="abs crop l"></div><div class="abs crop r"></div>
+    <div class="abs island"></div><div class="abs status" style="left:140px">11:12</div><div class="abs status" style="right:120px;font-size:26px">▂▄ ᯤ ▮61</div>
+    <div class="abs" style="left:94px;top:164px;width:50px;height:40px;border:3px solid #fff;border-radius:8px;font-size:17px;font-weight:800;display:flex;align-items:center;justify-content:center;opacity:.85">LIVE</div>
+    <div class="abs tt-tab" style="left:236px">Community</div>
+    <div class="abs tt-tab" style="left:390px">Drama</div>
+    <div class="abs tt-tab" style="left:517px">Friends</div>
+    <div class="abs tt-tab" style="left:677px">Following</div>
+    <div class="abs tt-tab on" style="left:838px">For You</div>
+    <div class="abs tt-line" style="left:838px"></div>
+    <svg class="abs" style="left:934px;top:158px;width:50px;height:50px" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4"><circle cx="10.5" cy="10.5" r="7"/><path d="M16 16l5.5 5.5"/></svg>
+    <div class="abs" style="left:956px;top:962px;width:60px;height:60px;border-radius:50%;background:rgba(255,255,255,.25);transform:translate(-50%,-50%);font-size:20px;font-weight:800;display:flex;align-items:center;justify-content:center">AI</div>
+    <div class="abs tt-avatar"></div><div class="abs tt-plus"></div>
+    <svg class="abs tt-icon" style="top:1214px" viewBox="0 0 24 24" fill="#fff"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 5 6.4 5c2 0 3.4 1.1 4.1 2.3h1C12.2 6.1 13.6 5 15.6 5 19 5 21.1 8.4 19.6 11.8 17.5 16.4 12 21 12 21z"/></svg><div class="abs tt-label" style="top:1282px">2M</div>
+    <svg class="abs tt-icon" style="top:1356px" viewBox="0 0 24 24" fill="#fff"><path d="M12 3C6.5 3 2 6.7 2 11.3c0 2.5 1.3 4.7 3.4 6.2L4.5 21l4.3-2c1 .2 2.1.4 3.2.4 5.5 0 10-3.7 10-8.3S17.5 3 12 3z"/></svg><div class="abs tt-label" style="top:1428px">54.1K</div>
+    <svg class="abs tt-icon" style="top:1502px" viewBox="0 0 24 24" fill="#fff"><path d="M6 2h12a1 1 0 0 1 1 1v19l-7-4-7 4V3a1 1 0 0 1 1-1z"/></svg><div class="abs tt-label" style="top:1573px">94.1K</div>
+    <svg class="abs tt-icon" style="top:1647px" viewBox="0 0 24 24" fill="#fff"><path d="M14 4l8 7-8 7v-4.5C8 13.5 4.5 15.5 2 20c1-6 5-10.5 12-11.5V4z"/></svg><div class="abs tt-label" style="top:1717px">315.5K</div>
+    <div class="abs tt-disc"></div>
+    <div class="abs tt-cap">Caption text lands here, hashtags too… <b>more</b></div>
+    <div class="abs tt-user">@username</div>
+    <svg class="abs" style="left:80px;top:1860px;width:28px;height:28px" viewBox="0 0 24 24" fill="#fff"><path d="M9 3v12.3A3.5 3.5 0 1 0 11 18V7h5V3H9z"/></svg><div class="abs tt-sound">original sound - username</div>
+    <svg class="safe-zone" viewBox="0 0 1080 1920"><polygon points="70,230 1005,230 1005,1255 890,1255 890,1615 70,1615"/><text x="78" y="258">Safe zone (same on both UIs): key elements inside; captions centred at x 540, max width 700 below y 1255</text></svg>
+  </div>
+
+  <div id="guide-reels" class="guide" hidden>
+    <div class="abs crop l"></div><div class="abs crop r"></div>
+    <div class="abs ig-grad"></div>
+    <div class="abs island"></div><div class="abs status" style="left:140px">11:12</div><div class="abs status" style="right:120px;font-size:26px">▂▄ ᯤ ▮61</div>
+    <div class="abs ig-title">Reels</div><svg class="abs" style="left:928px;top:150px;width:56px;height:56px" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+    <svg class="abs ig-icon" style="top:1380px" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 5 6.4 5c2 0 3.4 1.1 4.1 2.3h1C12.2 6.1 13.6 5 15.6 5 19 5 21.1 8.4 19.6 11.8 17.5 16.4 12 21 12 21z"/></svg><div class="abs ig-label" style="top:1448px">2M</div>
+    <svg class="abs ig-icon" style="top:1516px" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 3C6.5 3 2 6.7 2 11.3c0 2.5 1.3 4.7 3.4 6.2L4.5 21l4.3-2c1 .2 2.1.4 3.2.4 5.5 0 10-3.7 10-8.3S17.5 3 12 3z"/></svg><div class="abs ig-label" style="top:1584px">54.1K</div>
+    <svg class="abs ig-icon" style="top:1652px" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg><div class="abs ig-label" style="top:1720px">315K</div>
+    <svg class="abs ig-icon" style="top:1770px;width:48px;height:48px" viewBox="0 0 24 24" fill="#fff"><circle cx="5" cy="12" r="2.2"/><circle cx="12" cy="12" r="2.2"/><circle cx="19" cy="12" r="2.2"/></svg>
+    <div class="abs ig-audio"></div>
+    <div class="abs ig-avatar"></div><div class="abs ig-user">username</div><div class="abs ig-follow">Follow</div>
+    <div class="abs ig-cap">Caption text lands here #hashtag… <b>more</b></div>
+    <svg class="abs" style="left:80px;top:1788px;width:28px;height:28px" viewBox="0 0 24 24" fill="#fff"><path d="M9 3v12.3A3.5 3.5 0 1 0 11 18V7h5V3H9z"/></svg><div class="abs ig-audioline">username · Original audio</div>
+    <svg class="safe-zone" viewBox="0 0 1080 1920"><polygon points="70,230 1005,230 1005,1255 890,1255 890,1615 70,1615"/><text x="78" y="258">Safe zone (same on both UIs): key elements inside; captions centred at x 540, max width 700 below y 1255</text></svg>
+  </div>
+
+  <div id="guide-centre" class="guide centre" hidden>
+    <div class="abs axis v"></div><div class="abs axis h"></div><div class="abs dot"></div>
+    <div class="abs axis-lbl" style="left:1036px;top:912px">X</div>
+    <div class="abs axis-lbl" style="left:556px;top:10px">Y</div>
+    <!-- 5% rulers are generated by the harness script -->
+  </div>
+
+  <div id="guide-thirds" class="guide thirds" hidden>
+    <div class="abs third v" style="left:359px"></div><div class="abs third v" style="left:719px"></div>
+    <div class="abs third h" style="top:639px"></div><div class="abs third h" style="top:1279px"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const stage = document.getElementById('stage');
+  const body  = document.body;
+  const timeEl = document.getElementById('time');
+  const toggleBtn = document.getElementById('btn-toggle');
+  const vo = document.getElementById('vo');      // optional voice-over
+  const bgm = document.getElementById('bgm');    // optional background music (loops)
+  const sfx = [...stage.querySelectorAll('audio.sfx')];   // optional sound effects at data-at ms
+  // The renderer mixes audio itself; under ?render nothing audible is loaded.
+  const RENDER = new URLSearchParams(location.search).has('render');
+  if (RENDER) [vo, bgm, ...sfx].forEach(a => { if (a) { a.removeAttribute('src'); a.preload = 'none'; } });
+  if (bgm && bgm.getAttribute('src')) {
+    bgm.volume = Math.min(1, (parseFloat(bgm.dataset.volume) || 0.14) * 10 ** ((parseFloat(bgm.dataset.gainDb) || 0) / 20));
+    fetch(bgm.getAttribute('src')).then(r => r.blob())
+      .then(b => { bgm.src = URL.createObjectURL(b); bgm.load(); }).catch(() => {});
+  }
+  const bgmSeek = ms => { if (bgm && bgm.duration) bgm.currentTime = (ms / 1000) % bgm.duration; };
+  // Each effect plays once as the clock crosses its data-at, at its file's own level; a seek re-arms it.
+  sfx.forEach(a => { a.volume = 1; a.fired = false; });
+  function sfxSync(ms) {
+    sfx.forEach(a => {
+      const at = parseFloat(a.dataset.at) || 0;
+      if (!playing) { a.pause(); a.fired = ms > at; return; }
+      if (!a.fired && ms >= at) {
+        a.fired = true;
+        if (!a.duration || ms - at < a.duration * 1000) { a.currentTime = (ms - at) / 1000; a.play().catch(() => {}); }
+      }
+    });
+  }
+  const wordEl = document.getElementById('word');
+  let timings = null;                             // from timings.json (whisper), if present
+  // timings.json lives in this editable's materials folder: materials/<editable-name>/timings.json
+  const EDITABLE = decodeURIComponent(location.pathname.split('/').pop()).replace(/\.html?$/i, '');
+  fetch('materials/' + EDITABLE + '/timings.json').then(r => r.ok ? r.json() : null).then(t => { timings = t; }).catch(() => {});
+  function showWord(ms) {
+    if (!timings || !wordEl) return;
+    const sec = ms / 1000, w = timings.words.find(x => sec >= x.s && sec < x.e + 0.15);
+    wordEl.textContent = w ? '“' + w.w + '”' : '';
+  }
+  // Load the VO as a blob so seeking works on any server (static servers
+  // without byte-range support make <audio> unseekable).
+  if (vo && vo.getAttribute('src')) {
+    fetch(vo.getAttribute('src')).then(r => r.blob())
+      .then(b => { vo.src = URL.createObjectURL(b); vo.load(); }).catch(() => {});
+  }
+  const STAGE_W = 1080, STAGE_H = 1920;
+  const DURATION = parseInt(stage.dataset.duration, 10) || 0;   // ms; 0 = no end
+
+  // Fit the stage inside the window, keeping the 9:16 ratio and black sides
+  function fit() {
+    if (body.classList.contains('render')) return;
+    const top = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--chrome-top')) || 0;
+    const s = Math.min(window.innerWidth / STAGE_W, (window.innerHeight - top) / STAGE_H);
+    stage.style.setProperty('--scale', s);
+  }
+  window.addEventListener('resize', fit);
+
+  // ---- Timeline ----
+  // Drives CSS animations inside #stage. Elapsed time is tracked here so
+  // JS-driven content can read STAGE.time; frame-accurate seeking uses
+  // the Web Animations API (document.getAnimations()).
+  let playing = false, startedAt = 0, elapsed = 0, raf = 0;
+  const frameListeners = [];
+
+  // ---- Video clips inside the stage (talking-head cut-outs, footage) ----
+  // Every <video> inside #stage follows the stage clock. data-start (ms) is
+  // the stage time at which the clip's own time is 0. Before that it holds
+  // its first frame, after its end its last. Loaded as blobs so seeking
+  // works on any server. The renderer seeks these frame by frame itself.
+  const vids = [...stage.querySelectorAll('video')];
+  vids.forEach(v => {
+    v.muted = true; v.playsInline = true; v.preload = 'auto';
+    const src = v.getAttribute('src'); if (!src) return;
+    fetch(src).then(r => r.ok ? r.blob() : null).then(b => { if (b) { v.src = URL.createObjectURL(b); v.load(); } }).catch(() => {});
+  });
+  const vidTime = (v, ms) => {
+    const d = v.duration || 0, start = parseFloat(v.dataset.start) || 0;
+    return Math.min(Math.max((ms - start) / 1000, 0), d ? d - 0.001 : 0);
+  };
+  function vidSync(ms) {
+    vids.forEach(v => {
+      if (!v.readyState || !v.duration) return;
+      const start = parseFloat(v.dataset.start) || 0;
+      const active = ms >= start && ms < start + v.duration * 1000;
+      const t = vidTime(v, ms);
+      if (playing && active) { if (v.paused) v.play().catch(() => {}); if (Math.abs(v.currentTime - t) > 0.12) v.currentTime = t; }
+      else { if (!v.paused) v.pause(); if (Math.abs(v.currentTime - t) > 0.02) v.currentTime = t; }
+    });
+  }
+
+  function tick() {
+    if (!playing) return;
+    elapsed = performance.now() - startedAt;
+    if (vo && !vo.paused && !vo.ended) {        // audio is the master clock
+      elapsed = vo.currentTime * 1000;
+      startedAt = performance.now() - elapsed;
+    }
+    if (DURATION && elapsed >= DURATION) {          // hold on the last frame
+      seek(DURATION);
+      return;
+    }
+    timeEl.textContent = (elapsed / 1000).toFixed(2) + 's';
+    showWord(elapsed);
+    vidSync(elapsed);
+    sfxSync(elapsed);
+    frameListeners.forEach(fn => fn(elapsed));
+    raf = requestAnimationFrame(tick);
+  }
+  function play() {
+    if (playing) return;
+    if (DURATION && elapsed >= DURATION) elapsed = 0;   // play again from the start after the end
+    playing = true;
+    startedAt = performance.now() - elapsed;
+    stage.classList.remove('is-paused');
+    toggleBtn.textContent = 'Pause';
+    // start the VO only while audio remains; past its end, play() would
+    // restart it from 0 and the audio master clock would follow
+    if (vo && (!vo.duration || elapsed / 1000 < vo.duration - 0.05)) {
+      vo.currentTime = elapsed / 1000; vo.play().catch(() => {});
+    }
+    if (bgm) { bgmSeek(elapsed); bgm.play().catch(() => {}); }
+    sfx.forEach(x => { x.fired = elapsed > (parseFloat(x.dataset.at) || 0); });
+    vidSync(elapsed);
+    tick();
+  }
+  function pause() {
+    playing = false;
+    cancelAnimationFrame(raf);
+    stage.classList.add('is-paused');
+    toggleBtn.textContent = 'Play';
+    if (vo) vo.pause();
+    if (bgm) bgm.pause();
+    vidSync(elapsed);
+    sfxSync(elapsed);
+  }
+  function restart() {
+    pause();
+    elapsed = 0;
+    stage.classList.add('is-reset');
+    void stage.offsetWidth;               // force reflow so animations truly restart
+    stage.classList.remove('is-reset');
+    timeEl.textContent = '0.00s';
+    frameListeners.forEach(fn => fn(0));
+    play();
+  }
+  function seek(ms) {                     // used by the renderer, frame by frame
+    pause();
+    elapsed = ms;
+    if (vo) vo.currentTime = ms / 1000;
+    bgmSeek(ms);
+    document.getAnimations().forEach(a => { a.currentTime = ms; });
+    vidSync(ms);
+    timeEl.textContent = (ms / 1000).toFixed(2) + 's';
+    showWord(ms);
+    frameListeners.forEach(fn => fn(ms));
+  }
+
+  toggleBtn.addEventListener('click', () => playing ? pause() : play());
+  document.getElementById('btn-restart').addEventListener('click', restart);
+
+  window.STAGE = {
+    play, pause, restart, seek,
+    onFrame: fn => frameListeners.push(fn),
+    get time() { return elapsed; },
+    get timings() { return timings; },
+    duration: DURATION,
+    get playing() { return playing; },
+    width: STAGE_W, height: STAGE_H,
+  };
+
+  // Centre guide rulers: a tick every 5%, longer with a % label every 10%
+  (function buildRulers() {
+    const g = document.getElementById('guide-centre');
+    const add = (cls, style, text) => {
+      const d = document.createElement('div');
+      d.className = 'abs ' + cls; d.style.cssText = style; if (text != null) d.textContent = text;
+      g.appendChild(d);
+    };
+    for (let p = 0; p <= 100; p += 5) {
+      const major = p % 10 === 0, len = major ? 28 : 14;
+      const x = STAGE_W * p / 100, y = STAGE_H * p / 100;
+      // ticks on the horizontal (X) axis
+      add('tick', `left:${x - 1}px; top:${960 - len / 2}px; width:2px; height:${len}px`);
+      // ticks on the vertical (Y) axis
+      add('tick', `left:${540 - len / 2}px; top:${y - 1}px; width:${len}px; height:2px`);
+      if (major && p !== 50) {
+        const lx = Math.min(Math.max(x, 22), STAGE_W - 22);
+        add('tick-lbl', `left:${lx}px; top:980px; transform:translateX(-50%)`, p);
+        const ly = Math.min(Math.max(y, 14), STAGE_H - 14);
+        add('tick-lbl', `left:562px; top:${ly}px; transform:translateY(-50%)`, p);
+      }
+    }
+  })();
+
+  // Guide toggles (each independent; state kept in the button's .on class)
+  document.querySelectorAll('#controls [data-guide]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const g = document.getElementById(btn.dataset.guide);
+      g.hidden = !g.hidden;
+      btn.classList.toggle('on', !g.hidden);
+    });
+  });
+
+  if (RENDER) body.classList.add('render');
+  fit();
+})();
+</script>
+</body>
+</html>
