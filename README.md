@@ -2,18 +2,18 @@
 
 Agent skills for making and editing short videos with [Spira](https://github.com/spira-lab).
 
-[![skills.sh](https://skills.sh/b/spira-lab/test-skills)](https://skills.sh/spira-lab/test-skills)
+[![skills.sh](https://skills.sh/b/spira-lab/skills)](https://skills.sh/spira-lab/skills)
 
 ## Install
 
 ```bash
-npx skills add spira-lab/test-skills
+npx skills add spira-lab/skills
 ```
 
 Install one skill for Claude Code only:
 
 ```bash
-npx skills add spira-lab/test-skills --skill spira-maxima -a claude-code
+npx skills add spira-lab/skills --skill spira-maxima -a claude-code
 ```
 
 ## Skills
