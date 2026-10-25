@@ -9,6 +9,18 @@ const { spawn } = require('child_process');
 const runtimeDir = () => process.env.MAXIMA_RUNTIME || path.resolve('.maxima-runtime');
 const playwright = () => require(require.resolve('playwright-core', { paths: [runtimeDir()] }));
 
+/**
+ * A fresh scratch folder under the working directory's tmp/ (the scripts run from it),
+ * never the system temp folder. TMPDIR/TEMP/TMP point there too, so the Chrome
+ * profile, ffmpeg and Python started from this process keep their files in it as well.
+ */
+function workTemp(prefix) {
+  const root = path.resolve('tmp');
+  fs.mkdirSync(root, { recursive: true });
+  process.env.TMPDIR = process.env.TEMP = process.env.TMP = root;
+  return fs.mkdtempSync(path.join(root, prefix));
+}
+
 const MIME = { html:'text/html', css:'text/css', js:'text/javascript', json:'application/json',
                png:'image/png', jpg:'image/jpeg', jpeg:'image/jpeg', webp:'image/webp', gif:'image/gif', svg:'image/svg+xml', avif:'image/avif',
                mp3:'audio/mpeg', wav:'audio/wav', m4a:'audio/mp4', ogg:'audio/ogg',
@@ -172,4 +184,4 @@ function readEditable(htmlPath) {
   };
 }
 
-module.exports = { serve, launch, openStage, seekTo, renderRange, rangeSummary, readEditable, playwright, runtimeDir };
+module.exports = { serve, launch, openStage, seekTo, renderRange, rangeSummary, readEditable, playwright, runtimeDir, workTemp };

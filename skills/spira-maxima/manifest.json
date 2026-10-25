@@ -1,10 +1,10 @@
 {
   "name": "spira-maxima",
   "version": "1.0.0",
-  "description": "Make a Spira Maxima 9:16 short video locally: generation through the spira CLI, stage, audit and render in local Chrome, all work in ./spira-maxima/.",
+  "description": "Make a Spira Maxima 9:16 short video locally: generation through the spira CLI, stage, audit and render in local Chrome, all work in ./spira/spira-maxima/.",
   "entry": "SKILL.md",
   "source": { "package": "content-maxima", "version": "1.19.9" },
-  "workspaceDir": "spira-maxima",
+  "workspaceDir": "spira/spira-maxima",
   "requires": {
     "cli": [
       { "name": "spira", "check": "spira auth whoami", "install": "npm install -g @spira-lab/cli && spira auth login" },

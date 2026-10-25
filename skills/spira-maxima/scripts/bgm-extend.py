@@ -4,6 +4,10 @@ silence, then chains copies with 2 s crossfades until the target length,
 and trims to it. Usage: python3 scripts/bgm-extend.py in.mp3 out.wav SECONDS"""
 import subprocess, sys, math, os, tempfile
 
+# Scratch files stay in the working directory's tmp/ (the scripts run from it), never the system temp folder.
+tempfile.tempdir = os.path.abspath("tmp"); os.makedirs(tempfile.tempdir, exist_ok=True)
+os.environ["TMPDIR"] = os.environ["TEMP"] = os.environ["TMP"] = tempfile.tempdir
+
 src, out, target = sys.argv[1], sys.argv[2], float(sys.argv[3])
 XF = 2.0
 def dur(f):

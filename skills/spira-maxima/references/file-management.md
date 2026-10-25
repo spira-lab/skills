@@ -11,7 +11,7 @@ it is superseded.
 
 ## 1. The root
 
-The **root** is the working directory `spira-maxima/` that SKILL.md
+The **root** is the working directory `spira/spira-maxima/` that SKILL.md
 creates in the folder the session was opened in (`<ws>`). Every file the
 session creates goes inside it, and every path here is relative to it.
 The skill's own folders (`references/`, `scripts/`, `assets/`) live in
@@ -21,6 +21,7 @@ written to, and nothing is built inside them.
 ```
 <root>/
   .maxima-runtime/              the render's npm dependency (SKILL.md preflight)
+  tmp/                          the scripts' temporary files; removed as each run ends
   learned-methods.md            corrections recorded in this workspace (SKILL.md)
   editable/ …                   section 2
   renders/ …

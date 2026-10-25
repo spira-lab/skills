@@ -8,7 +8,9 @@ Names used below (SKILL.md sets them):
 
 - `<cm>`: the spira-maxima skill directory (`references/`, `scripts/`, `assets/`).
 - `<root>`: the working directory holding `editable/` and `renders/` for
-  this video (by default `spira-maxima/` in the session's folder).
+  this video (by default `spira/spira-maxima/` in the session's folder).
+- `<ve>`: this skill's folder `spira/spira-vibe-edit/`, where the editor
+  keeps its data; the batch's `workDir` is inside it.
 - `<video>`: the video's name, `NN-name-MM-DD`.
 
 ## 1. Rules of the directory
@@ -19,7 +21,9 @@ Names used below (SKILL.md sets them):
 - Touch only `editable/<video>.html`, `editable/materials/<video>/`,
   `renders/<video>.mp4`, what the renderer moves to `renders/deletable/`,
   and the review base `renders/review/<video>.mp4` (created once by
-  SKILL.md, never overwritten). Other editables in `<root>` may belong to
+  SKILL.md, never overwritten). The scripts keep their scratch files in
+  `<root>/tmp/` and remove them; nothing goes to the system temp folder
+  or the user's home. Other editables in `<root>` may belong to
   another run: never open or take from them.
 - No `new-video.sh`, new html, materials folder, name, concept, script,
   style, music or persona roll, unless a comment asks for that change.

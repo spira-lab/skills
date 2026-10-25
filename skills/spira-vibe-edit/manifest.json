@@ -1,14 +1,14 @@
 {
   "name": "spira-vibe-edit",
   "version": "1.0.0",
-  "description": "Review a spira-maxima video in the Spira local editor and make each comment real in its editable, re-rendering locally.",
+  "description": "Review a spira-maxima video in the Spira local editor and make each comment real in its editable, re-rendering locally. The editor's data is kept in ./spira/spira-vibe-edit/; the video and its renders stay in ./spira/spira-maxima/.",
   "entry": "SKILL.md",
   "requires": {
     "skills": [{ "name": "spira-maxima", "location": "../spira-maxima" }],
     "cli": [
-      { "name": "spira", "check": "spira help editor", "note": "a CLI version with `spira editor --agent`" }
+      { "name": "spira", "check": "spira help editor", "note": "a CLI version with `spira editor --agent` and `--dir`" }
     ]
   },
-  "workspaceDir": "spira-maxima",
+  "workspaceDir": "spira/spira-vibe-edit",
   "tags": ["video", "editing", "review", "spira", "maxima"]
 }

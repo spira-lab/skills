@@ -23,6 +23,11 @@ npx skills add spira-lab/skills --skill spira-maxima -a claude-code
 | `spira-maxima` | Turns a script, brief or idea into a finished 9:16 short video. Generation runs through the `spira` CLI; stage, audit and render run locally in Chrome. |
 | `spira-vibe-edit` | Opens the Spira local editor on a spira-maxima video, applies each browser comment to the video's editable and re-renders locally. Needs `spira-maxima`. |
 
+Each skill works in `./spira/<skill>/` inside the folder you run it from
+(`spira/spira-maxima/`, `spira/spira-vibe-edit/`). Its videos, editor data
+and scratch files all stay there; nothing is written to the system temp
+folder or your home directory.
+
 ## Requirements
 
 - `npm install -g @spira-lab/cli`, then `spira auth login`

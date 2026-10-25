@@ -25,8 +25,8 @@
 //   * a render already at <out.mp4> is moved to renders/deletable first; the new one
 //     is checked (duration, frames, stereo)
 const { execFileSync } = require('child_process');
-const fs = require('fs'), path = require('path'), os = require('os');
-const { readEditable } = require('./stage');
+const fs = require('fs'), path = require('path');
+const { readEditable, workTemp } = require('./stage');
 const { renderChunks } = require('./local');
 const { intraCopies, probe, clipFpsWarnings } = require('./intra');
 const crypto = require('crypto');
@@ -110,7 +110,7 @@ const duckFilters = levels.duck.length ? ',asetnsamples=n=480:p=0' + levels.duck
   return `,volume='pow(10,${db}*clip(min((t-${a})/${DUCK_RAMP_S},(${b}-t)/${DUCK_RAMP_S}),0,1)/20)':eval=frame`;
 }).join('') : '';
 const frames = Math.round(ed.durationMs / 1000 * fps);
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'stage-render-'));
+const tmp = workTemp('stage-render-');
 fs.mkdirSync(path.dirname(out), { recursive: true });
 
 function mixAudio(silent, secs) {

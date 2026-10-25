@@ -28,8 +28,8 @@
 // The browser half (leaks, text, frames; inspect.js) runs in local Chrome (local.js);
 // the file checks and the sheet are done here.
 const { execFileSync } = require('child_process');
-const fs = require('fs'), path = require('path'), os = require('os');
-const { readEditable } = require('./stage');
+const fs = require('fs'), path = require('path');
+const { readEditable, workTemp } = require('./stage');
 const { auditLocal } = require('./local');
 const { intraCopies } = require('./intra');
 
@@ -56,7 +56,7 @@ const ed = readEditable(htmlPath);
     problems.push('cut-out: the talking-head clips are on the stage but none of their cut-outs is; cut every clip out (toolkit 3f) and layer the WebM over the scenes (creative-video-production section 5)');
   }
 
-  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'stage-audit-'));
+  const tmp = workTemp('stage-audit-');
   const swap = await intraCopies(dir, ed);
   const { scenes, problems: seen, errors, stuck, portrait, shots } = await auditLocal({ dir, rel, ed, at, shotDir: tmp, swap });
   problems.push(...seen);

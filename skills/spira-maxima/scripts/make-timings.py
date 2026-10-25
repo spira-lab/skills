@@ -14,7 +14,11 @@ file, a URL or a path), converted to vo.mp3 as it is: nothing cut or retimed.
 The recording is the script, so its transcript is written to script.txt
 when the video has no script yet. Needs openai-whisper and ffmpeg.
 """
-import json, shutil, subprocess, sys, pathlib, tempfile
+import json, os, shutil, subprocess, sys, pathlib, tempfile
+
+# Scratch files stay in the working directory's tmp/ (the scripts run from it), never the system temp folder.
+tempfile.tempdir = os.path.abspath("tmp"); os.makedirs(tempfile.tempdir, exist_ok=True)
+os.environ["TMPDIR"] = os.environ["TEMP"] = os.environ["TMP"] = tempfile.tempdir
 
 args = sys.argv[1:]
 if not args:

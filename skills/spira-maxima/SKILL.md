@@ -1,7 +1,7 @@
 ---
 name: spira-maxima
 description: |
-  Make a Spira Maxima short video on this machine: a script, brief or idea becomes a finished 9:16 MP4 (Reels/TikTok) with a talking head, animated scenes, captions, sound effects and music. Generation runs through the spira CLI; the stage, audit and render run locally in Chrome. All work happens in a working directory ./spira-maxima/ created in the current folder.
+  Make a Spira Maxima short video on this machine: a script, brief or idea becomes a finished 9:16 MP4 (Reels/TikTok) with a talking head, animated scenes, captions, sound effects and music. Generation runs through the spira CLI; the stage, audit and render run locally in Chrome. All work happens in a working directory ./spira/spira-maxima/ created in the current folder.
   Use when: "make a maxima video", "create a short video from this script", "turn this idea into a reel/TikTok", "做一条 maxima 视频", "用这段脚本做短视频".
   NOT for: changing a video that already exists (use spira-vibe-edit), or a one-off image/clip generation (use spira ai jobs directly).
 argument-hint: "[script, brief or idea] [duration in seconds] [reference video URL or path]"
@@ -24,9 +24,11 @@ on this machine and the render stays a local file.
   music and sound-effect catalogues). Every `references/…`, `scripts/…` or
   `assets/…` path in the procedures is under `<pkg>`: read and run them as
   `<pkg>/references/…`, `"<pkg>/scripts/…"`. **Never write inside `<pkg>`.**
-- `<ws>` is the working directory: `spira-maxima/` in the folder the session
-  was opened in, as an absolute path. It is the **root** the procedures
-  speak of; every file the video makes goes there.
+- `<ws>` is the working directory: `spira/spira-maxima/` in the folder the
+  session was opened in, as an absolute path. It is the **root** the
+  procedures speak of; every file the video makes goes there, including
+  the scripts' temporary files (`<ws>/tmp/`, created and emptied by the
+  scripts themselves). Nothing is written to the system temp folder.
 - Every Bash command starts with `cd "<ws>" && ` and uses paths relative to
   `<ws>` (`editable/<name>.html`, `renders/<name>.mp4`). Never rely on an
   earlier `cd`; the shell's directory may have been reset.
@@ -36,7 +38,7 @@ on this machine and the render stays a local file.
 Create the working directory and note its absolute path as `<ws>`:
 
 ```bash
-mkdir -p spira-maxima/editable/materials spira-maxima/renders/deletable && cd spira-maxima && pwd
+mkdir -p spira/spira-maxima/editable/materials spira/spira-maxima/renders/deletable && cd spira/spira-maxima && pwd
 ```
 
 Then run these in one turn. IF any fails, stop, and tell the user exactly
@@ -119,7 +121,7 @@ downloads use `curl`, which honours `HTTPS_PROXY` when the network needs one.
 
 Follow creative-video-production section 8: the absolute path of
 `<ws>/renders/<name>.mp4`, a post caption, what was assumed or skipped, and
-`/spira-vibe-edit spira-maxima/renders/<name>.mp4` to review and change it.
+`/spira-vibe-edit spira/spira-maxima/renders/<name>.mp4` to review and change it.
 
 ## 7. Recording a correction
 
