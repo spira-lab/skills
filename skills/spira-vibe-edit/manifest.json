@@ -6,7 +6,7 @@
   "requires": {
     "skills": [{ "name": "spira-maxima", "location": "../spira-maxima" }],
     "cli": [
-      { "name": "spira", "check": "spira help editor", "note": "a CLI version with `spira editor --agent` and `--dir`" }
+      { "name": "spira", "check": "spira help editor && spira help skill", "note": "a CLI version with `spira editor --agent`, `--dir` and `spira skill read`" }
     ]
   },
   "workspaceDir": "spira/spira-vibe-edit",

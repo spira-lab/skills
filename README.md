@@ -31,5 +31,6 @@ folder or your home directory.
 ## Requirements
 
 - `npm install -g @spira-lab/cli`, then `spira auth login`
+- A signed-in Spira account: the stage procedures are not shipped in this repo. The agent reads them one stage at a time with `spira skill read <skill> <stage>`, so first use needs `spira auth login` and network access.
 - `ffmpeg` (with libvpx), `node`, `python3` with `openai-whisper`, and a local Chrome/Chromium
 - `yt-dlp` only when you start from a reference video URL

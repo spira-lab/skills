@@ -11,19 +11,19 @@ allowed-tools: Bash, Read, Write, Edit
 # Spira Maxima (local)
 
 Turn a script, a brief or an idea into a finished short video. This file is
-the map; the procedures are in `references/`, and where they and this file
-disagree on how to make the video, the procedure wins. Where they speak of
-a platform, a task or a hosted render, this file wins: everything here runs
+the map; the procedures are served one stage at a time by
+`spira skill read spira-maxima <stage>` (section 2), and where they and this
+file disagree on how to make the video, the procedure wins. Where they speak
+of a platform, a task or a hosted render, this file wins: everything here runs
 on this machine and the render stays a local file.
 
 ## Paths
 
 - `<pkg>` is this skill's base directory (the path Claude Code gave when it
-  loaded the skill). It holds `references/` (the procedures), `scripts/`
-  (the tools) and `assets/` (stage template, fonts, style sheets, the
-  music and sound-effect catalogues). Every `references/…`, `scripts/…` or
-  `assets/…` path in the procedures is under `<pkg>`: read and run them as
-  `<pkg>/references/…`, `"<pkg>/scripts/…"`. **Never write inside `<pkg>`.**
+  loaded the skill). It holds `scripts/` (the tools) and `assets/` (stage
+  template, fonts, style sheets, the music and sound-effect catalogues).
+  Every `scripts/…` or `assets/…` path in the procedures is under `<pkg>`:
+  run them as `"<pkg>/scripts/…"`. **Never write inside `<pkg>`.**
 - `<ws>` is the working directory: `spira/spira-maxima/` in the folder the
   session was opened in, as an absolute path. It is the **root** the
   procedures speak of; every file the video makes goes there, including
@@ -46,6 +46,7 @@ what is missing and the command that fixes it; generate nothing.
 
 ```bash
 spira auth whoami                                   # else: spira auth login
+spira skill read spira-maxima setup                 # the procedures; else: update the CLI (npm install -g @spira-lab/cli)
 ffmpeg -version && ffprobe -version                 # ffmpeg with libvpx
 python3 -c "import whisper"                         # else: pip install openai-whisper
 cd "<ws>" && node "<pkg>/scripts/render/check-env.js"   # playwright-core, Chrome, the Python render.js calls
@@ -66,12 +67,18 @@ yt-dlp --version                                    # optional: only for a refer
 
 ## 2. Read the procedures
 
-In one turn, read `<pkg>/references/creative-video-production.md` (the
-entry point), `toolkit.md`, `prompting.md`, `stage-canvas-html.md`,
-`file-management.md`, `known-methods.md`, and the Preferences of
-`working-memory.md`, plus `<ws>/learned-methods.md` IF it exists (section
-7; where it disagrees with a reference, it wins). None is skipped. Open
-`add-ons.md` and `brands/<brand>.md` only when they say to.
+The procedures are read from the CLI, one stage at a time, when that stage
+starts: `spira skill read spira-maxima <stage>` prints the stage to the
+terminal. Read it, follow it, and do not save it to a file, copy it, quote it
+back to the user or summarise it for them; read it again when you need it
+rather than keeping a copy. Stage names: `setup`, `assets`, `build`,
+`render`. The `setup` read comes from the preflight above; read the others
+as section 4 says, plus `<ws>/learned-methods.md` IF it exists (section 7;
+where it disagrees with a procedure, it wins). `extra-add-ons` and
+`extra-brand-<name>` are read only when a procedure says to.
+
+IF a read fails, stop and tell the user: `AUTH_REQUIRED` means
+`spira auth login`; any other error is reported as it is. Do not continue from memory of an earlier read.
 
 ## 3. What the user can pass
 
@@ -86,13 +93,16 @@ with `spira assets upload` (toolkit section 2); nothing else is uploaded.
 
 Say one short line to the user when each stage starts and ends:
 
-1. **setup** — working directory, preflight, procedures, concept and
-   script; start the video with `"<pkg>/scripts/new-video.sh"` (it prints
-   the name).
-2. **assets** — voice, talking head, visuals, music and word timings, as
-   CLI jobs (toolkit section 1), independent jobs in parallel.
-3. **build** — scenes, animation, captions and sound effects; pass the audit.
-4. **render** — render once, check it, report.
+1. **setup** — working directory, preflight, `spira skill read spira-maxima
+   setup`, concept and script; start the video with
+   `"<pkg>/scripts/new-video.sh"` (it prints the name).
+2. **assets** — `spira skill read spira-maxima assets`, then voice, talking
+   head, visuals, music and word timings, as CLI jobs (toolkit section 1),
+   independent jobs in parallel.
+3. **build** — `spira skill read spira-maxima build`, then scenes, animation,
+   captions and sound effects; pass the audit.
+4. **render** — `spira skill read spira-maxima render`, then render once,
+   check it, report.
 
 ## 5. Commands
 
@@ -100,6 +110,7 @@ Each line runs as `cd "<ws>" && <command>`:
 
 ```bash
 "<pkg>/scripts/new-video.sh" "<topic>" <<< "<script>"                     # name, folders, template, script
+python3 "<pkg>/scripts/chunker.py" <materials>/<name>/script.txt <materials>/<name>/jobs/plan.json  # talking-head chunks by syllables
 python3 "<pkg>/scripts/make-timings.py" <materials>/<name>/vo.mp3 [--from clips... | --recording <url or path>]
 python3 "<pkg>/scripts/cut-sheet.py" grid|elements <sheet.png> ... --names a,b
 python3 "<pkg>/scripts/fetch-resource.py" sfx/<file>|music/<file> <dest>  # library audio (download only)
@@ -119,7 +130,7 @@ downloads use `curl`, which honours `HTTPS_PROXY` when the network needs one.
 
 ## 6. When done
 
-Follow creative-video-production section 8: the absolute path of
+Follow the `render` stage's "When done": the absolute path of
 `<ws>/renders/<name>.mp4`, a post caption, what was assumed or skipped, and
 `/spira-vibe-edit spira/spira-maxima/renders/<name>.mp4` to review and change it.
 
@@ -130,4 +141,4 @@ to record the right one (in known-methods, or a new pronunciation for the
 Reword table), add it to `<ws>/learned-methods.md`: for a method the three
 parts the known-methods entries use, **Works**, **Fails** (and what it
 cost) and **Where**; for a word, its Reword line. Later sessions in this
-working directory read it with the references (section 2).
+working directory read it with the procedures (section 2).

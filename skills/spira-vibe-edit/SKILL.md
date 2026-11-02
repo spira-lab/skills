@@ -44,8 +44,9 @@ missing, stop and name what was looked for. Never pick a video by guessing
 Run the spira-maxima preflight once (`<cm>/SKILL.md` section 1, with
 `<ws>` = `<root>`; its render dependency lives in `<root>/.maxima-runtime/`)
 and keep any `PYTHON=…` / `CHROME_PATH=…` it needed for every audit and render.
-Then `spira help editor` must list `--agent` and `--dir`; IF it says
-`Unknown command reference: editor`, or `--dir` is missing, the installed
+Then `spira help editor` must list `--agent` and `--dir`, and
+`spira help skill` must list `read`; IF either says
+`Unknown command reference`, or `--dir` is missing, the installed
 CLI predates this skill: stop and ask the user to update it
 (`npm install -g @spira-lab/cli`).
 
@@ -95,11 +96,16 @@ other wait.
 
 ## 4. Make the changes
 
-Read `references/edit-rules.md` (in this skill) and follow it from
-section 1: read spira-maxima's procedures, map every note, audit at the
+Run `spira skill read spira-vibe-edit edit` and follow it from
+section 1 (it also delivers the spira-maxima procedures an edit needs; read
+it at the start of each batch, never save it to a file or copy it): map
+every note, audit at the
 notes' moments, write the fix table, edit, audit again, render to
 `renders/<video>.mp4`, and write `<workDir>/results.json` with one
 outcome per note. Every change a batch needs goes into **one** render.
+
+IF the read fails, stop and tell the user: `AUTH_REQUIRED` means
+`spira auth login`; any other error is reported as it is.
 
 Tell the user in one line when the edit starts, and before any
 generation a note needs (what will be generated).

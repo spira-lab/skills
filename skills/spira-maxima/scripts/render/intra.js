@@ -1,7 +1,7 @@
 // All-keyframe copies of an editable's clips, shared by render.js and audit.js.
 //   * a seek on an all-keyframe copy decodes one frame instead of everything since the
 //     last keyframe (120 s -> 40 s on a 29 s video with five clips); on the original
-//     Seedance and Bria clips the audit's seeks ran past their timeout
+//     talking-head clips and their cut-outs the audit's seeks ran past their timeout
 //   * copies are cached in materials/<name>/deletable/intra/, keyed by the clip's path,
 //     size, mtime, ctime and inode (a clip replaced by mv gets a new copy), so only the
 //     first audit or render pays for them

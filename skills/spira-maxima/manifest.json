@@ -7,7 +7,7 @@
   "workspaceDir": "spira/spira-maxima",
   "requires": {
     "cli": [
-      { "name": "spira", "check": "spira auth whoami", "install": "npm install -g @spira-lab/cli && spira auth login" },
+      { "name": "spira", "check": "spira auth whoami && spira help skill", "install": "npm install -g @spira-lab/cli && spira auth login", "note": "a CLI version with `spira skill read`" },
       { "name": "ffmpeg", "check": "ffmpeg -version && ffprobe -version", "note": "with libvpx" },
       { "name": "python3", "check": "python3 --version" },
       { "name": "openai-whisper", "check": "python3 -c \"import whisper\"", "install": "pip install openai-whisper" },

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Frame-by-frame render of a stage editable to H.264 MP4 with VO, sound effects and music.
 // Usage: node scripts/render/render.js <editable.html> <out.mp4>
-//   * always 24 fps, the rate of Seedance clips: a clip at any other rate judders, so a
+//   * always 24 fps, the rate of Omni clips: a clip at any other rate judders, so a
 //     new video model's output rate is checked first (toolkit 3, Frame rate); a clip not
 //     at 24 is named in a warning
 //   * the capture runs in local Chrome in chunks, several browsers at once (local.js);
@@ -31,7 +31,7 @@ const { renderChunks } = require('./local');
 const { intraCopies, probe, clipFpsWarnings } = require('./intra');
 const crypto = require('crypto');
 
-// Seedance's rate. Switching or adding a video model means checking its output rate against this.
+// The rate of Omni (gemini-omni-flash-1.1) clips. Switching or adding a video model means checking its output rate against this.
 const FPS = 24;
 
 const OTHER_BED_LUFS = -26;
